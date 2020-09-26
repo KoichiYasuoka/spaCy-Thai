@@ -3,7 +3,6 @@
 
 import os,numpy
 from spacy.lang.th import Thai
-from spacy.util import minibatch,compounding
 from spacy.symbols import POS,TAG,DEP,HEAD,X
 from spacy.tokens import Doc
 PACKAGE_DIR=os.path.abspath(os.path.dirname(__file__))
