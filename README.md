@@ -36,6 +36,6 @@ advmod           ╚> ADV  ใหม่
 ## Installation
 
 ```sh
-pip install spacy_thai
+pip3 install spacy_thai --user
 ```
 
