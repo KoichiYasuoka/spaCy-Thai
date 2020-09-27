@@ -89,7 +89,7 @@
 15	ตัว	_	NOUN	NCMN	_	18	nsubj	_	SpaceAfter=No
 16	แทน	_	VERB	VSTA	_	15	acl	_	SpaceAfter=No
 17	จีโอพี	_	PROPN	NPRP	_	15	compound	_	SpaceAfter=No
-18	ให้	_	VERB	JSBR	_	0	root	_	SpaceAfter=No
+18	ให้	_	VERB	VACT	_	0	root	_	SpaceAfter=No
 19	คำ	_	NOUN	NCMN	_	18	obj	_	SpaceAfter=No
 20	ปราศรัย	_	VERB	VSTA	_	19	acl	_	SpaceAfter=No
 21	ว่า	_	ADP	JSBR	_	27	mark	_	_
@@ -300,7 +300,7 @@
 # text_en = Rather than teaching the scientific method as a separate unit, for example, students learn science content by applying it.
 1	อย่าง	_	ADP	FIXV	_	3	cc	_	SpaceAfter=No
 2	เช่น	_	ADP	JSBR	_	1	fixed	_	SpaceAfter=No
-3	ให้	_	VERB	JSBR	_	0	root	_	SpaceAfter=No
+3	ให้	_	VERB	VACT	_	0	root	_	SpaceAfter=No
 4	นัก	_	NOUN	NCMN	_	3	obj	_	SpaceAfter=No
 5	เรียน	_	VERB	VACT	_	4	acl	_	SpaceAfter=No
 6	เรียน	_	VERB	VACT	_	3	xcomp	_	SpaceAfter=No
@@ -357,8 +357,8 @@
 6	โนมาอินฟิล	_	PROPN	NPRP	_	5	flat:name	_	SpaceAfter=No
 7	ที่	_	DET	PREL	_	8	nsubj	_	SpaceAfter=No
 8	เปิด	_	VERB	VACT	_	4	acl:relcl	_	SpaceAfter=No
-9	ให้	_	VERB	JSBR	_	8	xcomp	_	SpaceAfter=No
-10	บริการ	_	NOUN	VACT	_	9	obj	_	SpaceAfter=No
+9	ให้	_	VERB	JSBR	_	8	mark	_	SpaceAfter=No
+10	บริการ	_	NOUN	VACT	_	9	xcomp	_	SpaceAfter=No
 11	ใน	_	ADP	RPRE	_	12	case	_	SpaceAfter=No
 12	ปี	_	NOUN	NCMN	_	8	obl	_	_
 13	2004	_	NUM	NCNM	_	12	appos	_	_
@@ -723,7 +723,7 @@
 11	นั้น	_	DET	DDAC	_	5	det	_	SpaceAfter=No
 12	จะ	_	VERB	XVBM	_	13	aux	_	SpaceAfter=No
 13	ช่วย	_	VERB	VACT	_	3	ccomp	_	SpaceAfter=No
-14	ให้	_	VERB	JSBR	_	13	acl	_	SpaceAfter=No
+14	ให้	_	VERB	JSBR	_	13	mark	_	SpaceAfter=No
 15	ได้	_	VERB	VSTA	_	14	xcomp	_	SpaceAfter=No
 16	มา	_	PART	XVAE	_	15	aux	_	SpaceAfter=No
 17	ซึ่ง	_	ADP	PREL	_	18	case	_	SpaceAfter=No
@@ -1180,7 +1180,7 @@
 27	จะ	_	VERB	XVBM	_	29	aux	_	SpaceAfter=No
 28	ได้	_	PART	XVAM	Aspect=Perf	29	aux	_	SpaceAfter=No
 29	แสดง	_	VERB	VACT	_	24	acl:relcl	_	SpaceAfter=No
-30	ให้	_	VERB	JSBR	_	29	xcomp	_	SpaceAfter=No
+30	ให้	_	VERB	JSBR	_	29	mark	_	SpaceAfter=No
 31	เห็น	_	VERB	VSTA	_	30	xcomp	_	SpaceAfter=No
 32	ความมุ่งมั่น	_	VERB	NCMN	_	31	obj	_	SpaceAfter=No
 33	ด้าน	_	NOUN	NCMN	_	32	compound	_	SpaceAfter=No
@@ -1505,7 +1505,7 @@
 2	ที่	_	DET	PREL	_	4	nsubj	_	SpaceAfter=No
 3	จะ	_	VERB	XVBM	_	4	aux	_	SpaceAfter=No
 4	บ่ง	_	VERB	VSTA	_	1	acl:relcl	_	SpaceAfter=No
-5	ให้	_	VERB	JSBR	_	4	xcomp	_	SpaceAfter=No
+5	ให้	_	VERB	JSBR	_	4	mark	_	SpaceAfter=No
 6	เห็น	_	VERB	VSTA	_	5	xcomp	_	SpaceAfter=No
 7	ถึง	_	ADP	RPRE	_	8	case	_	SpaceAfter=No
 8	การปรากฏ	_	VERB	NCMN	_	6	obl	_	SpaceAfter=No
@@ -1804,7 +1804,7 @@
 15	ลง	_	VERB	VACT	_	9	conj	_	SpaceAfter=No
 16	คะแนน	_	NOUN	NCMN	_	15	obj	_	SpaceAfter=No
 17	เสียง	_	NOUN	NCMN	_	16	compound	_	SpaceAfter=No
-18	ให้	_	VERB	JSBR	_	15	acl	_	SpaceAfter=No
+18	ให้	_	VERB	VACT	_	15	acl	_	SpaceAfter=No
 19	ทรัมป์	_	PROPN	NPRP	_	18	obj	_	_
 
 # sent_id = n01027049
@@ -2174,7 +2174,7 @@
 # text_en = The analysis shows a direct link between the number of cigarettes smoked in a lifetime and the number of mutations in tumour DNA.
 1	การวิเคราะห์	_	VERB	NCMN	_	2	nsubj	_	SpaceAfter=No
 2	แสดง	_	VERB	VACT	_	0	root	_	SpaceAfter=No
-3	ให้	_	VERB	JSBR	_	2	xcomp	_	SpaceAfter=No
+3	ให้	_	VERB	JSBR	_	2	mark	_	SpaceAfter=No
 4	เห็น	_	VERB	VSTA	_	3	xcomp	_	SpaceAfter=No
 5	ความสัมพันธ์	_	VERB	NCMN	_	4	obj	_	SpaceAfter=No
 6	โดยตรง	_	ADJ	ADVP	_	5	amod	_	SpaceAfter=No
@@ -2316,7 +2316,7 @@
 3	ยื่น	_	VERB	VACT	_	0	root	_	SpaceAfter=No
 4	คำ	_	NOUN	NCMN	_	3	obj	_	SpaceAfter=No
 5	เชิญ	_	VERB	VACT	_	4	acl	_	SpaceAfter=No
-6	ให้	_	VERB	JSBR	_	3	acl	_	SpaceAfter=No
+6	ให้	_	VERB	VACT	_	3	acl	_	SpaceAfter=No
 7	แก่	_	ADP	RPRE	_	8	case	_	SpaceAfter=No
 8	ประธานาธิบดี	_	NOUN	NCMN	_	6	obl	_	SpaceAfter=No
 9	คน	_	NOUN	NCMN	_	8	clf	_	SpaceAfter=No
@@ -2464,7 +2464,7 @@
 8	ไม่	_	PART	NEG	Polarity=Neg	9	advmod	_	SpaceAfter=No
 9	สื่อสาร	_	VERB	VACT	_	6	xcomp	_	_
 10	ไม่	_	PART	NEG	Polarity=Neg	11	advmod	_	SpaceAfter=No
-11	ให้	_	VERB	JSBR	_	9	conj	_	SpaceAfter=No
+11	ให้	_	VERB	VACT	_	9	conj	_	SpaceAfter=No
 12	ความร่วมมือ	_	VERB	NCMN	_	11	obj	_	_
 13	และ	_	CCONJ	JCRG	_	15	cc	_	SpaceAfter=No
 14	ไม่	_	PART	NEG	Polarity=Neg	15	advmod	_	SpaceAfter=No
@@ -2529,7 +2529,7 @@
 10	สืบสวน	_	VERB	NCMN	_	8	conj	_	SpaceAfter=No
 11	มาก	_	ADV	ADVN	_	7	advmod	_	SpaceAfter=No
 12	ขึ้น	_	ADV	XVAE	_	11	advmod	_	SpaceAfter=No
-13	ให้	_	VERB	JSBR	_	7	acl	_	SpaceAfter=No
+13	ให้	_	VERB	VACT	_	7	acl	_	SpaceAfter=No
 14	สภา	_	NOUN	NCMN	_	13	obj	_	Proper=True|SpaceAfter=No
 15	อสังหาริมทรัพย์	_	NOUN	NPRP	_	14	flat:name	_	Proper=True|SpaceAfter=No
 16	แห่ง	_	ADP	CNIT	_	17	case	_	Proper=True|SpaceAfter=No
@@ -2943,7 +2943,7 @@
 7	สิ่ง	_	NOUN	NCMN	_	6	obj	_	SpaceAfter=No
 8	ที่	_	DET	PREL	_	9	obj	_	SpaceAfter=No
 9	เรียก	_	VERB	VACT	_	7	acl:relcl	_	SpaceAfter=No
-10	ว่า	_	VERB	JSBR	_	9	xcomp	_	_
+10	ว่า	_	VERB	VACT	_	9	xcomp	_	_
 11	“	_	PUNCT	PUNC	_	12	punct	_	SpaceAfter=No
 12	ค่า	_	NOUN	NCMN	_	10	obj	_	SpaceAfter=No
 13	ตอบแทน	_	VERB	NCMN	_	12	acl	_	SpaceAfter=No
@@ -3253,7 +3253,7 @@
 1	เขา	_	PRON	PPRS	Person=3	3	nsubj	_	SpaceAfter=No
 2	ยัง	_	ADV	XVBM	_	3	advmod	_	SpaceAfter=No
 3	ชี้	_	VERB	VACT	_	0	root	_	SpaceAfter=No
-4	ให้	_	VERB	JSBR	_	3	xcomp	_	SpaceAfter=No
+4	ให้	_	VERB	JSBR	_	3	mark	_	SpaceAfter=No
 5	เห็น	_	VERB	VSTA	_	4	xcomp	_	SpaceAfter=No
 6	อีก	_	ADV	ADVN	_	3	advmod	_	SpaceAfter=No
 7	ว่า	_	ADP	JSBR	_	10	mark	_	SpaceAfter=No
@@ -3265,7 +3265,7 @@
 13	ใหม่	_	ADJ	VATT	_	11	amod	_	SpaceAfter=No
 14	ที่	_	DET	PREL	_	15	nsubj	_	SpaceAfter=No
 15	ช่วย	_	VERB	VACT	_	11	acl:relcl	_	SpaceAfter=No
-16	ให้	_	VERB	JSBR	_	15	xcomp	_	SpaceAfter=No
+16	ให้	_	VERB	VACT	_	15	xcomp	_	SpaceAfter=No
 17	ลูกค้า	_	NOUN	NCMN	_	16	obj	_	SpaceAfter=No
 18	ตรวจสอบ	_	VERB	VACT	_	16	xcomp	_	SpaceAfter=No
 19	การใช้	_	VERB	VACT	_	18	obj	_	SpaceAfter=No
@@ -3308,7 +3308,7 @@
 17	เสร็จ	_	VERB	VSTA	_	16	acl	_	_
 18	ซึ่ง	_	ADP	PREL	_	19	mark	_	SpaceAfter=No
 19	แสดง	_	VERB	VACT	_	4	advcl	_	SpaceAfter=No
-20	ให้	_	VERB	JSBR	_	19	xcomp	_	SpaceAfter=No
+20	ให้	_	VERB	JSBR	_	19	mark	_	SpaceAfter=No
 21	เห็น	_	VERB	VSTA	_	20	xcomp	_	SpaceAfter=No
 22	ถึง	_	ADP	RPRE	_	23	case	_	SpaceAfter=No
 23	บทบาท	_	NOUN	NCMN	_	21	obl	_	SpaceAfter=No
@@ -3347,7 +3347,7 @@
 13	นี้	_	DET	DDAC	_	12	det	_	SpaceAfter=No
 14	จะ	_	VERB	XVBM	_	15	aux	_	SpaceAfter=No
 15	ช่วย	_	VERB	VACT	_	3	conj	_	SpaceAfter=No
-16	ให้	_	VERB	JSBR	_	15	xcomp	_	SpaceAfter=No
+16	ให้	_	VERB	VACT	_	15	xcomp	_	SpaceAfter=No
 17	คุณ	_	PRON	PPRS	Person=2	16	obj	_	SpaceAfter=No
 18	นอนหลับ	_	VERB	VACT	_	16	xcomp	_	SpaceAfter=No
 19	ตอน	_	ADP	NCMN	_	20	case	_	SpaceAfter=No
@@ -3511,7 +3511,7 @@
 16	เท็กซัส	_	PROPN	NPRP	_	15	appos	_	_
 17	ได้รับ	_	VERB	VSTA	Voice=Pass	18	aux:pass	_	SpaceAfter=No
 18	แจ้ง	_	VERB	NCMN	_	5	advcl	_	SpaceAfter=No
-19	ให้	_	VERB	JSBR	_	18	xcomp	_	SpaceAfter=No
+19	ให้	_	VERB	JSBR	_	18	mark	_	SpaceAfter=No
 20	ทราบ	_	VERB	VSTA	_	19	xcomp	_	SpaceAfter=No
 21	ถึง	_	ADP	RPRE	_	22	case	_	SpaceAfter=No
 22	อาการ	_	NOUN	NCMN	_	20	obl	_	SpaceAfter=No
@@ -3670,7 +3670,7 @@
 17	ดี	_	ADJ	VATT	_	15	acl:relcl	_	SpaceAfter=No
 18	ใน	_	NOUN	RPRE	_	19	case	_	SpaceAfter=No
 19	การช่วย	_	VERB	NCMN	_	15	xcomp	_	SpaceAfter=No
-20	ให้	_	VERB	JSBR	_	19	xcomp	_	SpaceAfter=No
+20	ให้	_	VERB	VACT	_	19	xcomp	_	SpaceAfter=No
 21	เด็ก	_	NOUN	NCMN	_	20	obj	_	SpaceAfter=No
 22	สาว	_	NOUN	VATT	_	21	compound	_	SpaceAfter=No
 23	ยอมรับ	_	VERB	VACT	_	20	xcomp	_	SpaceAfter=No
@@ -4341,7 +4341,7 @@
 16	และ	_	CCONJ	JCRG	_	17	cc	_	SpaceAfter=No
 17	ติดตาม	_	VERB	VACT	_	15	conj	_	SpaceAfter=No
 18	ได้	_	VERB	XVAE	_	15	aux	_	SpaceAfter=No
-19	ให้	_	VERB	JSBR	_	11	acl	_	SpaceAfter=No
+19	ให้	_	VERB	VACT	_	11	acl	_	SpaceAfter=No
 20	กับ	_	ADP	RPRE	_	21	case	_	SpaceAfter=No
 21	ภาพ	_	NOUN	NCMN	_	19	obl	_	SpaceAfter=No
 22	วิดีโอ	_	NOUN	NCMN	_	21	compound	_	SpaceAfter=No
@@ -4363,7 +4363,7 @@
 2	เหล่า	_	NOUN	NCMN	_	1	clf	_	SpaceAfter=No
 3	นี้	_	DET	DDAC	_	2	det	_	SpaceAfter=No
 4	ย้ำ	_	VERB	VACT	_	0	root	_	SpaceAfter=No
-5	ให้	_	VERB	JSBR	_	4	xcomp	_	SpaceAfter=No
+5	ให้	_	VERB	JSBR	_	4	mark	_	SpaceAfter=No
 6	เห็น	_	VERB	VSTA	_	5	xcomp	_	SpaceAfter=No
 7	ความดึงดูดใจ	_	VERB	NCMN	_	6	obj	_	SpaceAfter=No
 8	ของ	_	ADP	RPRE	_	9	case	_	SpaceAfter=No
@@ -4518,7 +4518,7 @@
 14	เป็น	_	AUX	VSTA	_	15	cop	_	SpaceAfter=No
 15	การเปิด	_	VERB	NCMN	_	6	acl	_	SpaceAfter=No
 16	ประตู	_	NOUN	VACT	_	15	obj	_	SpaceAfter=No
-17	ให้	_	VERB	JSBR	_	15	acl	_	SpaceAfter=No
+17	ให้	_	VERB	VACT	_	15	acl	_	SpaceAfter=No
 18	คน	_	NOUN	NCMN	_	17	obj	_	SpaceAfter=No
 19	ที่	_	DET	PREL	_	21	nsubj	_	SpaceAfter=No
 20	ไม่	_	PART	NEG	Polarity=Neg	21	advmod	_	SpaceAfter=No
@@ -4646,7 +4646,7 @@
 16	ออก	_	VERB	VACT	_	15	acl	_	SpaceAfter=No
 17	เสียง	_	NOUN	NCMN	_	16	obj	_	SpaceAfter=No
 18	สนับสนุน	_	VERB	VACT	_	5	advcl	_	SpaceAfter=No
-19	ให้	_	VERB	JSBR	_	18	xcomp	_	SpaceAfter=No
+19	ให้	_	VERB	JSBR	_	18	mark	_	SpaceAfter=No
 20	ออก	_	VERB	VACT	_	19	xcomp	_	SpaceAfter=No
 21	จาก	_	ADP	RPRE	_	22	case	_	SpaceAfter=No
 22	สหภาพ	_	NOUN	NCMN	_	20	obl	_	Proper=True|SpaceAfter=No
@@ -4665,7 +4665,7 @@
 8	การหา	_	VERB	NCMN	_	4	xcomp	_	SpaceAfter=No
 9	คำ	_	NOUN	NCMN	_	8	obj	_	SpaceAfter=No
 10	ตอบ	_	VERB	VACT	_	9	acl	_	SpaceAfter=No
-11	ให้	_	VERB	JSBR	_	8	acl	_	SpaceAfter=No
+11	ให้	_	VERB	VACT	_	8	acl	_	SpaceAfter=No
 12	ผู้	_	NOUN	PPRS	_	11	obj	_	SpaceAfter=No
 13	เสีย	_	VERB	VSTA	_	12	acl	_	SpaceAfter=No
 14	ภาษี	_	NOUN	NCMN	_	13	obj	_	SpaceAfter=No
@@ -5023,7 +5023,7 @@
 6	และ	_	CCONJ	JCRG	_	8	cc	_	SpaceAfter=No
 7	เป็น	_	AUX	VSTA	_	8	cop	_	SpaceAfter=No
 8	โอกาส	_	NOUN	NCMN	_	2	conj	_	SpaceAfter=No
-9	ให้	_	VERB	JSBR	_	8	acl	_	SpaceAfter=No
+9	ให้	_	VERB	VACT	_	8	acl	_	SpaceAfter=No
 10	เรา	_	PRON	PPRS	Person=1	9	obj	_	SpaceAfter=No
 11	ก้าว	_	VERB	VACT	_	9	xcomp	_	SpaceAfter=No
 12	ไป	_	PART	XVAE	_	11	aux	_	SpaceAfter=No
@@ -5043,7 +5043,7 @@
 8	ฉัน	_	PRON	PPRS	Person=1	10	nsubj	_	SpaceAfter=No
 9	ก็	_	ADV	JSBR	_	10	advmod	_	SpaceAfter=No
 10	ต้องการ	_	VERB	VACT	_	3	conj	_	SpaceAfter=No
-11	ให้	_	VERB	JSBR	_	10	xcomp	_	SpaceAfter=No
+11	ให้	_	VERB	VACT	_	10	xcomp	_	SpaceAfter=No
 12	คน	_	NOUN	NCMN	_	11	obj	_	SpaceAfter=No
 13	มา	_	VERB	XVAE	_	11	xcomp	_	SpaceAfter=No
 14	หา	_	VERB	VACT	_	13	acl	_	SpaceAfter=No
@@ -5180,7 +5180,7 @@
 6	ที่	_	DET	PREL	_	7	obj	_	SpaceAfter=No
 7	เรียก	_	VERB	VACT	_	5	acl:relcl	_	SpaceAfter=No
 8	กัน	_	PRON	ADVN	_	7	advmod	_	SpaceAfter=No
-9	ว่า	_	VERB	JSBR	_	7	xcomp	_	SpaceAfter=No
+9	ว่า	_	VERB	VACT	_	7	xcomp	_	SpaceAfter=No
 10	เรื่อง	_	NOUN	NCMN	_	9	obj	_	SpaceAfter=No
 11	จริง	_	ADJ	VATT	_	10	amod	_	SpaceAfter=No
 12	ที่	_	DET	PREL	_	13	obj	_	SpaceAfter=No
@@ -5293,7 +5293,7 @@
 13	ทูต	_	NOUN	NCMN	_	10	xcomp	_	SpaceAfter=No
 14	ระดับ	_	NOUN	NCMN	_	13	compound	_	SpaceAfter=No
 15	โลก	_	NOUN	NCMN	_	13	compound	_	SpaceAfter=No
-16	ให้	_	VERB	JSBR	_	13	xcomp	_	SpaceAfter=No
+16	ให้	_	VERB	VACT	_	13	xcomp	_	SpaceAfter=No
 17	บริษัท	_	NOUN	NCMN	_	16	obj	_	Proper=True|SpaceAfter=No
 18	สุขภาพ	_	NOUN	NCMN	_	17	flat:name	_	Proper=True|SpaceAfter=No
 19	และ	_	CCONJ	JCRG	_	20	cc	_	Proper=True|SpaceAfter=No
@@ -5354,7 +5354,7 @@
 1	เรา	_	PRON	PPRS	Person=1	3	nsubj	_	SpaceAfter=No
 2	จะ	_	VERB	XVBM	_	3	aux	_	SpaceAfter=No
 3	ปล่อย	_	VERB	VACT	_	0	root	_	SpaceAfter=No
-4	ให้	_	VERB	JSBR	_	3	xcomp	_	SpaceAfter=No
+4	ให้	_	VERB	VACT	_	3	xcomp	_	SpaceAfter=No
 5	คน	_	NOUN	NCMN	_	4	obj	_	SpaceAfter=No
 6	ที่	_	DET	PREL	_	7	nsubj	_	SpaceAfter=No
 7	เหยียด	_	VERB	VSTA	_	5	acl:relcl	_	SpaceAfter=No
@@ -5678,7 +5678,7 @@
 24	ข้อ	_	NOUN	CNIT	_	23	obj	_	SpaceAfter=No
 25	เท็จจริง	_	ADJ	VATT	_	24	amod	_	SpaceAfter=No
 26	ที่	_	DET	PREL	_	27	obj	_	SpaceAfter=No
-27	ว่า	_	VERB	JSBR	_	24	acl:relcl	_	SpaceAfter=No
+27	ว่า	_	VERB	VACT	_	24	acl:relcl	_	SpaceAfter=No
 28	นั้น	_	DET	DDAC	_	24	det	_	SpaceAfter=No
 29	ต่อไป	_	ADV	ADVN	_	23	advmod	_	_
 
@@ -5835,11 +5835,11 @@
 2	เมื่อ	_	ADP	JSBR	_	4	mark	_	SpaceAfter=No
 3	ฉัน	_	PRON	PPRS	Person=1	4	nsubj	_	SpaceAfter=No
 4	บอก	_	VERB	VACT	_	18	advcl	_	SpaceAfter=No
-5	ให้	_	VERB	JSBR	_	4	xcomp	_	SpaceAfter=No
+5	ให้	_	VERB	VACT	_	4	xcomp	_	SpaceAfter=No
 6	เธอ	_	PRON	PPRS	Person=3	5	obj	_	SpaceAfter=No
 7	ติดต่อ	_	VERB	VACT	_	5	xcomp	_	SpaceAfter=No
 8	แฟรงค์	_	PROPN	NPRP	_	7	obj	_	SpaceAfter=No
-9	ให้	_	VERB	JSBR	_	7	acl	_	SpaceAfter=No
+9	ให้	_	VERB	JSBR	_	7	mark	_	SpaceAfter=No
 10	ไป	_	VERB	VACT	_	9	xcomp	_	SpaceAfter=No
 11	เป็น	_	AUX	VSTA	_	12	cop	_	SpaceAfter=No
 12	นาย	_	NOUN	NCMN	_	10	xcomp	_	SpaceAfter=No
@@ -5884,7 +5884,7 @@
 9	ถูก	_	VERB	XVAM	Voice=Pass	10	aux:pass	_	SpaceAfter=No
 10	ถ่าย	_	VERB	VACT	_	3	conj	_	SpaceAfter=No
 11	วิดีโอ	_	NOUN	NCMN	_	10	advmod	_	SpaceAfter=No
-12	ให้	_	VERB	JSBR	_	10	acl	_	SpaceAfter=No
+12	ให้	_	VERB	JSBR	_	10	mark	_	SpaceAfter=No
 13	เห็น	_	VERB	VSTA	_	12	xcomp	_	SpaceAfter=No
 14	ว่า	_	ADP	JSBR	_	16	mark	_	SpaceAfter=No
 15	เธอ	_	PRON	PPRS	Person=3	16	nsubj	_	SpaceAfter=No
@@ -5893,7 +5893,7 @@
 18	กัน	_	VERB	ADVN	_	17	acl	_	SpaceAfter=No
 19	แดด	_	NOUN	NCMN	_	18	obj	_	SpaceAfter=No
 20	ก่อน	_	ADP	ADVN	_	21	mark	_	SpaceAfter=No
-21	ให้	_	VERB	JSBR	_	16	advcl	_	SpaceAfter=No
+21	ให้	_	VERB	JSBR	_	16	mark	_	SpaceAfter=No
 22	สัมภาษณ์	_	VERB	NCMN	_	21	xcomp	_	_
 
 # sent_id = n01090004
@@ -5983,7 +5983,7 @@
 11	คง	_	VERB	XVBM	_	13	aux	_	SpaceAfter=No
 12	เป็น	_	AUX	VSTA	_	13	cop	_	SpaceAfter=No
 13	การปล่อย	_	VERB	NCMN	_	5	conj	_	SpaceAfter=No
-14	ให้	_	VERB	JSBR	_	13	xcomp	_	SpaceAfter=No
+14	ให้	_	VERB	VACT	_	13	xcomp	_	SpaceAfter=No
 15	พวก	_	NOUN	NCMN	_	14	obj	_	SpaceAfter=No
 16	กลุ่ม	_	NOUN	NCMN	_	15	compound	_	SpaceAfter=No
 17	ล็อบบี้ยิสต์	_	NOUN	NCMN	_	15	compound	_	SpaceAfter=No
@@ -6302,7 +6302,7 @@
 2	ไม่	_	PART	NEG	Polarity=Neg	3	advmod	_	SpaceAfter=No
 3	เรียก	_	VERB	VACT	_	0	root	_	SpaceAfter=No
 4	มัน	_	PRON	PPRS	Person=3	3	obj	_	SpaceAfter=No
-5	ว่า	_	VERB	JSBR	_	3	xcomp	_	SpaceAfter=No
+5	ว่า	_	VERB	VACT	_	3	xcomp	_	SpaceAfter=No
 6	สัตว์	_	NOUN	NCMN	_	5	obj	_	SpaceAfter=No
 7	ร้าย	_	ADJ	NCMN	_	6	amod	_	SpaceAfter=No
 8	หรอก	_	PART	NCMN	_	3	discourse	_	_
@@ -6398,9 +6398,9 @@
 18	คิด	_	VERB	NCMN	_	17	acl	_	SpaceAfter=No
 19	ที่	_	DET	PREL	_	20	obj	_	SpaceAfter=No
 20	เรียก	_	VERB	VACT	_	17	acl:relcl	_	SpaceAfter=No
-21	ว่า	_	VERB	JSBR	_	20	xcomp	_	_
+21	ว่า	_	VERB	JSBR	_	20	mark	_	_
 22	“	_	PUNCT	PUNC	_	23	punct	_	SpaceAfter=No
-23	การป้องกัน	_	VERB	VSTA	_	21	obj	_	SpaceAfter=No
+23	การป้องกัน	_	VERB	VSTA	_	21	xcomp	_	SpaceAfter=No
 24	เชิง	_	NOUN	RPRE	_	23	compound	_	SpaceAfter=No
 25	รุก	_	VERB	NCMN	_	24	acl	_	SpaceAfter=No
 26	”	_	PUNCT	PUNC	_	23	punct	_	_
@@ -6767,7 +6767,7 @@
 23	ครั้ง	_	NOUN	CFQC	_	20	advmod	_	SpaceAfter=No
 24	ก็	_	ADV	JSBR	_	25	advmod	_	SpaceAfter=No
 25	แสดง	_	VERB	VACT	_	9	conj	_	SpaceAfter=No
-26	ให้	_	VERB	JSBR	_	25	xcomp	_	SpaceAfter=No
+26	ให้	_	VERB	JSBR	_	25	mark	_	SpaceAfter=No
 27	เห็น	_	VERB	VSTA	_	26	xcomp	_	SpaceAfter=No
 28	ถึง	_	ADP	RPRE	_	29	case	_	SpaceAfter=No
 29	ความอ่อนแอ	_	ADJ	NCMN	_	27	obl	_	_
@@ -6860,7 +6860,7 @@
 3	ประจำ	_	VERB	VSTA	_	1	acl	_	SpaceAfter=No
 4	ปี	_	NOUN	NCMN	_	3	obj	_	SpaceAfter=No
 5	เผย	_	VERB	VSTA	_	0	root	_	SpaceAfter=No
-6	ให้	_	VERB	JSBR	_	5	xcomp	_	SpaceAfter=No
+6	ให้	_	VERB	JSBR	_	5	mark	_	SpaceAfter=No
 7	เห็น	_	VERB	VSTA	_	6	xcomp	_	SpaceAfter=No
 8	ว่า	_	ADP	JSBR	_	19	mark	_	SpaceAfter=No
 9	ความกังวล	_	VERB	NCMN	_	19	nsubj	_	SpaceAfter=No
@@ -6940,7 +6940,7 @@
 2	ยัง	_	ADV	XVBM	_	3	advmod	_	SpaceAfter=No
 3	เปิด	_	VERB	VACT	_	0	root	_	SpaceAfter=No
 4	ทาง	_	NOUN	NCMN	_	3	obj	_	SpaceAfter=No
-5	ให้	_	VERB	JSBR	_	3	acl	_	SpaceAfter=No
+5	ให้	_	VERB	VACT	_	3	acl	_	SpaceAfter=No
 6	โฟล์คสวาเกน	_	PROPN	NPRP	_	5	obj	_	SpaceAfter=No
 7	อ้าง	_	VERB	VACT	_	5	xcomp	_	SpaceAfter=No
 8	ค่า	_	NOUN	NCMN	_	7	obj	_	SpaceAfter=No
@@ -7003,7 +7003,7 @@
 2	ได้รับ	_	VERB	VSTA	Voice=Pass	3	aux:pass	_	SpaceAfter=No
 3	เลื่อน	_	VERB	VACT	_	0	root	_	SpaceAfter=No
 4	ตำแหน่ง	_	NOUN	NCMN	_	3	obj	_	SpaceAfter=No
-5	ให้	_	VERB	JSBR	_	3	acl	_	SpaceAfter=No
+5	ให้	_	VERB	JSBR	_	3	mark	_	SpaceAfter=No
 6	เป็น	_	AUX	VSTA	_	7	cop	_	SpaceAfter=No
 7	ประธาน	_	NOUN	NCMN	_	5	xcomp	_	SpaceAfter=No
 8	ใน	_	ADP	RPRE	_	9	case	_	SpaceAfter=No
@@ -7424,7 +7424,7 @@
 4	กระตุ้น	_	VERB	VACT	_	0	root	_	SpaceAfter=No
 5	เพิ่ม	_	VERB	VSTA	_	4	xcomp	_	SpaceAfter=No
 6	ความต้องการ	_	VERB	NCMN	_	5	obj	_	SpaceAfter=No
-7	ให้	_	VERB	JSBR	_	4	acl	_	SpaceAfter=No
+7	ให้	_	VERB	JSBR	_	4	mark	_	SpaceAfter=No
 8	เกิด	_	VERB	VSTA	_	7	xcomp	_	SpaceAfter=No
 9	การเปลี่ยนแปลง	_	VERB	NCMN	_	8	obj	_	SpaceAfter=No
 10	ได้	_	VERB	XVAE	_	4	aux	_	_
@@ -7493,7 +7493,7 @@
 1	เขา	_	PRON	PPRS	Person=3	2	nsubj	_	SpaceAfter=No
 2	กระตุ้น	_	VERB	VACT	_	0	root	_	SpaceAfter=No
 3	ประชาชน	_	NOUN	NCMN	_	2	obj	_	SpaceAfter=No
-4	ให้	_	VERB	JSBR	_	2	acl	_	SpaceAfter=No
+4	ให้	_	VERB	JSBR	_	2	mark	_	SpaceAfter=No
 5	มี	_	VERB	VSTA	_	4	xcomp	_	SpaceAfter=No
 6	ความรับผิดชอบ	_	VERB	VSTA	_	5	obj	_	SpaceAfter=No
 7	กับ	_	ADP	RPRE	_	8	case	_	SpaceAfter=No
@@ -7689,9 +7689,9 @@
 8	นั้น	_	DET	DDAC	_	7	det	_	_
 9	ใคร	_	PRON	PNTR	_	11	nsubj	_	SpaceAfter=No
 10	จะ	_	VERB	XVBM	_	11	aux	_	SpaceAfter=No
-11	ว่า	_	VERB	JSBR	_	3	acl	_	SpaceAfter=No
-12	ได้	_	VERB	VSTA	_	11	aux	_	SpaceAfter=No
-13	ล่ะ	_	PART	NCMN	_	11	discourse	_	_
+11	ว่า	_	VERB	JSBR	_	3	mark	_	SpaceAfter=No
+12	ได้	_	VERB	VSTA	_	11	xcomp	_	SpaceAfter=No
+13	ล่ะ	_	PART	NCMN	_	12	discourse	_	_
 
 # sent_id = n01117007
 # text = เขาทำงานด้านข่าวและสถานการณ์ปัจจุบันในแวดวงวิทยุโทรทัศน์มาหลายทศวรรษ
@@ -8099,7 +8099,7 @@
 5	ของ	_	ADP	RPRE	_	6	case	_	SpaceAfter=No
 6	ลอนดอน	_	PROPN	NPRP	_	4	nmod:poss	_	SpaceAfter=No
 7	ได้	_	PART	XVAM	Aspect=Perf	8	aux	_	SpaceAfter=No
-8	ให้	_	VERB	JSBR	_	0	root	_	SpaceAfter=No
+8	ให้	_	VERB	VACT	_	0	root	_	SpaceAfter=No
 9	นัก	_	NOUN	FIXN	_	8	obj	_	SpaceAfter=No
 10	ออกแบบ	_	VERB	VACT	_	9	acl	_	SpaceAfter=No
 11	ภาย	_	NOUN	NCMN	_	10	obj	_	SpaceAfter=No
@@ -8285,7 +8285,7 @@
 13	ใน	_	ADP	RPRE	_	14	case	_	SpaceAfter=No
 14	โลก	_	NOUN	NCMN	_	11	obl	_	SpaceAfter=No
 15	ออนไลน์	_	ADJ	NCMN	_	14	amod	_	SpaceAfter=No
-16	ให้	_	VERB	JSBR	_	11	acl	_	SpaceAfter=No
+16	ให้	_	VERB	JSBR	_	11	mark	_	SpaceAfter=No
 17	ดี	_	ADJ	VATT	_	16	xcomp	_	SpaceAfter=No
 18	ขึ้น	_	ADV	XVAE	_	17	advmod	_	SpaceAfter=No
 19	อย่างไร	_	ADV	PNTR	_	11	advmod	_	_
@@ -8549,7 +8549,7 @@
 17	นี้	_	DET	DDAC	_	16	det	_	SpaceAfter=No
 18	ตั้ง	_	VERB	VACT	_	3	advcl	_	SpaceAfter=No
 19	ชื่อ	_	NOUN	NCMN	_	18	obj	_	SpaceAfter=No
-20	ว่า	_	VERB	JSBR	_	19	acl	_	_
+20	ว่า	_	VERB	VACT	_	19	acl	_	_
 21	"	_	PUNCT	PUNC	_	22	punct	_	SpaceAfter=No
 22	สาย	_	NOUN	NCMN	_	20	obj	_	Proper=True|SpaceAfter=No
 23	ลม	_	NOUN	VATT	_	22	flat:name	_	Proper=True|SpaceAfter=No
@@ -8728,7 +8728,7 @@
 13	เหตุผล	_	NOUN	NCMN	_	0	root	_	SpaceAfter=No
 14	ใหญ่	_	ADJ	VATT	_	13	amod	_	SpaceAfter=No
 15	ที่	_	DET	PREL	_	16	nsubj	_	SpaceAfter=No
-16	ว่า	_	VERB	JSBR	_	13	acl:relcl	_	SpaceAfter=No
+16	ว่า	_	VERB	VACT	_	13	acl:relcl	_	SpaceAfter=No
 17	ทำไม	_	ADV	NCMN	_	22	advmod	_	SpaceAfter=No
 18	นัก	_	NOUN	NCMN	_	22	nsubj	_	SpaceAfter=No
 19	ลง	_	VERB	XVAE	_	18	acl	_	SpaceAfter=No
@@ -9097,7 +9097,7 @@
 1	การเปลี่ยนแปลง	_	VERB	NCMN	_	3	nsubj	_	SpaceAfter=No
 2	นี้	_	DET	DDAC	_	1	det	_	SpaceAfter=No
 3	เน้น	_	VERB	VSTA	_	0	root	_	SpaceAfter=No
-4	ให้	_	VERB	JSBR	_	3	xcomp	_	SpaceAfter=No
+4	ให้	_	VERB	JSBR	_	3	mark	_	SpaceAfter=No
 5	เห็น	_	VERB	VSTA	_	4	xcomp	_	SpaceAfter=No
 6	ความต้องการ	_	VERB	NCMN	_	5	obj	_	SpaceAfter=No
 7	ของ	_	ADP	RPRE	_	8	case	_	SpaceAfter=No
@@ -9495,7 +9495,7 @@
 9	รัฐบาล	_	NOUN	NCMN	_	11	nsubj	_	SpaceAfter=No
 10	กำลัง	_	PART	XVBM	Aspect=Prog	11	aux	_	SpaceAfter=No
 11	คาดหวัง	_	VERB	VSTA	_	7	ccomp	_	SpaceAfter=No
-12	ให้	_	VERB	JSBR	_	11	xcomp	_	SpaceAfter=No
+12	ให้	_	VERB	JSBR	_	11	mark	_	SpaceAfter=No
 13	มี	_	VERB	VSTA	_	12	xcomp	_	SpaceAfter=No
 14	การพัฒนา	_	VERB	NCMN	_	13	obj	_	SpaceAfter=No
 15	ทาง	_	ADP	NCMN	_	16	case	_	SpaceAfter=No
@@ -9513,7 +9513,7 @@
 # text_en = An F1 ticket grants access to the concert on the same day.
 1	ตั๋ว	_	NOUN	NCMN	_	3	nsubj	_	_
 2	F1	_	PROPN	NPRP	_	1	compound	_	_
-3	ให้	_	VERB	JSBR	_	0	root	_	SpaceAfter=No
+3	ให้	_	VERB	VACT	_	0	root	_	SpaceAfter=No
 4	สิทธิ์	_	NOUN	NCMN	_	3	obj	_	SpaceAfter=No
 5	ใน	_	ADP	RPRE	_	6	case	_	SpaceAfter=No
 6	การไป	_	VERB	NCMN	_	4	xcomp	_	SpaceAfter=No
@@ -9566,7 +9566,7 @@
 1	มัน	_	PRON	PPRS	Person=3	3	nsubj	_	SpaceAfter=No
 2	ยัง	_	ADV	XVBM	_	3	advmod	_	SpaceAfter=No
 3	กระตุ้น	_	VERB	VACT	_	0	root	_	SpaceAfter=No
-4	ให้	_	VERB	JSBR	_	3	xcomp	_	SpaceAfter=No
+4	ให้	_	VERB	JSBR	_	3	mark	_	SpaceAfter=No
 5	เกิด	_	VERB	VSTA	_	4	xcomp	_	SpaceAfter=No
 6	ตึก	_	NOUN	NCMN	_	5	obj	_	SpaceAfter=No
 7	ระ	_	VERB	NCMN	_	6	acl	_	SpaceAfter=No
@@ -9638,7 +9638,7 @@
 # text_en = She spoke to CNN Style about the experience.
 1	เธอ	_	PRON	PPRS	Person=3	2	nsubj	_	SpaceAfter=No
 2	เล่า	_	VERB	VACT	_	0	root	_	SpaceAfter=No
-3	ให้	_	VERB	JSBR	_	2	xcomp	_	SpaceAfter=No
+3	ให้	_	VERB	VACT	_	2	xcomp	_	SpaceAfter=No
 4	ซีเอ็นเอ็น	_	PROPN	NPRP	_	3	obj	_	SpaceAfter=No
 5	สไตล์	_	NOUN	VACT	_	4	flat:name	_	Proper=True|SpaceAfter=No
 6	ฟัง	_	VERB	VACT	_	3	xcomp	_	SpaceAfter=No
@@ -9747,7 +9747,7 @@
 9	ตาย	_	VERB	NCMN	_	8	acl	_	_
 10	แต่	_	CCONJ	JCRG	_	11	cc	_	SpaceAfter=No
 11	ช่วย	_	VERB	VACT	_	7	conj	_	SpaceAfter=No
-12	ให้	_	VERB	JSBR	_	11	xcomp	_	SpaceAfter=No
+12	ให้	_	VERB	VACT	_	11	xcomp	_	SpaceAfter=No
 13	ความทรงจำ	_	VERB	NCMN	_	12	obj	_	SpaceAfter=No
 14	ของ	_	ADP	RPRE	_	15	case	_	SpaceAfter=No
 15	คน	_	NOUN	NCMN	_	13	obl:poss	_	SpaceAfter=No
@@ -9764,7 +9764,7 @@
 1	กฎบัตร	_	NOUN	NCMN	_	3	nsubj	_	SpaceAfter=No
 2	ได้	_	PART	XVAM	Aspect=Perf	3	aux	_	SpaceAfter=No
 3	อนุญาต	_	VERB	VACT	_	0	root	_	SpaceAfter=No
-4	ให้	_	VERB	JSBR	_	3	xcomp	_	SpaceAfter=No
+4	ให้	_	VERB	JSBR	_	3	mark	_	SpaceAfter=No
 5	ก่อตั้ง	_	VERB	VACT	_	4	xcomp	_	SpaceAfter=No
 6	สมาคม	_	NOUN	NCMN	_	5	obj	_	SpaceAfter=No
 7	ผู้	_	NOUN	PPRS	_	6	compound	_	SpaceAfter=No
@@ -10118,7 +10118,7 @@
 14	นาม	_	NOUN	NCMN	_	13	obj	_	SpaceAfter=No
 15	โดย	_	ADP	RPRE	_	17	mark	_	SpaceAfter=No
 16	ฝรั่งเศส	_	PROPN	NPRP	_	17	nsubj	_	SpaceAfter=No
-17	ให้	_	VERB	JSBR	_	12	advcl	_	SpaceAfter=No
+17	ให้	_	VERB	VACT	_	12	advcl	_	SpaceAfter=No
 18	ความคุ้มครอง	_	VERB	NCMN	_	17	obj	_	SpaceAfter=No
 19	แบบ	_	NOUN	NCMN	_	18	compound	_	SpaceAfter=No
 20	จำกัด	_	VERB	VACT	_	19	acl	_	SpaceAfter=No
@@ -10271,7 +10271,7 @@
 13	เวลา	_	NOUN	NCMN	_	10	acl	_	SpaceAfter=No
 14	หลาย	_	DET	DIBQ	_	15	det	_	SpaceAfter=No
 15	เดือน	_	NOUN	NCMN	_	13	clf	_	_
-16	ทำให้	_	VERB	JSBR	_	3	acl	_	SpaceAfter=No
+16	ทำให้	_	VERB	JSBR	_	3	mark	_	SpaceAfter=No
 17	เกิด	_	VERB	VSTA	_	16	xcomp	_	SpaceAfter=No
 18	ฤดู	_	NOUN	NCMN	_	17	obj	_	SpaceAfter=No
 19	ฝน	_	NOUN	NCMN	_	18	compound	_	SpaceAfter=No
@@ -10500,7 +10500,7 @@
 13	ไป	_	PART	XVAE	_	11	compound:prt	_	_
 14	ซึ่ง	_	DET	PREL	_	15	obj	_	SpaceAfter=No
 15	เรียก	_	VERB	VACT	_	2	acl:relcl	_	SpaceAfter=No
-16	ว่า	_	VERB	JSBR	_	15	acl	_	SpaceAfter=No
+16	ว่า	_	VERB	VACT	_	15	acl	_	SpaceAfter=No
 17	เมอันเกียลี	_	PROPN	NPRP	_	16	obj	_	SpaceAfter=No
 18	ใน	_	ADP	RPRE	_	19	case	_	SpaceAfter=No
 19	สวีเดน	_	PROPN	NPRP	_	15	obl	_	SpaceAfter=No
@@ -10587,7 +10587,7 @@
 15	ก็	_	ADV	JSBR	_	17	advmod	_	SpaceAfter=No
 16	สามารถ	_	VERB	XVAM	_	17	aux	_	SpaceAfter=No
 17	ก่อ	_	VERB	VACT	_	4	acl	_	SpaceAfter=No
-18	ให้	_	VERB	JSBR	_	17	xcomp	_	SpaceAfter=No
+18	ให้	_	VERB	JSBR	_	17	mark	_	SpaceAfter=No
 19	เกิด	_	VERB	VSTA	_	18	xcomp	_	SpaceAfter=No
 20	ผล	_	NOUN	NCMN	_	19	obj	_	SpaceAfter=No
 21	กระทบ	_	VERB	VACT	_	20	acl	_	SpaceAfter=No
@@ -10891,7 +10891,7 @@
 # text = ก่อให้เกิดเส้นทางการค้า การล่าอาณานิคม และสงคราม รวมถึงอาหาร (จากการประมงและการหาอาหารทะเลอื่น) แก่หลายชุมชนตลอดทั้งยุคสมัย
 # text_en = It provided routes for trade, colonisation, and war, as well as food (from fishing and the gathering of other seafood) for numerous communities throughout the ages.
 1	ก่อ	_	VERB	NCMN	_	0	root	_	SpaceAfter=No
-2	ให้	_	VERB	JSBR	_	1	xcomp	_	SpaceAfter=No
+2	ให้	_	VERB	JSBR	_	1	mark	_	SpaceAfter=No
 3	เกิด	_	VERB	VSTA	_	2	xcomp	_	SpaceAfter=No
 4	เส้น	_	NOUN	NCMN	_	3	obj	_	SpaceAfter=No
 5	ทาง	_	NOUN	NCMN	_	4	compound	_	SpaceAfter=No
@@ -11011,7 +11011,7 @@
 12	เรียก	_	VERB	VACT	_	0	root	_	SpaceAfter=No
 13	ทะเล	_	NOUN	NCMN	_	12	obj	_	Proper=True|SpaceAfter=No
 14	เมดิเตอร์เรเนียน	_	PROPN	NPRP	_	13	flat:name	_	SpaceAfter=No
-15	ว่า	_	VERB	JSBR	_	12	xcomp	_	_
+15	ว่า	_	VERB	VACT	_	12	xcomp	_	_
 16	มาเร	_	PROPN	NPRP	_	15	obj	_	_
 17	นอสตรุม	_	PROPN	NPRP	_	16	goeswith	_	_
 18	(	_	PUNCT	PUNC	_	20	punct	_	SpaceAfter=No
@@ -11346,7 +11346,7 @@
 3	จัด	_	ADV	VACT	_	2	advmod	_	SpaceAfter=No
 4	ทำให้	_	VERB	VACT	_	0	root	_	SpaceAfter=No
 5	ชวน	_	VERB	VACT	_	4	xcomp	_	SpaceAfter=No
-6	ให้	_	VERB	JSBR	_	5	xcomp	_	SpaceAfter=No
+6	ให้	_	VERB	JSBR	_	5	mark	_	SpaceAfter=No
 7	นึก	_	VERB	VSTA	_	6	xcomp	_	SpaceAfter=No
 8	ว่า	_	ADP	JSBR	_	14	mark	_	SpaceAfter=No
 9	ที่	_	NOUN	PREL	_	14	nsubj	_	SpaceAfter=No
@@ -11426,7 +11426,7 @@
 4	คือ	_	AUX	VSTA	_	5	cop	_	SpaceAfter=No
 5	คำ	_	NOUN	NCMN	_	0	root	_	SpaceAfter=No
 6	ถาม	_	VERB	VACT	_	5	acl	_	SpaceAfter=No
-7	ว่า	_	VERB	JSBR	_	5	acl	_	_
+7	ว่า	_	VERB	JSBR	_	5	mark	_	_
 8	แคนซัส	_	PROPN	NPRP	_	10	nsubj	_	SpaceAfter=No
 9	จะ	_	VERB	XVBM	_	10	aux	_	SpaceAfter=No
 10	เข้า	_	VERB	VACT	_	7	ccomp	_	SpaceAfter=No
@@ -11453,7 +11453,7 @@
 8	ใน	_	ADP	RPRE	_	9	case	_	SpaceAfter=No
 9	แคนซัส	_	PROPN	NPRP	_	7	nmod	_	SpaceAfter=No
 10	แสดง	_	VERB	VACT	_	0	root	_	SpaceAfter=No
-11	ให้	_	VERB	JSBR	_	10	xcomp	_	SpaceAfter=No
+11	ให้	_	VERB	JSBR	_	10	mark	_	SpaceAfter=No
 12	เห็น	_	VERB	VSTA	_	11	xcomp	_	SpaceAfter=No
 13	ว่า	_	ADP	JSBR	_	16	mark	_	SpaceAfter=No
 14	ประเทศ	_	NOUN	NCMN	_	16	nsubj	_	SpaceAfter=No
@@ -11470,7 +11470,7 @@
 2	สีสัน	_	NOUN	NCMN	_	4	obl	_	_
 3	ใบไม้	_	NOUN	NCMN	_	4	nsubj	_	SpaceAfter=No
 4	แสดง	_	VERB	VACT	_	0	root	_	SpaceAfter=No
-5	ให้	_	VERB	JSBR	_	4	xcomp	_	SpaceAfter=No
+5	ให้	_	VERB	JSBR	_	4	mark	_	SpaceAfter=No
 6	เห็น	_	VERB	VSTA	_	5	xcomp	_	SpaceAfter=No
 7	ถึง	_	ADP	RPRE	_	8	case	_	SpaceAfter=No
 8	ความหลากหลาย	_	ADJ	NCMN	_	6	obl	_	SpaceAfter=No
@@ -11550,7 +11550,7 @@
 9	ไฟฟ้า	_	NOUN	NCMN	_	5	conj	_	SpaceAfter=No
 10	พลัง	_	NOUN	NCMN	_	9	compound	_	SpaceAfter=No
 11	น้ำ	_	NOUN	NCMN	_	9	compound	_	SpaceAfter=No
-12	ให้	_	VERB	JSBR	_	4	acl	_	SpaceAfter=No
+12	ให้	_	VERB	VACT	_	4	acl	_	SpaceAfter=No
 13	แก่	_	ADP	RPRE	_	14	case	_	SpaceAfter=No
 14	ที่	_	NOUN	PREL	_	12	obl	_	SpaceAfter=No
 15	ลุ่ม	_	ADJ	NCMN	_	14	amod	_	SpaceAfter=No
@@ -11575,7 +11575,7 @@
 14	เทือก	_	NOUN	NCMN	_	17	nsubj	_	Proper=True|SpaceAfter=No
 15	เขา	_	NOUN	PPRS	_	14	flat:name	_	Proper=True|SpaceAfter=No
 16	แอลป์	_	PROPN	NPRP	_	14	flat:name	_	SpaceAfter=No
-17	ให้	_	VERB	JSBR	_	0	root	_	SpaceAfter=No
+17	ให้	_	VERB	VACT	_	0	root	_	SpaceAfter=No
 18	น้ำ	_	NOUN	NCMN	_	17	obj	_	SpaceAfter=No
 19	สูง	_	ADJ	VATT	_	17	xcomp	_	SpaceAfter=No
 20	ถึง	_	ADP	RPRE	_	21	case	_	SpaceAfter=No
@@ -11706,13 +11706,13 @@
 2	ภูเขา	_	NOUN	NCMN	_	1	obj	_	SpaceAfter=No
 3	ไฟ	_	NOUN	NCMN	_	2	compound	_	SpaceAfter=No
 4	เรียก	_	VERB	VACT	_	0	root	_	SpaceAfter=No
-5	ว่า	_	VERB	JSBR	_	4	acl	_	_
+5	ว่า	_	VERB	VACT	_	4	acl	_	_
 6	volcanology	_	NOUN	NCMN	_	5	obj	_	_
 7	ซึ่ง	_	DET	PREL	_	10	obj	_	SpaceAfter=No
 8	บาง	_	DET	DIBQ	_	9	det	_	SpaceAfter=No
 9	ครั้ง	_	NOUN	CFQC	_	10	advmod	_	SpaceAfter=No
 10	สะกด	_	VERB	VSTA	_	6	acl:relcl	_	SpaceAfter=No
-11	ว่า	_	VERB	JSBR	_	10	xcomp	_	_
+11	ว่า	_	VERB	VACT	_	10	xcomp	_	_
 12	vulcanology	_	NOUN	NCMN	_	11	obj	_	_
 
 # sent_id = w01031015
@@ -11771,7 +11771,7 @@
 2	โลก	_	NOUN	NCMN	_	1	compound	_	SpaceAfter=No
 3	ร้อน	_	ADJ	VATT	_	2	amod	_	SpaceAfter=No
 4	ก่อ	_	VERB	NCMN	_	0	root	_	SpaceAfter=No
-5	ให้	_	VERB	JSBR	_	4	xcomp	_	SpaceAfter=No
+5	ให้	_	VERB	JSBR	_	4	mark	_	SpaceAfter=No
 6	เกิด	_	VERB	VSTA	_	5	xcomp	_	SpaceAfter=No
 7	ความเปลี่ยนแปลง	_	VERB	NCMN	_	6	obj	_	SpaceAfter=No
 8	รูปแบบ	_	NOUN	NCMN	_	7	obj	_	SpaceAfter=No
@@ -11799,7 +11799,7 @@
 1	ได้	_	PART	XVAM	Aspect=Perf	2	aux	_	SpaceAfter=No
 2	รับ	_	VERB	VACT	_	0	root	_	SpaceAfter=No
 3	การประกาศ	_	VERB	NCMN	_	2	obj	_	SpaceAfter=No
-4	ให้	_	VERB	JSBR	_	3	acl	_	SpaceAfter=No
+4	ให้	_	VERB	JSBR	_	3	mark	_	SpaceAfter=No
 5	เป็น	_	AUX	VSTA	_	6	cop	_	SpaceAfter=No
 6	เขต	_	NOUN	NCMN	_	4	xcomp	_	SpaceAfter=No
 7	สงวน	_	VERB	VACT	_	6	acl	_	SpaceAfter=No
@@ -12266,7 +12266,7 @@
 1	ปี	_	NOUN	NCMN	_	3	obl:tmod	_	_
 2	1987	_	NUM	NCNM	_	1	appos	_	_
 3	ยก	_	VERB	VACT	_	0	root	_	SpaceAfter=No
-4	ให้	_	VERB	JSBR	_	3	xcomp	_	SpaceAfter=No
+4	ให้	_	VERB	JSBR	_	3	mark	_	SpaceAfter=No
 5	เป็น	_	AUX	VSTA	_	7	cop	_	_
 6	"	_	PUNCT	PUNC	_	7	punct	_	SpaceAfter=No
 7	ปี	_	NOUN	NCMN	_	4	xcomp	_	Proper=True|SpaceAfter=No
@@ -12583,7 +12583,7 @@
 12	ศัพท์	_	NOUN	NCMN	_	11	compound	_	SpaceAfter=No
 13	ภาษา	_	NOUN	NCMN	_	11	compound	_	SpaceAfter=No
 14	สเปน	_	PROPN	NPRP	_	11	compound	_	SpaceAfter=No
-15	ว่า	_	VERB	JSBR	_	11	acl	_	_
+15	ว่า	_	VERB	VACT	_	11	acl	_	_
 16	Antillas	_	PROPN	NPRP	_	15	obj	_	_
 17	ได้	_	PART	XVAM	Aspect=Perf	18	aux	_	SpaceAfter=No
 18	นำ	_	VERB	VACT	_	0	root	_	SpaceAfter=No
@@ -12658,7 +12658,7 @@
 11	ภูมิภาค	_	NOUN	NCMN	_	9	obl	_	Proper=True|SpaceAfter=No
 12	แคริบเบียน	_	PROPN	NPRP	_	11	flat:name	_	SpaceAfter=No
 13	กำหนด	_	VERB	VACT	_	0	root	_	SpaceAfter=No
-14	ให้	_	VERB	JSBR	_	13	xcomp	_	_
+14	ให้	_	VERB	VACT	_	13	xcomp	_	_
 15	"	_	PUNCT	PUNC	_	16	punct	_	SpaceAfter=No
 16	ทะเลใต้	_	PROPN	NPRP	_	14	obj	_	SpaceAfter=No
 17	"	_	PUNCT	PUNC	_	16	punct	_	_
@@ -12775,7 +12775,7 @@
 4	ตีพิมพ์	_	VERB	VACT	_	1	acl:relcl	_	SpaceAfter=No
 5	ด้วย	_	ADP	RPRE	_	6	case	_	SpaceAfter=No
 6	ชื่อ	_	NOUN	NCMN	_	4	obl	_	SpaceAfter=No
-7	ว่า	_	VERB	JSBR	_	6	acl	_	SpaceAfter=No
+7	ว่า	_	VERB	VACT	_	6	acl	_	SpaceAfter=No
 8	ใต้	_	ADP	NCMN	_	9	case	_	Proper=True|SpaceAfter=No
 9	สมุทร	_	NOUN	NCMN	_	7	obl	_	Proper=True
 10	เป็น	_	AUX	VSTA	_	11	cop	_	SpaceAfter=No
@@ -13311,7 +13311,7 @@
 12	ตัดสินใจ	_	VERB	VACT	_	0	root	_	SpaceAfter=No
 13	ส่ง	_	VERB	VACT	_	12	xcomp	_	SpaceAfter=No
 14	พระเยซู	_	PROPN	NPRP	_	13	obj	_	SpaceAfter=No
-15	ให้	_	VERB	JSBR	_	13	xcomp	_	SpaceAfter=No
+15	ให้	_	VERB	VACT	_	13	xcomp	_	SpaceAfter=No
 16	เฮโรด	_	PROPN	NPRP	_	15	obj	_	SpaceAfter=No
 17	พิพากษา	_	VERB	NCMN	_	15	xcomp	_	_
 
@@ -13573,7 +13573,7 @@
 3	ได้	_	PART	XVAM	Aspect=Perf	4	aux	_	SpaceAfter=No
 4	สร้าง	_	VERB	VACT	_	0	root	_	SpaceAfter=No
 5	ความประทับใจ	_	VERB	NCMN	_	4	obj	_	SpaceAfter=No
-6	ให้	_	VERB	JSBR	_	4	acl	_	SpaceAfter=No
+6	ให้	_	VERB	VACT	_	4	acl	_	SpaceAfter=No
 7	หวัง	_	PROPN	NPRP	_	6	obj	_	SpaceAfter=No
 8	อันฉือ	_	PROPN	NPRP	_	7	flat:name	_	SpaceAfter=No
 9	ด้วย	_	ADP	RPRE	_	10	case	_	SpaceAfter=No
@@ -13632,7 +13632,7 @@
 14	เอง	_	ADV	PDMN	_	11	advmod	_	_
 15	และ	_	CCONJ	JCRG	_	16	cc	_	SpaceAfter=No
 16	แสดง	_	VERB	VACT	_	8	conj	_	SpaceAfter=No
-17	ให้	_	VERB	JSBR	_	16	xcomp	_	SpaceAfter=No
+17	ให้	_	VERB	JSBR	_	16	mark	_	SpaceAfter=No
 18	เห็น	_	VERB	VSTA	_	17	xcomp	_	SpaceAfter=No
 19	ถึง	_	ADP	RPRE	_	20	case	_	SpaceAfter=No
 20	ประโยชน์	_	NOUN	NCMN	_	18	obl	_	SpaceAfter=No
@@ -13698,7 +13698,7 @@
 22	จน	_	ADP	JSBR	_	24	mark	_	SpaceAfter=No
 23	ต้อง	_	VERB	XVMM	_	24	aux	_	SpaceAfter=No
 24	ยอม	_	VERB	VACT	_	13	advcl	_	SpaceAfter=No
-25	ให้	_	VERB	JSBR	_	24	xcomp	_	SpaceAfter=No
+25	ให้	_	VERB	VACT	_	24	xcomp	_	SpaceAfter=No
 26	กับ	_	ADP	RPRE	_	27	case	_	SpaceAfter=No
 27	ข้อ	_	NOUN	NCMN	_	25	obl	_	SpaceAfter=No
 28	เรียกร้อง	_	VERB	VATT	_	27	acl	_	SpaceAfter=No
@@ -13787,7 +13787,7 @@
 21	ไม่	_	PART	NEG	Polarity=Neg	22	advmod	_	SpaceAfter=No
 22	ชัดเจน	_	ADJ	VATT	_	2	amod	_	_
 23	ก่อ	_	VERB	JCMP	_	22	acl	_	SpaceAfter=No
-24	ให้	_	VERB	JSBR	_	23	xcomp	_	SpaceAfter=No
+24	ให้	_	VERB	JSBR	_	23	mark	_	SpaceAfter=No
 25	เกิด	_	VERB	VSTA	_	24	xcomp	_	SpaceAfter=No
 26	การอภิปราย	_	VERB	VACT	_	25	obj	_	SpaceAfter=No
 27	ว่า	_	ADP	JSBR	_	29	mark	_	SpaceAfter=No
@@ -13864,7 +13864,7 @@
 14	ต้น	_	NOUN	VATT	_	11	clf	_	SpaceAfter=No
 15	ที่	_	DET	PREL	_	16	obj	_	SpaceAfter=No
 16	เรียก	_	VERB	VACT	_	9	acl:relcl	_	SpaceAfter=No
-17	ว่า	_	VERB	JSBR	_	16	acl	_	SpaceAfter=No
+17	ว่า	_	VERB	VACT	_	16	acl	_	SpaceAfter=No
 18	แมสส์บอต	_	PROPN	NPRP	_	17	obj	_	_
 19	เรียง	_	VERB	VSTA	_	9	acl	_	SpaceAfter=No
 20	จาก	_	ADP	RPRE	_	21	case	_	SpaceAfter=No
@@ -14315,7 +14315,7 @@
 14	มาร์กาเร็ต	_	NOUN	NEG	_	13	appos	_	Proper=True|SpaceAfter=No
 15	แห่ง	_	ADP	CNIT	_	16	case	_	SpaceAfter=No
 16	ปาร์มา	_	PROPN	NPRP	_	13	nmod:poss	_	SpaceAfter=No
-17	ให้	_	VERB	JSBR	_	9	acl	_	SpaceAfter=No
+17	ให้	_	VERB	JSBR	_	9	mark	_	SpaceAfter=No
 18	ยับยั้ง	_	VERB	VACT	_	17	xcomp	_	SpaceAfter=No
 19	การลง	_	VERB	NCMN	_	18	obj	_	SpaceAfter=No
 20	ทัณฑ์	_	NOUN	NCMN	_	19	obj	_	SpaceAfter=No
@@ -14502,7 +14502,7 @@
 1	กำเนิด	_	NOUN	VSTA	_	7	nsubj	_	SpaceAfter=No
 2	ของ	_	ADP	RPRE	_	3	case	_	SpaceAfter=No
 3	คำ	_	NOUN	NCMN	_	1	nmod:poss	_	SpaceAfter=No
-4	ว่า	_	VERB	JSBR	_	3	acl	_	SpaceAfter=No
+4	ว่า	_	VERB	VACT	_	3	acl	_	SpaceAfter=No
 5	ฮิสปาเนีย	_	PROPN	NPRP	_	4	obj	_	SpaceAfter=No
 6	เป็น	_	AUX	VSTA	_	7	cop	_	SpaceAfter=No
 7	ที่	_	PRON	PREL	_	0	root	_	SpaceAfter=No
@@ -14880,7 +14880,7 @@
 32	เป็น	_	AUX	VSTA	_	33	cop	_	SpaceAfter=No
 33	ตัว	_	NOUN	NCMN	_	3	acl	_	SpaceAfter=No
 34	กระตุ้น	_	VERB	VACT	_	33	acl	_	SpaceAfter=No
-35	ให้	_	VERB	JSBR	_	34	xcomp	_	SpaceAfter=No
+35	ให้	_	VERB	JSBR	_	34	mark	_	SpaceAfter=No
 36	เกิด	_	VERB	VSTA	_	35	xcomp	_	SpaceAfter=No
 37	การก่อ	_	VERB	NCMN	_	36	obj	_	SpaceAfter=No
 38	กบฏ	_	NOUN	NCMN	_	37	obj	_	_
@@ -14957,7 +14957,7 @@
 12	ความเดือดร้อน	_	VERB	NCMN	_	10	nmod:poss	_	SpaceAfter=No
 13	ซึ่ง	_	DET	PREL	_	14	nsubj	_	SpaceAfter=No
 14	กระตุ้น	_	VERB	VACT	_	12	acl:relcl	_	SpaceAfter=No
-15	ให้	_	VERB	JSBR	_	14	xcomp	_	SpaceAfter=No
+15	ให้	_	VERB	JSBR	_	14	mark	_	SpaceAfter=No
 16	เกิด	_	VERB	VSTA	_	15	xcomp	_	SpaceAfter=No
 17	การก่อ	_	VERB	NCMN	_	16	obj	_	SpaceAfter=No
 18	กบฏ	_	NOUN	NCMN	_	17	obj	_	SpaceAfter=No
@@ -14981,7 +14981,7 @@
 12	และ	_	CCONJ	JCRG	_	13	cc	_	SpaceAfter=No
 13	เปลี่ยน	_	VERB	VACT	_	8	conj	_	SpaceAfter=No
 14	จักรวรรดิ	_	NOUN	NCMN	_	13	obj	_	SpaceAfter=No
-15	ให้	_	VERB	JSBR	_	13	acl	_	SpaceAfter=No
+15	ให้	_	VERB	JSBR	_	13	mark	_	SpaceAfter=No
 16	เป็น	_	AUX	VSTA	_	17	cop	_	SpaceAfter=No
 17	สถานที่	_	NOUN	NCMN	_	15	xcomp	_	SpaceAfter=No
 18	ที่	_	DET	PREL	_	19	nsubj	_	SpaceAfter=No
@@ -15110,7 +15110,7 @@
 20	ที่	_	DET	PREL	_	22	nsubj:pass	_	SpaceAfter=No
 21	ถูก	_	VERB	XVAM	Voice=Pass	22	aux:pass	_	SpaceAfter=No
 22	บังคับ	_	VERB	VACT	_	17	acl:relcl	_	SpaceAfter=No
-23	ให้	_	VERB	JSBR	_	22	xcomp	_	SpaceAfter=No
+23	ให้	_	VERB	JSBR	_	22	mark	_	SpaceAfter=No
 24	เข้า	_	VERB	VACT	_	23	xcomp	_	SpaceAfter=No
 25	รับ	_	VERB	VACT	_	24	xcomp	_	SpaceAfter=No
 26	ศีล	_	NOUN	NCMN	_	25	obj	_	SpaceAfter=No
@@ -15375,7 +15375,7 @@
 10	หลากหลาย	_	ADJ	NCMN	_	9	amod	_	SpaceAfter=No
 11	ที่	_	DET	PREL	_	12	nsubj	_	SpaceAfter=No
 12	แสดง	_	VERB	VACT	_	4	acl:relcl	_	SpaceAfter=No
-13	ให้	_	VERB	JSBR	_	12	xcomp	_	SpaceAfter=No
+13	ให้	_	VERB	JSBR	_	12	mark	_	SpaceAfter=No
 14	เห็น	_	VERB	VSTA	_	13	xcomp	_	SpaceAfter=No
 15	ถึง	_	ADP	RPRE	_	16	case	_	SpaceAfter=No
 16	สัญญาณ	_	NOUN	NCMN	_	14	obl	_	SpaceAfter=No
@@ -15517,7 +15517,7 @@
 2	ฯ	_	PUNCT	PUNC	_	1	punct	_	Proper=True
 3	ปลดปล่อย	_	VERB	NCMN	_	0	root	_	SpaceAfter=No
 4	คิวบา	_	PROPN	NPRP	_	3	obj	_	SpaceAfter=No
-5	ให้	_	VERB	JSBR	_	3	acl	_	SpaceAfter=No
+5	ให้	_	VERB	JSBR	_	3	mark	_	SpaceAfter=No
 6	เป็น	_	AUX	VSTA	_	7	cop	_	SpaceAfter=No
 7	อิสระ	_	ADJ	NCMN	_	5	xcomp	_	_
 8	(	_	PUNCT	PUNC	_	12	punct	_	SpaceAfter=No
@@ -15552,7 +15552,7 @@
 15	กวม	_	PROPN	NPRP	_	14	conj	_	_
 16	และ	_	CCONJ	JCRG	_	17	cc	_	SpaceAfter=No
 17	ฟิลิปปินส์	_	PROPN	NPRP	_	14	conj	_	_
-18	ให้	_	VERB	JSBR	_	6	acl	_	SpaceAfter=No
+18	ให้	_	VERB	VACT	_	6	acl	_	SpaceAfter=No
 19	สหรัฐ	_	NOUN	VSTA	_	18	obj	_	Proper=True|SpaceAfter=No
 20	อเมริกา	_	PROPN	NPRP	_	19	flat:name	_	_
 
@@ -15725,8 +15725,8 @@
 1	เมื่อ	_	ADP	JSBR	_	3	mark	_	SpaceAfter=No
 2	กรีซ	_	PROPN	NPRP	_	3	nsubj	_	SpaceAfter=No
 3	ออก	_	VERB	XVAE	_	27	advcl	_	SpaceAfter=No
-4	เดินทาง	_	VERB	JSBR	_	3	acl	_	SpaceAfter=No
-5	ค้นหา	_	VERB	VACT	_	4	acl	_	SpaceAfter=No
+4	เดินทาง	_	VERB	JSBR	_	3	mark	_	SpaceAfter=No
+5	ค้นหา	_	VERB	VACT	_	4	xcomp	_	SpaceAfter=No
 6	อาณานิคม	_	NOUN	NCMN	_	5	obj	_	SpaceAfter=No
 7	ทาง	_	ADP	NCMN	_	8	case	_	SpaceAfter=No
 8	ตะวัน	_	NOUN	NCMN	_	6	nmod	_	SpaceAfter=No
@@ -15839,7 +15839,7 @@
 1	การปฏิวัติ	_	VERB	NCMN	_	3	csubj	_	Proper=True|SpaceAfter=No
 2	อุตสาหกรรม	_	NOUN	NCMN	_	1	obj	_	Proper=True|SpaceAfter=No
 3	ก่อ	_	VERB	NCMN	_	0	root	_	SpaceAfter=No
-4	ให้	_	VERB	JSBR	_	3	xcomp	_	SpaceAfter=No
+4	ให้	_	VERB	JSBR	_	3	mark	_	SpaceAfter=No
 5	เกิด	_	VERB	VSTA	_	4	xcomp	_	SpaceAfter=No
 6	ความต้องการ	_	VERB	NCMN	_	5	obj	_	SpaceAfter=No
 7	ชิ้นส่วน	_	NOUN	NCMN	_	6	obj	_	SpaceAfter=No
@@ -15916,7 +15916,7 @@
 11	ความสำเร็จ	_	VERB	VSTA	_	10	obj	_	SpaceAfter=No
 12	ได้	_	PART	XVAE	Aspect=Perf	13	aux	_	SpaceAfter=No
 13	กระตุ้น	_	VERB	VACT	_	0	root	_	SpaceAfter=No
-14	ให้	_	VERB	JSBR	_	13	xcomp	_	SpaceAfter=No
+14	ให้	_	VERB	VACT	_	13	xcomp	_	SpaceAfter=No
 15	จีเอ็ม	_	PROPN	NPRP	_	14	obj	_	SpaceAfter=No
 16	และ	_	CCONJ	JCRG	_	17	cc	_	SpaceAfter=No
 17	ฟอร์ด	_	PROPN	NPRP	_	15	conj	_	SpaceAfter=No
@@ -15950,7 +15950,7 @@
 14	ยัง	_	PART	XVBM	Aspect=Prog	16	aux	_	SpaceAfter=No
 15	ไม่	_	PART	NEG	Polarity=Neg	16	advmod	_	SpaceAfter=No
 16	แนะนำ	_	VERB	VACT	_	4	conj	_	SpaceAfter=No
-17	ให้	_	VERB	JSBR	_	16	xcomp	_	SpaceAfter=No
+17	ให้	_	VERB	JSBR	_	16	mark	_	SpaceAfter=No
 18	ใช้	_	VERB	VACT	_	17	xcomp	_	SpaceAfter=No
 19	ชื่อ	_	NOUN	NCMN	_	18	obj	_	SpaceAfter=No
 20	ตัว	_	NOUN	CNIT	_	19	compound	_	SpaceAfter=No
@@ -16298,7 +16298,7 @@
 13	ดนตรี	_	NOUN	NCMN	_	15	nsubj:pass	_	SpaceAfter=No
 14	ถูก	_	VERB	XVAM	Voice=Pass	15	aux:pass	_	SpaceAfter=No
 15	นิยาม	_	VERB	VACT	_	9	ccomp	_	SpaceAfter=No
-16	ว่า	_	VERB	JSBR	_	15	xcomp	_	SpaceAfter=No
+16	ว่า	_	VERB	VACT	_	15	xcomp	_	SpaceAfter=No
 17	อย่างไร	_	ADV	PNTR	_	16	advmod	_	_
 
 # sent_id = w01099045
@@ -16434,7 +16434,7 @@
 16	และ	_	CCONJ	JCRG	_	18	cc	_	SpaceAfter=No
 17	ถูก	_	VERB	XVAM	Voice=Pass	18	aux:pass	_	SpaceAfter=No
 18	บังคับ	_	VERB	VACT	_	13	conj	_	SpaceAfter=No
-19	ให้	_	VERB	JSBR	_	18	xcomp	_	SpaceAfter=No
+19	ให้	_	VERB	JSBR	_	18	mark	_	SpaceAfter=No
 20	ยอมรับ	_	VERB	VACT	_	19	xcomp	_	SpaceAfter=No
 21	สนธิสัญญา	_	NOUN	NCMN	_	20	obj	_	Proper=True|SpaceAfter=No
 22	เทียนจิน	_	PROPN	NPRP	_	21	flat:name	_	SpaceAfter=No
@@ -16461,7 +16461,7 @@
 8	การค้า	_	VERB	VACT	_	2	obl	_	SpaceAfter=No
 9	และ	_	CCONJ	JCRG	_	10	cc	_	SpaceAfter=No
 10	อนุญาต	_	VERB	VACT	_	2	conj	_	SpaceAfter=No
-11	ให้	_	VERB	JSBR	_	10	xcomp	_	SpaceAfter=No
+11	ให้	_	VERB	VACT	_	10	xcomp	_	SpaceAfter=No
 12	ชาว	_	NOUN	NCMN	_	11	obj	_	SpaceAfter=No
 13	ต่าง	_	ADJ	VSTA	_	14	amod	_	SpaceAfter=No
 14	ชาติ	_	NOUN	NCMN	_	12	compound	_	SpaceAfter=No
@@ -16517,7 +16517,7 @@
 13	จราจร	_	NOUN	NCMN	_	11	compound	_	SpaceAfter=No
 14	ที่	_	DET	PREL	_	15	obj	_	SpaceAfter=No
 15	ปรับปรุง	_	VERB	VACT	_	11	acl:relcl	_	SpaceAfter=No
-16	ให้	_	VERB	JSBR	_	15	xcomp	_	SpaceAfter=No
+16	ให้	_	VERB	JSBR	_	15	mark	_	SpaceAfter=No
 17	ดี	_	ADJ	VATT	_	16	xcomp	_	SpaceAfter=No
 18	ขึ้น	_	ADV	XVAE	_	17	advmod	_	SpaceAfter=No
 19	และ	_	CCONJ	JCRG	_	20	cc	_	SpaceAfter=No
@@ -16788,7 +16788,7 @@
 46	เป็น	_	AUX	VSTA	_	47	cop	_	SpaceAfter=No
 47	คำ	_	NOUN	NCMN	_	43	xcomp	_	SpaceAfter=No
 48	พูด	_	VERB	VACT	_	47	acl	_	SpaceAfter=No
-49	ให้	_	VERB	JSBR	_	47	acl	_	SpaceAfter=No
+49	ให้	_	VERB	VACT	_	47	acl	_	SpaceAfter=No
 50	นัก	_	NOUN	ADVN	_	49	obj	_	SpaceAfter=No
 51	บิน	_	VERB	NCMN	_	50	acl	_	_
 
@@ -17048,7 +17048,7 @@
 4	หนึ่ง	_	NUM	DCNM	_	3	nummod	_	_
 5	เขา	_	PRON	PPRS	Person=3	6	nsubj	_	SpaceAfter=No
 6	แสดง	_	VERB	VACT	_	0	root	_	SpaceAfter=No
-7	ให้	_	VERB	JSBR	_	6	xcomp	_	SpaceAfter=No
+7	ให้	_	VERB	JSBR	_	6	mark	_	SpaceAfter=No
 8	เห็น	_	VERB	VSTA	_	7	xcomp	_	SpaceAfter=No
 9	ว่า	_	ADP	JSBR	_	11	mark	_	SpaceAfter=No
 10	เป็น	_	AUX	VSTA	_	11	cop	_	SpaceAfter=No
@@ -17149,7 +17149,7 @@
 1	วินสโตน	_	PROPN	NPRP	_	3	nsubj:pass	_	SpaceAfter=No
 2	ถูก	_	VERB	XVAM	Voice=Pass	3	aux:pass	_	SpaceAfter=No
 3	ประกาศ	_	VERB	VACT	_	0	root	_	SpaceAfter=No
-4	ให้	_	VERB	JSBR	_	3	ccomp	_	SpaceAfter=No
+4	ให้	_	VERB	JSBR	_	3	mark	_	SpaceAfter=No
 5	เป็น	_	AUX	VSTA	_	6	cop	_	SpaceAfter=No
 6	บุคคล	_	NOUN	NCMN	_	4	xcomp	_	SpaceAfter=No
 7	ล้มละลาย	_	VERB	VSTA	_	6	acl	_	SpaceAfter=No
@@ -17295,7 +17295,7 @@
 5	ตำแหน่ง	_	NOUN	NCMN	_	4	obj	_	_
 6	โจโควี	_	PROPN	NPRP	_	7	nsubj	_	SpaceAfter=No
 7	เรียกร้อง	_	VERB	NCMN	_	0	root	_	SpaceAfter=No
-8	ให้	_	VERB	JSBR	_	7	xcomp	_	SpaceAfter=No
+8	ให้	_	VERB	VACT	_	7	xcomp	_	SpaceAfter=No
 9	ประธานาธิบดี	_	NOUN	VSTA	_	8	obj	_	SpaceAfter=No
 10	ยูโดโยโน	_	PROPN	NPRP	_	9	appos	_	SpaceAfter=No
 11	ผู้	_	DET	PPRS	_	12	nsubj	_	SpaceAfter=No
@@ -17385,7 +17385,7 @@
 14	บท	_	NOUN	NCMN	_	13	obj	_	SpaceAfter=No
 15	วิจารณ์	_	VERB	VACT	_	14	acl	_	SpaceAfter=No
 16	ละคร	_	NOUN	VACT	_	15	obj	_	SpaceAfter=No
-17	ให้	_	VERB	JSBR	_	13	acl	_	SpaceAfter=No
+17	ให้	_	VERB	VACT	_	13	acl	_	SpaceAfter=No
 18	กับ	_	ADP	RPRE	_	19	case	_	SpaceAfter=No
 19	เอดินบะระ	_	PROPN	NPRP	_	17	obl	_	SpaceAfter=No
 20	อีฟนิ่ง	_	NOUN	NCMN	_	19	obl:tmod	_	Proper=True|SpaceAfter=No
@@ -17580,7 +17580,7 @@
 21	คุณ	_	PRON	PPRS	Person=2	23	nsubj	_	SpaceAfter=No
 22	ต้อง	_	VERB	XVMM	_	23	aux	_	SpaceAfter=No
 23	เปิดใจ	_	VERB	VACT	_	17	conj	_	SpaceAfter=No
-24	ให้	_	VERB	JSBR	_	23	acl	_	SpaceAfter=No
+24	ให้	_	VERB	JSBR	_	23	mark	_	SpaceAfter=No
 25	กว้าง	_	ADJ	VATT	_	24	xcomp	_	SpaceAfter=No
 26	เข้า	_	VERB	VACT	_	24	acl	_	SpaceAfter=No
 27	ไว้	_	ADV	XVAE	_	26	advmod	_	SpaceAfter=No
@@ -17608,7 +17608,7 @@
 17	ทำ	_	VERB	VACT	_	12	ccomp	_	SpaceAfter=No
 18	อะนิเมชัน	_	NOUN	NCMN	_	17	obj	_	SpaceAfter=No
 19	เจ้าหญิง	_	NOUN	VACT	_	18	compound	_	SpaceAfter=No
-20	ให้	_	VERB	JSBR	_	17	acl	_	SpaceAfter=No
+20	ให้	_	VERB	JSBR	_	17	mark	_	SpaceAfter=No
 21	อยู่	_	VERB	VSTA	_	20	xcomp	_	SpaceAfter=No
 22	ใน	_	ADP	RPRE	_	23	case	_	SpaceAfter=No
 23	สตูดิโอ	_	NOUN	NCMN	_	21	obl	_	SpaceAfter=No
@@ -17880,7 +17880,7 @@
 24	โมฆะ	_	ADJ	NCMN	_	23	ccomp	_	SpaceAfter=No
 25	และ	_	CCONJ	JCRG	_	26	cc	_	SpaceAfter=No
 26	ประกาศ	_	VERB	VACT	_	17	conj	_	SpaceAfter=No
-27	ให้	_	VERB	JSBR	_	26	xcomp	_	SpaceAfter=No
+27	ให้	_	VERB	VACT	_	26	xcomp	_	SpaceAfter=No
 28	รอง	_	ADJ	VATT	_	29	amod	_	SpaceAfter=No
 29	อันดับ	_	NOUN	NCMN	_	27	obj	_	SpaceAfter=No
 30	หนึ่ง	_	NUM	DCNM	_	29	nummod	_	SpaceAfter=No
@@ -17901,7 +17901,7 @@
 8	1770	_	NUM	NCNM	_	7	appos	_	_
 9	เปิด	_	VERB	VACT	_	4	acl	_	SpaceAfter=No
 10	ทาง	_	NOUN	NCMN	_	9	obj	_	SpaceAfter=No
-11	ให้	_	VERB	JSBR	_	9	acl	_	SpaceAfter=No
+11	ให้	_	VERB	VACT	_	9	acl	_	SpaceAfter=No
 12	พวก	_	NOUN	NCMN	_	11	obj	_	SpaceAfter=No
 13	ทอรี่	_	PROPN	NPRP	_	12	compound	_	SpaceAfter=No
 14	ซึ่ง	_	DET	JSBR	_	15	obj	_	SpaceAfter=No
@@ -18332,7 +18332,7 @@
 1	สตาลิน	_	PROPN	NPRP	_	2	nsubj	_	SpaceAfter=No
 2	เริ่ม	_	VERB	VSTA	_	0	root	_	SpaceAfter=No
 3	สนับสนุน	_	VERB	VACT	_	2	xcomp	_	SpaceAfter=No
-4	ให้	_	VERB	JSBR	_	3	acl	_	SpaceAfter=No
+4	ให้	_	VERB	VACT	_	3	acl	_	SpaceAfter=No
 5	อะบาคูมอฟ	_	PROPN	NPRP	_	4	obj	_	SpaceAfter=No
 6	จัดตั้ง	_	VERB	VACT	_	4	xcomp	_	SpaceAfter=No
 7	เครือข่าย	_	NOUN	NCMN	_	6	obj	_	SpaceAfter=No
@@ -18506,7 +18506,7 @@
 12	นิยาย	_	NOUN	NCMN	_	11	obj	_	SpaceAfter=No
 13	หลาย	_	DET	DIBQ	_	14	det	_	SpaceAfter=No
 14	เรื่อง	_	NOUN	CNIT	_	12	clf	_	SpaceAfter=No
-15	ให้	_	VERB	JSBR	_	11	acl	_	SpaceAfter=No
+15	ให้	_	VERB	JSBR	_	11	mark	_	SpaceAfter=No
 16	ทำ	_	VERB	VACT	_	15	xcomp	_	SpaceAfter=No
 17	หนังสือ	_	NOUN	NCMN	_	16	obj	_	SpaceAfter=No
 18	รวม	_	VERB	VACT	_	17	acl	_	SpaceAfter=No
@@ -18955,7 +18955,7 @@
 11	โยเลียต-กูรี	_	PROPN	NPRP	_	10	flat:name	_	SpaceAfter=No
 12	โดย	_	ADP	JSBR	_	13	mark	_	SpaceAfter=No
 13	แนะนำ	_	VERB	VACT	_	8	advcl	_	SpaceAfter=No
-14	ให้	_	VERB	JSBR	_	13	xcomp	_	SpaceAfter=No
+14	ให้	_	VERB	VACT	_	13	xcomp	_	SpaceAfter=No
 15	โรนา	_	PROPN	NPRP	_	14	obj	_	SpaceAfter=No
 16	มา	_	VERB	XVAE	_	14	xcomp	_	SpaceAfter=No
 17	ทำ	_	VERB	VACT	_	16	acl	_	SpaceAfter=No
@@ -19001,7 +19001,7 @@
 16	โยเลียต-กูรี	_	PROPN	NPRP	_	18	nsubj	_	SpaceAfter=No
 17	ก็	_	ADV	JSBR	_	18	advmod	_	SpaceAfter=No
 18	อนุญาต	_	VERB	VACT	_	0	root	_	SpaceAfter=No
-19	ให้	_	VERB	JSBR	_	18	xcomp	_	SpaceAfter=No
+19	ให้	_	VERB	VACT	_	18	xcomp	_	SpaceAfter=No
 20	เธอ	_	PRON	PPRS	Person=3	19	obj	_	SpaceAfter=No
 21	มา	_	VERB	VACT	_	19	xcomp	_	SpaceAfter=No
 22	ศึกษา	_	VERB	VACT	_	21	xcomp	_	SpaceAfter=No
@@ -19570,7 +19570,7 @@
 39	ช่วย	_	VERB	VACT	_	36	ccomp	_	SpaceAfter=No
 40	ทำ	_	VERB	VACT	_	39	xcomp	_	SpaceAfter=No
 41	เพลง	_	NOUN	NCMN	_	40	obj	_	SpaceAfter=No
-42	ให้	_	VERB	JSBR	_	40	acl	_	_
+42	ให้	_	VERB	JSBR	_	40	mark	_	_
 
 # sent_id = w01147122
 # text = ในเดือนสิงหาคม 2015 เคชาได้เผยข้อมูลเล็กน้อยถึงสตูดิโออัลบั้มที่สามของเธอที่กำลังจะวางแผง
@@ -19669,7 +19669,7 @@
 22	และ	_	CCONJ	JCRG	_	23	cc	_	SpaceAfter=No
 23	ภาพ	_	NOUN	NCMN	_	16	conj	_	SpaceAfter=No
 24	โปรโมต	_	VERB	NCMN	_	23	acl	_	SpaceAfter=No
-25	ให้	_	VERB	JSBR	_	15	acl	_	SpaceAfter=No
+25	ให้	_	VERB	VACT	_	15	acl	_	SpaceAfter=No
 26	กับ	_	ADP	RPRE	_	27	case	_	SpaceAfter=No
 27	ภาพยนตร์	_	NOUN	NCMN	_	25	obl	_	SpaceAfter=No
 28	ของ	_	ADP	RPRE	_	29	case	_	SpaceAfter=No
@@ -19761,7 +19761,7 @@
 2	เขา	_	PRON	PPRS	Person=3	1	compound	_	SpaceAfter=No
 3	ได้	_	PART	XVAM	Aspect=Perf	4	aux	_	SpaceAfter=No
 4	ตัดสินใจ	_	VERB	VACT	_	0	root	_	SpaceAfter=No
-5	ให้	_	VERB	JSBR	_	4	xcomp	_	SpaceAfter=No
+5	ให้	_	VERB	VACT	_	4	xcomp	_	SpaceAfter=No
 6	แอลเบเนีย	_	PROPN	NPRP	_	5	obj	_	SpaceAfter=No
 7	อยู่	_	VERB	VSTA	_	5	xcomp	_	SpaceAfter=No
 8	ใต้	_	ADP	RPRE	_	9	case	_	SpaceAfter=No
@@ -20083,7 +20083,7 @@
 3	สวีเดน	_	PROPN	NPRP	_	1	obl	_	SpaceAfter=No
 4	ได้	_	PART	XVAM	Aspect=Perf	5	aux	_	SpaceAfter=No
 5	แสดง	_	VERB	VACT	_	0	root	_	SpaceAfter=No
-6	ให้	_	VERB	JSBR	_	5	xcomp	_	SpaceAfter=No
+6	ให้	_	VERB	JSBR	_	5	mark	_	SpaceAfter=No
 7	เห็น	_	VERB	VSTA	_	6	xcomp	_	SpaceAfter=No
 8	ว่า	_	ADP	JSBR	_	13	mark	_	SpaceAfter=No
 9	สัตว์	_	NOUN	NCMN	_	13	nsubj	_	SpaceAfter=No
@@ -20206,7 +20206,7 @@
 1	อย่าง	_	CCONJ	FIXV	_	4	cc	_	SpaceAfter=No
 2	ที่	_	ADP	PREL	_	1	fixed	_	SpaceAfter=No
 3	เขา	_	PRON	PPRS	Person=3	4	nsubj	_	SpaceAfter=No
-4	ว่า	_	VERB	JSBR	_	0	root	_	SpaceAfter=No
+4	ว่า	_	VERB	VACT	_	0	root	_	SpaceAfter=No
 5	กัน	_	PRON	ADVN	_	4	advmod	_	SpaceAfter=No
 6	ว่า	_	ADP	JSBR	_	8	mark	_	SpaceAfter=No
 7	เป็น	_	AUX	VSTA	_	8	cop	_	SpaceAfter=No
@@ -20344,7 +20344,7 @@
 # text_en = Von Beust justified the cost increases as lack of detailed planning.
 1	ฟอน	_	PROPN	NPRP	_	3	nsubj	_	_
 2	บอยส์ท	_	PROPN	NPRP	_	1	flat:name	_	SpaceAfter=No
-3	ให้	_	VERB	JSBR	_	0	root	_	SpaceAfter=No
+3	ให้	_	VERB	VACT	_	0	root	_	SpaceAfter=No
 4	เหตุผล	_	NOUN	NCMN	_	3	obj	_	SpaceAfter=No
 5	ว่า	_	ADP	JSBR	_	8	mark	_	SpaceAfter=No
 6	ค่า	_	NOUN	NCMN	_	8	nsubj	_	SpaceAfter=No
@@ -20733,7 +20733,7 @@
 2	ของ	_	ADP	RPRE	_	3	case	_	SpaceAfter=No
 3	บาร์โรโซ	_	PROPN	NPRP	_	1	obl:poss	_	SpaceAfter=No
 4	ก่อ	_	VERB	NCMN	_	0	root	_	SpaceAfter=No
-5	ให้	_	VERB	JSBR	_	4	xcomp	_	SpaceAfter=No
+5	ให้	_	VERB	JSBR	_	4	mark	_	SpaceAfter=No
 6	เกิด	_	VERB	VSTA	_	5	xcomp	_	SpaceAfter=No
 7	ความวุ่นวาย	_	VERB	NCMN	_	6	obj	_	SpaceAfter=No
 8	ครั้ง	_	NOUN	CFQC	_	7	clf	_	SpaceAfter=No
@@ -20780,7 +20780,7 @@
 18	เป็น	_	AUX	VSTA	_	19	cop	_	SpaceAfter=No
 19	ศัตรู	_	NOUN	NCMN	_	12	acl:relcl	_	SpaceAfter=No
 20	กัน	_	PRON	ADVN	_	19	advmod	_	SpaceAfter=No
-21	ให้	_	VERB	JSBR	_	11	acl	_	SpaceAfter=No
+21	ให้	_	VERB	JSBR	_	11	mark	_	SpaceAfter=No
 22	มา	_	VERB	VACT	_	21	xcomp	_	SpaceAfter=No
 23	ใกล้ชิด	_	ADJ	VACT	_	22	xcomp	_	SpaceAfter=No
 24	กัน	_	PRON	ADVN	_	23	advmod	_	SpaceAfter=No
@@ -20895,7 +20895,7 @@
 7	ดัน	_	VERB	VACT	_	0	root	_	SpaceAfter=No
 8	ตลาด	_	NOUN	NCMN	_	7	obj	_	SpaceAfter=No
 9	หุ้น	_	NOUN	NCMN	_	8	compound	_	SpaceAfter=No
-10	ให้	_	VERB	JSBR	_	7	acl	_	SpaceAfter=No
+10	ให้	_	VERB	JSBR	_	7	mark	_	SpaceAfter=No
 11	ขึ้น	_	VERB	XVAE	_	10	xcomp	_	SpaceAfter=No
 12	ทันที	_	ADV	ADVN	_	11	advmod	_	_
 
@@ -21044,7 +21044,7 @@
 9	มลรัฐ	_	NOUN	NCMN	_	8	compound	_	SpaceAfter=No
 10	ได้	_	PART	XVAM	Aspect=Perf	11	aux	_	SpaceAfter=No
 11	จัด	_	VERB	VACT	_	2	advcl	_	SpaceAfter=No
-12	ให้	_	VERB	JSBR	_	11	xcomp	_	SpaceAfter=No
+12	ให้	_	VERB	VACT	_	11	xcomp	_	SpaceAfter=No
 13	มรดก	_	NOUN	NCMN	_	12	obj	_	Proper=True|SpaceAfter=No
 14	ทาง	_	ADP	RPRE	_	15	case	_	Proper=True|SpaceAfter=No
 15	ธรรมชาติ	_	NOUN	NCMN	_	13	nmod	_	Proper=True|SpaceAfter=No
@@ -21195,7 +21195,7 @@
 15	ยี่	_	NUM	VATT	_	16	nummod	_	Proper=True|SpaceAfter=No
 16	สิบ	_	NUM	DCNM	_	17	nummod	_	SpaceAfter=No
 17	ปี	_	NOUN	CMTR	_	14	obl:tmod	_	SpaceAfter=No
-18	ให้	_	VERB	JSBR	_	14	acl	_	SpaceAfter=No
+18	ให้	_	VERB	VACT	_	14	acl	_	SpaceAfter=No
 19	หลัง	_	ADV	VATT	_	18	advmod	_	SpaceAfter=No
 20	นั้น	_	DET	DDAC	_	5	det	_	SpaceAfter=No
 21	ไม่	_	PART	NEG	Polarity=Neg	22	advmod	_	SpaceAfter=No
@@ -21317,7 +21317,7 @@
 13	สนับสนุน	_	VERB	VACT	_	4	acl:relcl	_	SpaceAfter=No
 14	นิโคลาส์	_	PROPN	NPRP	_	13	obj	_	_
 15	ซาร์โกซี	_	PROPN	NPRP	_	14	flat:name	_	SpaceAfter=No
-16	ให้	_	VERB	JSBR	_	13	acl	_	SpaceAfter=No
+16	ให้	_	VERB	JSBR	_	13	mark	_	SpaceAfter=No
 17	เป็น	_	AUX	VSTA	_	18	cop	_	SpaceAfter=No
 18	ผู้	_	NOUN	PPRS	_	16	xcomp	_	SpaceAfter=No
 19	สมัคร	_	VERB	VACT	_	18	acl	_	SpaceAfter=No
@@ -21405,7 +21405,7 @@
 2	งาน	_	NOUN	NCMN	_	1	compound	_	SpaceAfter=No
 3	ได้รับ	_	VERB	VSTA	Voice=Pass	4	aux:pass	_	SpaceAfter=No
 4	อนุญาต	_	VERB	VACT	_	0	root	_	SpaceAfter=No
-5	ให้	_	VERB	JSBR	_	4	xcomp	_	SpaceAfter=No
+5	ให้	_	VERB	JSBR	_	4	mark	_	SpaceAfter=No
 6	วาง	_	VERB	VACT	_	5	xcomp	_	SpaceAfter=No
 7	วัตถุ	_	NOUN	NCMN	_	6	obj	_	SpaceAfter=No
 8	มงคล	_	NOUN	VACT	_	7	compound	_	SpaceAfter=No
@@ -21524,7 +21524,7 @@
 # text_en = It aims to take the journey time into account after deducting this from the working hours actually completed, without being able to measure the real journey time.
 1	มี	_	VERB	VSTA	_	0	root	_	SpaceAfter=No
 2	จุดประสงค์	_	NOUN	NCMN	_	1	obj	_	SpaceAfter=No
-3	ให้	_	VERB	JSBR	_	1	acl	_	SpaceAfter=No
+3	ให้	_	VERB	JSBR	_	1	mark	_	SpaceAfter=No
 4	นับ	_	VERB	VACT	_	3	xcomp	_	SpaceAfter=No
 5	รวม	_	VERB	VACT	_	4	xcomp	_	SpaceAfter=No
 6	เวลา	_	NOUN	NCMN	_	5	obj	_	SpaceAfter=No
@@ -21941,7 +21941,7 @@
 10	ที่แล้ว	_	ADJ	DIAC	_	9	amod	_	_
 11	และ	_	CCONJ	JCRG	_	12	cc	_	SpaceAfter=No
 12	บอก	_	VERB	VACT	_	4	conj	_	SpaceAfter=No
-13	ให้	_	VERB	JSBR	_	12	xcomp	_	SpaceAfter=No
+13	ให้	_	VERB	VACT	_	12	xcomp	_	SpaceAfter=No
 14	เรา	_	PRON	PPRS	Person=1	13	obj	_	SpaceAfter=No
 15	รู้	_	VERB	VSTA	_	13	xcomp	_	SpaceAfter=No
 16	ว่า	_	ADP	JSBR	_	21	mark	_	SpaceAfter=No
@@ -22016,7 +22016,7 @@
 16	ธนาคาร	_	NOUN	NCMN	_	18	nsubj	_	SpaceAfter=No
 17	ได้	_	PART	XVAM	Aspect=Perf	18	aux	_	SpaceAfter=No
 18	แสดง	_	VERB	VACT	_	10	acl:relcl	_	SpaceAfter=No
-19	ให้	_	VERB	JSBR	_	18	xcomp	_	SpaceAfter=No
+19	ให้	_	VERB	VACT	_	18	xcomp	_	SpaceAfter=No
 20	เรา	_	PRON	PPRS	Person=1	19	obj	_	SpaceAfter=No
 21	เห็น	_	VERB	VSTA	_	19	xcomp	_	SpaceAfter=No
 22	”	_	PUNCT	PUNC	_	10	punct	_	_
@@ -22473,13 +22473,13 @@
 # text = รัฐมนตรีว่าการกระทรวงกลาโหมได้อนุญาตให้เธอดำรงตำแหน่งเลขาธิการพรรคในขณะนี้
 # text_en = The Minister of Defense has allowed her to remain General Secretary of the party for now.
 1	รัฐมนตรี	_	NOUN	NCMN	_	7	nsubj	_	SpaceAfter=No
-2	ว่า	_	VERB	JSBR	_	1	acl	_	SpaceAfter=No
+2	ว่า	_	VERB	VACT	_	1	acl	_	SpaceAfter=No
 3	การ	_	NOUN	FIXN	_	2	obj	_	SpaceAfter=No
 4	กระทรวง	_	NOUN	VACT	_	1	compound	_	Proper=True|SpaceAfter=No
 5	กลาโหม	_	NOUN	NCMN	_	4	flat:name	_	Proper=True|SpaceAfter=No
 6	ได้	_	PART	XVAE	Aspect=Perf	7	aux	_	SpaceAfter=No
 7	อนุญาต	_	VERB	VACT	_	0	root	_	SpaceAfter=No
-8	ให้	_	VERB	JSBR	_	7	xcomp	_	SpaceAfter=No
+8	ให้	_	VERB	VACT	_	7	xcomp	_	SpaceAfter=No
 9	เธอ	_	PRON	PPRS	Person=3	8	obj	_	SpaceAfter=No
 10	ดำรง	_	VERB	VACT	_	8	xcomp	_	SpaceAfter=No
 11	ตำแหน่ง	_	NOUN	NCMN	_	10	obj	_	SpaceAfter=No
@@ -22841,7 +22841,7 @@
 3	ล่วงหน้า	_	ADV	ADVN	_	1	advmod	_	SpaceAfter=No
 4	ได้	_	PART	XVAE	Aspect=Perf	5	aux	_	SpaceAfter=No
 5	ชี้	_	VERB	VACT	_	0	root	_	SpaceAfter=No
-6	ให้	_	VERB	JSBR	_	5	xcomp	_	SpaceAfter=No
+6	ให้	_	VERB	JSBR	_	5	mark	_	SpaceAfter=No
 7	เห็น	_	VERB	VSTA	_	6	xcomp	_	SpaceAfter=No
 8	ว่า	_	ADP	JSBR	_	15	mark	_	SpaceAfter=No
 9	ใน	_	ADP	RPRE	_	10	case	_	SpaceAfter=No
@@ -23030,7 +23030,7 @@
 12	ได้	_	PART	XVAM	Aspect=Perf	14	aux	_	SpaceAfter=No
 13	ถูก	_	VERB	XVAM	Voice=Pass	14	aux:pass	_	SpaceAfter=No
 14	ทิ้ง	_	VERB	VACT	_	4	acl:relcl	_	SpaceAfter=No
-15	ให้	_	VERB	JSBR	_	14	xcomp	_	SpaceAfter=No
+15	ให้	_	VERB	VACT	_	14	xcomp	_	SpaceAfter=No
 16	ชุมชน	_	NOUN	NCMN	_	15	obj	_	SpaceAfter=No
 17	มี	_	VERB	VSTA	_	0	root	_	SpaceAfter=No
 18	การรับ	_	VERB	NCMN	_	17	obj	_	SpaceAfter=No
@@ -23080,7 +23080,7 @@
 5	เก่า	_	ADJ	VATT	_	4	amod	_	SpaceAfter=No
 6	ถูก	_	VERB	XVAM	Voice=Pass	7	aux:pass	_	SpaceAfter=No
 7	ขาย	_	VERB	VACT	_	0	root	_	SpaceAfter=No
-8	ให้	_	VERB	JSBR	_	7	xcomp	_	SpaceAfter=No
+8	ให้	_	VERB	VACT	_	7	xcomp	_	SpaceAfter=No
 9	กับ	_	ADP	RPRE	_	10	case	_	SpaceAfter=No
 10	เจ้า	_	NOUN	NCMN	_	8	obl	_	SpaceAfter=No
 11	ของ	_	NOUN	RPRE	_	10	compound	_	SpaceAfter=No
@@ -23216,7 +23216,7 @@
 # sent_id = w02005027
 # text = ให้บริการเป็นสถานที่ท้องถิ่นสำหรับการพักผ่อนหย่อนใจสำหรับชาวซานฟรานซิสโก
 # text_en = It serves as a local place of rest and relaxation for San Franciscans.
-1	ให้	_	VERB	JSBR	_	0	root	_	SpaceAfter=No
+1	ให้	_	VERB	VACT	_	0	root	_	SpaceAfter=No
 2	บริการ	_	NOUN	VACT	_	1	obj	_	SpaceAfter=No
 3	เป็น	_	AUX	VSTA	_	4	cop	_	SpaceAfter=No
 4	สถานที่	_	NOUN	NCMN	_	1	acl	_	SpaceAfter=No
@@ -23349,7 +23349,7 @@
 3	ต้องการ	_	VERB	VACT	_	0	root	_	SpaceAfter=No
 4	ยับยั้ง	_	VERB	VACT	_	3	xcomp	_	SpaceAfter=No
 5	ไม่	_	PART	NEG	Polarity=Neg	6	advmod	_	SpaceAfter=No
-6	ให้	_	VERB	JSBR	_	4	xcomp	_	SpaceAfter=No
+6	ให้	_	VERB	VACT	_	4	xcomp	_	SpaceAfter=No
 7	ธัญพืช	_	NOUN	NCMN	_	6	obj	_	SpaceAfter=No
 8	ถูก	_	VERB	XVAM	Voice=Pass	9	aux:pass	_	SpaceAfter=No
 9	ส่ง	_	VERB	VACT	_	6	xcomp	_	SpaceAfter=No
@@ -23375,7 +23375,7 @@
 5	ไม่	_	PART	NEG	Polarity=Neg	6	advmod	_	SpaceAfter=No
 6	ได้รับ	_	VERB	VSTA	Voice=Pass	7	aux	_	SpaceAfter=No
 7	อนุญาต	_	VERB	VACT	_	0	root	_	SpaceAfter=No
-8	ให้	_	VERB	JSBR	_	7	xcomp	_	SpaceAfter=No
+8	ให้	_	VERB	JSBR	_	7	mark	_	SpaceAfter=No
 9	แล่น	_	VERB	NCMN	_	8	xcomp	_	SpaceAfter=No
 10	เรือ	_	NOUN	NCMN	_	9	obj	_	SpaceAfter=No
 11	รบ	_	VERB	NCMN	_	10	acl	_	SpaceAfter=No
@@ -23599,7 +23599,7 @@
 9	ฟัง	_	VERB	VACT	_	8	acl	_	SpaceAfter=No
 10	ก็	_	ADV	JSBR	_	11	advmod	_	SpaceAfter=No
 11	ขอ	_	VERB	VACT	_	4	conj	_	SpaceAfter=No
-12	ให้	_	VERB	JSBR	_	11	xcomp	_	SpaceAfter=No
+12	ให้	_	VERB	JSBR	_	11	mark	_	SpaceAfter=No
 13	แสดง	_	VERB	VACT	_	12	xcomp	_	SpaceAfter=No
 14	ซ้ำ	_	ADV	ADVN	_	13	advmod	_	SpaceAfter=No
 15	อีก	_	ADV	ADVN	_	13	advmod	_	_
@@ -23664,7 +23664,7 @@
 2	สุเอซ	_	PROPN	NPRP	_	1	flat:name	_	SpaceAfter=No
 3	ได้	_	PART	XVAM	Aspect=Perf	4	aux	_	SpaceAfter=No
 4	แสดง	_	VERB	VACT	_	0	root	_	SpaceAfter=No
-5	ให้	_	VERB	JSBR	_	4	xcomp	_	SpaceAfter=No
+5	ให้	_	VERB	JSBR	_	4	mark	_	SpaceAfter=No
 6	เห็น	_	VERB	VSTA	_	5	xcomp	_	SpaceAfter=No
 7	ถึง	_	ADP	RPRE	_	8	case	_	SpaceAfter=No
 8	ขอบเขต	_	NOUN	NCMN	_	6	obl	_	SpaceAfter=No
@@ -23753,7 +23753,7 @@
 14	ว่า	_	ADP	JSBR	_	16	mark	_	SpaceAfter=No
 15	จะ	_	VERB	XVBM	_	16	aux	_	SpaceAfter=No
 16	จัด	_	VERB	VACT	_	13	ccomp	_	SpaceAfter=No
-17	ให้	_	VERB	JSBR	_	16	xcomp	_	SpaceAfter=No
+17	ให้	_	VERB	JSBR	_	16	mark	_	SpaceAfter=No
 18	มี	_	VERB	VSTA	_	17	xcomp	_	SpaceAfter=No
 19	การเลือกตั้ง	_	VERB	NCMN	_	18	obj	_	SpaceAfter=No
 20	ทั่วไป	_	ADJ	VATT	_	19	amod	_	SpaceAfter=No
@@ -24276,7 +24276,7 @@
 5	พิรัส	_	PROPN	NPRP	_	7	nsubj:pass	_	SpaceAfter=No
 6	ถูก	_	VERB	XVAM	Voice=Pass	7	aux:pass	_	SpaceAfter=No
 7	บังคับ	_	VERB	VACT	_	0	root	_	SpaceAfter=No
-8	ให้	_	VERB	JSBR	_	7	xcomp	_	SpaceAfter=No
+8	ให้	_	VERB	JSBR	_	7	mark	_	SpaceAfter=No
 9	ออก	_	VERB	VACT	_	8	xcomp	_	SpaceAfter=No
 10	จาก	_	ADP	RPRE	_	11	case	_	SpaceAfter=No
 11	ซิซิลี	_	PROPN	NPRP	_	9	obl	_	SpaceAfter=No
@@ -24414,7 +24414,7 @@
 10	เริ่ม	_	VERB	VSTA	_	0	root	_	SpaceAfter=No
 11	มี	_	VERB	VSTA	_	10	xcomp	_	SpaceAfter=No
 12	ปรากฏ	_	VERB	VSTA	_	11	xcomp	_	SpaceAfter=No
-13	ให้	_	VERB	JSBR	_	12	acl	_	SpaceAfter=No
+13	ให้	_	VERB	JSBR	_	12	mark	_	SpaceAfter=No
 14	เห็น	_	VERB	VSTA	_	13	xcomp	_	_
 15	ซึ่ง	_	ADP	PREL	_	16	mark	_	SpaceAfter=No
 16	มี	_	VERB	VSTA	_	10	advcl	_	SpaceAfter=No
@@ -25013,7 +25013,7 @@
 13	มี	_	VERB	VSTA	_	6	advcl	_	SpaceAfter=No
 14	เจตนา	_	NOUN	NCMN	_	13	obj	_	SpaceAfter=No
 15	ขาย	_	VERB	VACT	_	13	acl	_	SpaceAfter=No
-16	ให้	_	VERB	JSBR	_	15	xcomp	_	SpaceAfter=No
+16	ให้	_	VERB	VACT	_	15	xcomp	_	SpaceAfter=No
 17	นัก	_	NOUN	ADVN	_	16	obj	_	SpaceAfter=No
 18	สะสม	_	VERB	NCMN	_	17	acl	_	SpaceAfter=No
 19	เป็น	_	AUX	FIXV	_	20	cop	_	SpaceAfter=No
@@ -25144,7 +25144,7 @@
 15	เพื่อ	_	ADP	JSBR	_	16	mark	_	SpaceAfter=No
 16	ไป	_	VERB	VACT	_	9	advcl	_	SpaceAfter=No
 17	มุ่ง	_	VERB	VACT	_	16	acl	_	SpaceAfter=No
-18	ให้	_	VERB	JSBR	_	17	xcomp	_	SpaceAfter=No
+18	ให้	_	VERB	VACT	_	17	xcomp	_	SpaceAfter=No
 19	ความสนใจ	_	VERB	VSTA	_	18	obj	_	SpaceAfter=No
 20	กับ	_	ADP	RPRE	_	21	case	_	SpaceAfter=No
 21	เรื่อง	_	NOUN	NCMN	_	19	obl	_	SpaceAfter=No
@@ -25237,7 +25237,7 @@
 17	มาเรนโก	_	PROPN	NPRP	_	16	flat:name	_	SpaceAfter=No
 18	ก็	_	ADV	JSBR	_	19	advmod	_	SpaceAfter=No
 19	บีบบังคับ	_	VERB	VACT	_	4	conj	_	SpaceAfter=No
-20	ให้	_	VERB	JSBR	_	19	xcomp	_	SpaceAfter=No
+20	ให้	_	VERB	VACT	_	19	xcomp	_	SpaceAfter=No
 21	ชาว	_	NOUN	NCMN	_	20	obj	_	SpaceAfter=No
 22	ออสเตรีย	_	PROPN	NPRP	_	21	compound	_	SpaceAfter=No
 23	ต้อง	_	VERB	XVMM	_	24	aux	_	SpaceAfter=No
@@ -25534,7 +25534,7 @@
 6	เป็น	_	AUX	VSTA	_	7	cop	_	SpaceAfter=No
 7	ที่	_	PRON	PREL	_	0	root	_	SpaceAfter=No
 8	แน่ชัด	_	ADJ	VSTA	_	7	amod	_	SpaceAfter=No
-9	ว่า	_	VERB	JSBR	_	7	acl	_	SpaceAfter=No
+9	ว่า	_	VERB	VACT	_	7	acl	_	SpaceAfter=No
 10	ใคร	_	PRON	PNTR	_	9	obj	_	SpaceAfter=No
 11	ระหว่าง	_	ADP	RPRE	_	13	case	_	SpaceAfter=No
 12	สอง	_	NUM	DCNM	_	13	nummod	_	SpaceAfter=No
@@ -25572,7 +25572,7 @@
 10	อันโตนิโอ	_	PROPN	NPRP	_	13	nsubj	_	_
 11	เกาดี	_	PROPN	NPRP	_	10	flat:name	_	_
 12	ได้	_	PART	XVAE	Aspect=Perf	13	aux	_	SpaceAfter=No
-13	ทำให้	_	VERB	JSBR	_	0	root	_	SpaceAfter=No
+13	ทำให้	_	VERB	VACT	_	0	root	_	SpaceAfter=No
 14	เกิด	_	VERB	VSTA	_	13	xcomp	_	SpaceAfter=No
 15	การปฏิรูป	_	VERB	NCMN	_	14	obj	_	SpaceAfter=No
 16	ที่	_	DET	PREL	_	17	nsubj	_	SpaceAfter=No
@@ -25609,7 +25609,7 @@
 # text = ธรรมเนียมว่าไว้ว่ารูปแบบถูกกำหนดอย่างตั้งใจเนื่องจากมีชาวยิวที่เปลี่ยนศาสนาเป็นจำนวนมากที่อาศัยในปัลมา
 # text_en = Tradition has it that the theme was selected intentionally because of the great number of converted Jews who lived in Palma.
 1	ธรรมเนียม	_	NOUN	NPRP	_	2	nsubj	_	SpaceAfter=No
-2	ว่า	_	VERB	JSBR	_	0	root	_	SpaceAfter=No
+2	ว่า	_	VERB	VACT	_	0	root	_	SpaceAfter=No
 3	ไว้	_	ADV	XVAE	_	2	advmod	_	SpaceAfter=No
 4	ว่า	_	ADP	JSBR	_	7	mark	_	SpaceAfter=No
 5	รูปแบบ	_	NOUN	NCMN	_	7	nsubj:pass	_	SpaceAfter=No
@@ -25668,7 +25668,7 @@
 3	กลาง	_	ADJ	VATT	_	2	amod	_	SpaceAfter=No
 4	นั้น	_	DET	DDAC	_	1	det	_	SpaceAfter=No
 5	เรียก	_	VERB	VACT	_	0	root	_	SpaceAfter=No
-6	ว่า	_	VERB	JSBR	_	5	xcomp	_	_
+6	ว่า	_	VERB	VACT	_	5	xcomp	_	_
 7	‘	_	PUNCT	PUNC	_	8	punct	_	SpaceAfter=No
 8	แอนดีสเดติโปอันดิโน	_	PROPN	NPRP	_	6	obj	_	_
 9	’	_	PUNCT	PUNC	_	11	punct	_	_
@@ -25708,7 +25708,7 @@
 19	ได้	_	PART	XVAM	Aspect=Perf	20	aux	_	SpaceAfter=No
 20	ส่ง	_	VERB	VACT	_	0	root	_	SpaceAfter=No
 21	ผล	_	NOUN	NCMN	_	20	obj	_	SpaceAfter=No
-22	ให้	_	VERB	JSBR	_	20	acl	_	SpaceAfter=No
+22	ให้	_	VERB	JSBR	_	20	mark	_	SpaceAfter=No
 23	เกิด	_	VERB	VSTA	_	22	xcomp	_	SpaceAfter=No
 24	การปฏิวัติ	_	VERB	NCMN	_	23	obj	_	Proper=True|SpaceAfter=No
 25	แห่ง	_	ADP	CNIT	_	26	case	_	Proper=True|SpaceAfter=No
@@ -25748,7 +25748,7 @@
 23	เนรเทศ	_	VERB	VACT	_	20	acl:relcl	_	SpaceAfter=No
 24	ได้รับ	_	VERB	VSTA	Voice=Pass	25	aux:pass	_	SpaceAfter=No
 25	อนุญาต	_	VERB	VACT	_	11	conj	_	SpaceAfter=No
-26	ให้	_	VERB	JSBR	_	25	xcomp	_	SpaceAfter=No
+26	ให้	_	VERB	JSBR	_	25	mark	_	SpaceAfter=No
 27	กลับ	_	VERB	VACT	_	26	xcomp	_	SpaceAfter=No
 28	ประเทศ	_	NOUN	NCMN	_	27	obj	_	_
 29	และ	_	CCONJ	JCRG	_	35	cc	_	SpaceAfter=No
@@ -25777,7 +25777,7 @@
 12	อัน	_	DET	PREL	_	14	nsubj	_	SpaceAfter=No
 13	เป็น	_	AUX	VSTA	_	14	cop	_	SpaceAfter=No
 14	เหตุ	_	NOUN	NCMN	_	10	acl:relcl	_	SpaceAfter=No
-15	ให้	_	VERB	JSBR	_	14	acl	_	SpaceAfter=No
+15	ให้	_	VERB	VACT	_	14	acl	_	SpaceAfter=No
 16	ธุรกิจ	_	NOUN	NCMN	_	15	obj	_	SpaceAfter=No
 17	เข้า	_	VERB	VACT	_	15	xcomp	_	SpaceAfter=No
 18	สู่	_	ADP	RPRE	_	19	case	_	SpaceAfter=No
@@ -25921,7 +25921,7 @@
 11	ตั้งใจ	_	VERB	VACT	_	6	acl:relcl	_	SpaceAfter=No
 12	จะ	_	VERB	XVBM	_	13	aux	_	SpaceAfter=No
 13	ไป	_	VERB	VACT	_	11	xcomp	_	SpaceAfter=No
-14	ให้	_	VERB	JSBR	_	13	acl	_	SpaceAfter=No
+14	ให้	_	VERB	VACT	_	13	acl	_	SpaceAfter=No
 15	ถึง	_	ADP	RPRE	_	16	case	_	SpaceAfter=No
 16	อัลบานี	_	PROPN	NPRP	_	14	obl	_	_
 
@@ -26249,7 +26249,7 @@
 7	โดย	_	ADP	RPRE	_	9	case	_	SpaceAfter=No
 8	การไม่	_	PART	NCMN	Polarity=Neg	9	advmod	_	SpaceAfter=No
 9	อนุญาต	_	VERB	VACT	_	4	xcomp	_	SpaceAfter=No
-10	ให้	_	VERB	JSBR	_	9	xcomp	_	SpaceAfter=No
+10	ให้	_	VERB	VACT	_	9	xcomp	_	SpaceAfter=No
 11	เขา	_	PRON	PPRS	Person=3	10	obj	_	SpaceAfter=No
 12	เข้าร่วม	_	VERB	VACT	_	10	xcomp	_	SpaceAfter=No
 13	ชิง	_	VERB	NCMN	_	12	xcomp	_	SpaceAfter=No
