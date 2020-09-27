@@ -33,9 +33,17 @@ Tokenizer, POS-tagger, and dependency-parser for Thai language, working on [Univ
 advmod           ╚> ADV  ใหม่
 ```
 
-## Installation
+## Installation for Linux
 
 ```sh
 pip3 install spacy_thai --user
+```
+
+## Installation for Cygwin
+
+Make sure to get `python37-devel` `python37-pip` `python37-numpy` `python37-cython` `gcc-g++`, and then:
+
+```sh
+pip3.7 install spacy_thai --no-build-isolation
 ```
 
