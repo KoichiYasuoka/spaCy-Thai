@@ -20,13 +20,13 @@ class ThaiTagger(object):
     pos=[]
     tags=[]
     spaces=[]
-    for form,xpos in self.pos_tag([t.orth_ for t in doc]):
+    for i,(form,xpos) in enumerate(self.pos_tag([t.orth_ for t in doc])):
       if form.strip()=="":
         if len(spaces)>0:
           spaces[-1]=True
       else:
         words.append(form)
-        spaces.append(False)
+        spaces.append(doc[i].whitespace_!="")
         tags.append(vs.add(xpos))
         pos.append(self.tag_map[xpos][POS] if xpos in self.tag_map else X)
     doc=Doc(self.vocab,words=words,spaces=spaces)
