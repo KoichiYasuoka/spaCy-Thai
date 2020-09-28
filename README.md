@@ -47,3 +47,11 @@ Make sure to get `python37-devel` `python37-pip` `python37-numpy` `python37-cyth
 pip3.7 install spacy_thai --no-build-isolation
 ```
 
+## Installation for Google Colaboratory
+
+```py
+!pip install spacy_thai
+```
+
+Try [notebook](https://colab.research.google.com/github/KoichiYasuoka/spaCy-Thai/blob/master/spacy_thai.ipynb).
+
