@@ -6,7 +6,7 @@ URL="https://github.com/KoichiYasuoka/spaCy-Thai"
 
 setuptools.setup(
   name="spacy_thai",
-  version="0.4.7",
+  version="0.4.8",
   description="Dependency-parser for Thai language",
   long_description=long_description,
   long_description_content_type="text/markdown",
