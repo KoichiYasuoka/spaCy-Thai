@@ -16,7 +16,7 @@ setuptools.setup(
   license="MIT",
   keywords="spaCy udpipe nlp",
   packages=setuptools.find_packages(),
-  install_requires=["spacy>=2.2.2","ufal.udpipe>=1.2.0","deplacy>=1.7.0","pythainlp>=2.2.4"],
+  install_requires=["spacy>=2.2.2","ufal.udpipe>=1.2.0","deplacy>=1.7.5","pythainlp>=2.2.4"],
   python_requires=">=3.6",
   package_data={"spacy_thai":["./*.udpipe"]},
   classifiers=[
