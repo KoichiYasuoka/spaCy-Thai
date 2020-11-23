@@ -5,15 +5,18 @@ import os,numpy
 from spacy.lang.th import Thai
 from spacy.symbols import POS,TAG,DEP,HEAD,X
 from spacy.tokens import Doc
+from spacy.language import Language
 PACKAGE_DIR=os.path.abspath(os.path.dirname(__file__))
+SPACY_V3=hasattr(Language,"component")
 
 class ThaiTagger(object):
-  name="tagger"
+  name="thai_tagger"
   def __init__(self,nlp):
     from pythainlp import pos_tag
+    from pythainlp.tag.orchid import TO_UD
     self.pos_tag=pos_tag
+    self.tag_map={p:{POS:nlp.vocab.strings.add(TO_UD[p])} for p in list(TO_UD)}
     self.vocab=nlp.vocab
-    self.tag_map=nlp.Defaults.tag_map
   def __call__(self,doc):
     vs=self.vocab.strings
     words=[]
@@ -32,11 +35,12 @@ class ThaiTagger(object):
     doc=Doc(self.vocab,words=words,spaces=spaces)
     a=numpy.array(list(zip(pos,tags)),dtype="uint64")
     doc.from_array([POS,TAG],a)
-    doc.is_tagged=True
+    if not SPACY_V3:
+      doc.is_tagged=True
     return doc
 
 class ThaiParser(object):
-  name="parser"
+  name="thai_parser"
   def __init__(self,nlp):
     import ufal.udpipe
     self.model=ufal.udpipe.Model.load(os.path.join(PACKAGE_DIR,"ud-thai.udpipe"))
@@ -63,12 +67,19 @@ class ThaiParser(object):
         deps.append(vs.add(deprel))
     a=numpy.array(list(zip(deps,heads)),dtype="uint64")
     doc.from_array([DEP,HEAD],a)
-    doc.is_parsed=True
+    if not SPACY_V3:
+      doc.is_parsed=True
     return doc
 
 def load():
   nlp=Thai()
-  nlp.add_pipe(ThaiTagger(nlp))
-  nlp.add_pipe(ThaiParser(nlp))
+  if SPACY_V3:
+    Language.component("thai_tagger",func=ThaiTagger(nlp))
+    nlp.add_pipe("thai_tagger")
+    Language.component("thai_parser",func=ThaiParser(nlp))
+    nlp.add_pipe("thai_parser")
+  else:
+    nlp.add_pipe(ThaiTagger(nlp))
+    nlp.add_pipe(ThaiParser(nlp))
   return nlp
 
