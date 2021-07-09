@@ -6,7 +6,7 @@ URL="https://github.com/KoichiYasuoka/spaCy-Thai"
 
 setuptools.setup(
   name="spacy_thai",
-  version="0.6.4",
+  version="0.6.5",
   description="Dependency-parser for Thai language",
   long_description=long_description,
   long_description_content_type="text/markdown",
@@ -16,7 +16,7 @@ setuptools.setup(
   license="MIT",
   keywords="spaCy udpipe nlp",
   packages=setuptools.find_packages(),
-  install_requires=["spacy>=2.2.2","ufal.udpipe>=1.2.0","deplacy>=1.9.7","pythainlp>=2.3.1"],
+  install_requires=["spacy>=2.2.2","ufal.udpipe>=1.2.0","deplacy>=1.9.9","pythainlp>=2.3.1"],
   python_requires=">=3.6",
   package_data={"spacy_thai":["./*.udpipe"]},
   classifiers=[
