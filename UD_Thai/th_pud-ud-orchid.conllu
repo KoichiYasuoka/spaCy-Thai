@@ -8298,7 +8298,7 @@
 # text = ในที่สุด เราต้องทำให้คนรายงานการละเมิดที่น่าสงสัยและอีเมลประสงค์ร้ายต่างๆ ได้ง่ายๆ
 # text_en = Finally, we must make it easy for people to report suspected breaches and malicious emails.
 1	ใน	_	ADP	RPRE	_	2	case	_	SpaceAfter=No
-2	ที่สุด	_	ADJ	ADVN	_	5	xcomp	_	_
+2	ที่สุด	_	VERB	ADVN	_	5	xcomp	_	_
 3	เรา	_	PRON	PPRS	Person=1	5	nsubj	_	SpaceAfter=No
 4	ต้อง	_	VERB	XVMM	_	5	aux	_	SpaceAfter=No
 5	ทำให้	_	VERB	VACT	_	0	root	_	SpaceAfter=No
@@ -8310,7 +8310,7 @@
 11	และ	_	CCONJ	JCRG	_	12	cc	_	SpaceAfter=No
 12	อีเมล	_	NOUN	VACT	_	8	conj	_	SpaceAfter=No
 13	ประสงค์	_	VERB	NCMN	_	12	acl	_	SpaceAfter=No
-14	ร้าย	_	ADJ	NCMN	_	13	xcomp	_	SpaceAfter=No
+14	ร้าย	_	VERB	NCMN	_	13	xcomp	_	SpaceAfter=No
 15	ต่าง	_	VERB	PDMN	_	12	amod	_	SpaceAfter=No
 16	ๆ	_	PUNCT	PUNC	_	15	punct	_	_
 17	ได้	_	VERB	XVAM	_	7	aux	_	SpaceAfter=No
@@ -8433,7 +8433,7 @@
 7	ถือ	_	VERB	VSTA	_	6	conj	_	SpaceAfter=No
 8	ตัว	_	NOUN	NCMN	_	7	obj	_	_
 9	และ	_	CCONJ	JCRG	_	10	cc	_	SpaceAfter=No
-10	ร่ำรวย	_	ADJ	NCMN	_	6	conj	_	SpaceAfter=No
+10	ร่ำรวย	_	VERB	NCMN	_	6	conj	_	SpaceAfter=No
 11	ที่	_	DET	PREL	_	12	nsubj	_	SpaceAfter=No
 12	สน	_	VERB	VACT	_	4	acl:relcl	_	SpaceAfter=No
 13	แต่	_	ADV	JCRG	_	12	advmod	_	SpaceAfter=No
@@ -8762,7 +8762,7 @@
 11	ท้าทาย	_	VERB	VACT	_	0	root	_	SpaceAfter=No
 12	รัฐ	_	NOUN	NCMN	_	11	obj	_	SpaceAfter=No
 13	ใน	_	ADP	RPRE	_	14	case	_	SpaceAfter=No
-14	ที่สุด	_	ADJ	ADVN	_	11	xcomp	_	SpaceAfter=No
+14	ที่สุด	_	VERB	ADVN	_	11	xcomp	_	SpaceAfter=No
 15	เมื่อ	_	ADP	JSBR	_	17	mark	_	SpaceAfter=No
 16	คดี	_	NOUN	NCMN	_	17	nsubj	_	SpaceAfter=No
 17	ขึ้น	_	VERB	XVAE	_	11	advcl	_	SpaceAfter=No
@@ -8877,7 +8877,7 @@
 12	ผม	_	PRON	PPRS	Person=1	10	nmod:poss	_	SpaceAfter=No
 13	ก็	_	ADV	JSBR	_	14	advmod	_	SpaceAfter=No
 14	เริ่ม	_	VERB	VSTA	_	2	advcl	_	SpaceAfter=No
-15	สว่าง	_	ADJ	ADVN	_	14	xcomp	_	_
+15	สว่าง	_	VERB	ADVN	_	14	xcomp	_	_
 
 # sent_id = n01138007
 # text = ในฐานะที่เป็นลูกน้องคนสนิทของนีแกน (เจฟฟรี่ ดีน มอร์แกน) เขาก็มีเสรีภาพได้ระดับหนึ่ง
@@ -8918,7 +8918,7 @@
 9	หนึ่ง	_	NUM	DCNM	_	8	nummod	_	_
 10	ก็	_	ADV	JSBR	_	12	advmod	_	SpaceAfter=No
 11	เลย	_	ADV	ADVN	_	12	advmod	_	SpaceAfter=No
-12	แย่	_	ADJ	NCMN	_	3	ccomp	_	SpaceAfter=No
+12	แย่	_	VERB	NCMN	_	3	ccomp	_	SpaceAfter=No
 13	เหลือเกิน	_	ADV	NCMN	_	12	advmod	_	SpaceAfter=No
 14	ที่	_	ADP	PREL	_	16	mark	_	SpaceAfter=No
 15	ต้อง	_	VERB	XVMM	_	16	aux	_	SpaceAfter=No
@@ -9399,7 +9399,7 @@
 13	ของ	_	ADP	RPRE	_	14	case	_	SpaceAfter=No
 14	บราซิล	_	PROPN	NPRP	_	11	nmod:poss	_	SpaceAfter=No
 15	ใน	_	ADP	RPRE	_	16	case	_	SpaceAfter=No
-16	ที่สุด	_	ADJ	ADVN	_	9	xcomp	_	_
+16	ที่สุด	_	VERB	ADVN	_	9	xcomp	_	_
 
 # sent_id = n01145015
 # text = อเลฮันดรา กอนซาเลซ อนายา หนึ่งในผู้อำนวยการฝ่ายสร้างสรรค์ของงานพาเหรดได้อธิบายกับซีเอ็นเอ็นว่าทำไมเม็กซิโกจึงตัดสินใจว่าตอนนี้เป็นเวลาที่จะต้องจัดโชว์อย่างนี้
@@ -9688,7 +9688,7 @@
 16	ทำให้	_	VERB	VACT	_	4	conj	_	SpaceAfter=No
 17	เส้น	_	NOUN	NCMN	_	16	obj	_	SpaceAfter=No
 18	แบ่ง	_	VERB	VACT	_	17	acl	_	SpaceAfter=No
-19	พร่าเลือน	_	ADJ	NCMN	_	16	xcomp	_	SpaceAfter=No
+19	พร่าเลือน	_	VERB	NCMN	_	16	xcomp	_	SpaceAfter=No
 20	ไป	_	ADV	XVAE	_	19	advmod	_	SpaceAfter=No
 21	ได้	_	VERB	XVAE	_	19	aux	_	SpaceAfter=No
 22	ใน	_	ADP	RPRE	_	23	case	_	SpaceAfter=No
@@ -9991,7 +9991,7 @@
 # text = ในที่สุด ราวปี 512-511 ก่อนคริสตกาล กษัตริย์อามินทาสที่ 1 แห่งมาซิโดเนียทรงยอมรับการปกครองของราชวงศ์อะคีเมนิดและยอมตกเป็นประเทศราชของจักรวรรดิเปอร์เชียอะคีเมนิด
 # text_en = Eventually, in about 512-511 BC, the Macedonian king Amyntas I accepted the Achaemenid domination and surrendered his country as a vassal state to the Achaemenid Persia.
 1	ใน	_	ADP	RPRE	_	2	case	_	SpaceAfter=No
-2	ที่สุด	_	ADJ	ADVN	_	17	xcomp	_	_
+2	ที่สุด	_	VERB	ADVN	_	17	xcomp	_	_
 3	ราว	_	ADV	DIBQ	_	5	advmod	_	SpaceAfter=No
 4	ปี	_	NOUN	CMTR	_	17	obl:tmod	_	_
 5	512	_	NUM	DCNM	_	4	appos	_	SpaceAfter=No
@@ -10850,7 +10850,7 @@
 16	ไป	_	ADV	XVAE	_	15	advmod	_	SpaceAfter=No|ToDo=ex-adp-child
 17	เล็กน้อย	_	ADV	ADVN	_	16	advmod	_	_
 18	แต่	_	CCONJ	JCRG	_	19	cc	_	SpaceAfter=No
-19	รุนแรง	_	ADJ	NCMN	_	5	conj	_	SpaceAfter=No
+19	รุนแรง	_	VERB	NCMN	_	5	conj	_	SpaceAfter=No
 20	น้อย	_	ADV	VATT	_	19	advmod	_	SpaceAfter=No
 21	กว่า	_	ADV	JCMP	_	20	advmod	_	_
 
@@ -11151,7 +11151,7 @@
 10	จับ	_	VERB	NCMN	_	0	root	_	SpaceAfter=No
 11	ตัว	_	NOUN	CNIT	_	10	obj	_	SpaceAfter=No
 12	เยือก	_	VERB	VACT	_	10	xcomp	_	SpaceAfter=No
-13	แข็ง	_	ADJ	NCMN	_	12	conj	_	SpaceAfter=No
+13	แข็ง	_	VERB	NCMN	_	12	conj	_	SpaceAfter=No
 14	ใน	_	ADP	RPRE	_	15	case	_	SpaceAfter=No
 15	ฤดู	_	NOUN	NCMN	_	10	obl	_	SpaceAfter=No
 16	หนาว	_	VERB	NCMN	_	15	amod	_	SpaceAfter=No
@@ -12178,7 +12178,7 @@
 15	กว่า	_	ADP	JCMP	_	16	case	_	SpaceAfter=No
 16	จุด	_	NOUN	NCMN	_	14	nmod	_	SpaceAfter=No|ToDo=nmod
 17	เยือก	_	VERB	NCMN	_	16	amod	_	SpaceAfter=No
-18	แข็ง	_	ADJ	NCMN	_	17	conj	_	SpaceAfter=No
+18	แข็ง	_	VERB	NCMN	_	17	conj	_	SpaceAfter=No
 19	ใน	_	ADP	RPRE	_	20	case	_	SpaceAfter=No
 20	ช่วง	_	NOUN	NCMN	_	14	nmod	_	SpaceAfter=No|ToDo=nmod
 21	ฤดู	_	NOUN	NCMN	_	20	compound	_	SpaceAfter=No
@@ -12248,7 +12248,7 @@
 10	แย่	_	VERB	VACT	_	0	root	_	SpaceAfter=No
 11	ลง	_	ADV	XVAE	_	10	advmod	_	SpaceAfter=No
 12	ถึง	_	ADP	RPRE	_	13	case	_	SpaceAfter=No
-13	ที่สุด	_	ADJ	ADVN	_	11	xcomp	_	SpaceAfter=No
+13	ที่สุด	_	VERB	ADVN	_	11	xcomp	_	SpaceAfter=No
 14	จน	_	ADP	JSBR	_	16	mark	_	SpaceAfter=No
 15	ไม่	_	PART	NEG	Polarity=Neg	16	advmod	_	SpaceAfter=No
 16	ต่าง	_	VERB	VSTA	_	10	advcl	_	SpaceAfter=No
@@ -12890,7 +12890,7 @@
 3	ที่	_	NOUN	PREL	_	2	compound	_	_
 4	1350	_	NUM	NCNM	_	3	nummod	_	_
 5	ใน	_	ADP	RPRE	_	6	case	_	SpaceAfter=No
-6	ที่สุด	_	ADJ	ADVN	_	10	xcomp	_	SpaceAfter=No
+6	ที่สุด	_	VERB	ADVN	_	10	xcomp	_	SpaceAfter=No
 7	พระเจ้า	_	NOUN	NCMN	_	10	nsubj	_	SpaceAfter=No
 8	คงมิน	_	PROPN	NPRP	_	7	appos	_	SpaceAfter=No
 9	ก็	_	ADV	JSBR	_	10	advmod	_	SpaceAfter=No
@@ -13109,7 +13109,7 @@
 34	แมนจู	_	PROPN	NPRP	_	32	obl	_	SpaceAfter=No
 35	ก็	_	ADV	JSBR	_	37	advmod	_	SpaceAfter=No
 36	เป็น	_	AUX	VSTA	_	37	cop	_	SpaceAfter=No
-37	โมฆะ	_	ADJ	NCMN	_	10	conj	_	SpaceAfter=No
+37	โมฆะ	_	VERB	NCMN	_	10	conj	_	SpaceAfter=No
 38	ไป	_	PART	XVAE	_	37	compound:prt	_	_
 
 # sent_id = w01050071
@@ -13444,7 +13444,7 @@
 20	ทั่ว	_	VERB	RPRE	_	21	amod	_	SpaceAfter=No
 21	เมดิเตอร์เรเนียน	_	PROPN	NPRP	_	18	advmod	_	SpaceAfter=No
 22	เช่น	_	NOUN	RPRE	_	25	case	_	SpaceAfter=No
-23	เดียว	_	ADJ	DIAC	_	22	fixed	_	SpaceAfter=No
+23	เดียว	_	VERB	DIAC	_	22	fixed	_	SpaceAfter=No
 24	กับ	_	ADP	RPRE	_	22	fixed	_	SpaceAfter=No
 25	เมื่อ	_	NOUN	JSBR	_	3	obl	_	SpaceAfter=No
 26	ครั้ง	_	NOUN	CFQC	_	25	compound	_	SpaceAfter=No
@@ -13522,7 +13522,7 @@
 17	ตาย	_	VERB	VSTA	_	5	conj	_	SpaceAfter=No
 18	แต่	_	ADP	JCRG	_	20	case	_	SpaceAfter=No
 19	ยัง	_	PART	XVBM	Aspect=Prog	20	aux	_	SpaceAfter=No
-20	หนุ่ม	_	ADJ	NCMN	_	17	xcomp	_	SpaceAfter=No
+20	หนุ่ม	_	VERB	NCMN	_	17	xcomp	_	SpaceAfter=No
 21	ใน	_	ADP	RPRE	_	22	case	_	SpaceAfter=No
 22	สมรภูมิ	_	NOUN	NCMN	_	17	obl	_	SpaceAfter=No
 23	และ	_	CCONJ	JCRG	_	24	cc	_	SpaceAfter=No
@@ -15523,7 +15523,7 @@
 4	คิวบา	_	PROPN	NPRP	_	3	obj	_	SpaceAfter=No
 5	ให้	_	VERB	JSBR	_	3	mark	_	SpaceAfter=No
 6	เป็น	_	AUX	VSTA	_	7	cop	_	SpaceAfter=No
-7	อิสระ	_	ADJ	NCMN	_	5	xcomp	_	_
+7	อิสระ	_	VERB	NCMN	_	5	xcomp	_	_
 8	(	_	PUNCT	PUNC	_	12	punct	_	SpaceAfter=No
 9	หลัง	_	ADP	NCMN	_	12	mark	_	SpaceAfter=No
 10	จาก	_	ADP	RPRE	_	9	fixed	_	SpaceAfter=No
@@ -16803,7 +16803,7 @@
 2	นี้	_	DET	DDAC	_	1	det	_	SpaceAfter=No
 3	มี	_	VERB	VSTA	_	0	root	_	SpaceAfter=No
 4	ความเรียบง่าย	_	VERB	NCMN	_	3	obj	_	_
-5	เที่ยงตรง	_	ADJ	NCMN	_	4	conj	_	_
+5	เที่ยงตรง	_	VERB	NCMN	_	4	conj	_	_
 6	และ	_	CCONJ	JCRG	_	7	cc	_	SpaceAfter=No
 7	ทำ	_	VERB	VACT	_	4	conj	_	SpaceAfter=No
 8	งาน	_	NOUN	NCMN	_	7	obj	_	SpaceAfter=No
@@ -17606,7 +17606,7 @@
 11	จึง	_	ADV	XVBM	_	12	advmod	_	SpaceAfter=No
 12	ตัดสินใจ	_	VERB	VACT	_	0	root	_	SpaceAfter=No
 13	ใน	_	ADP	RPRE	_	14	case	_	SpaceAfter=No
-14	ที่สุด	_	ADJ	ADVN	_	12	xcomp	_	SpaceAfter=No
+14	ที่สุด	_	VERB	ADVN	_	12	xcomp	_	SpaceAfter=No
 15	ว่า	_	ADP	JSBR	_	17	mark	_	SpaceAfter=No
 16	จะ	_	VERB	XVBM	_	17	aux	_	SpaceAfter=No
 17	ทำ	_	VERB	VACT	_	12	ccomp	_	SpaceAfter=No
@@ -17881,7 +17881,7 @@
 21	ของ	_	ADP	RPRE	_	22	case	_	SpaceAfter=No
 22	เขา	_	PRON	PPRS	Person=3	19	obl:poss	_	SpaceAfter=No
 23	เป็น	_	VERB	VSTA	_	17	ccomp	_	SpaceAfter=No
-24	โมฆะ	_	ADJ	NCMN	_	23	ccomp	_	SpaceAfter=No
+24	โมฆะ	_	VERB	NCMN	_	23	ccomp	_	SpaceAfter=No
 25	และ	_	CCONJ	JCRG	_	26	cc	_	SpaceAfter=No
 26	ประกาศ	_	VERB	VACT	_	17	conj	_	SpaceAfter=No
 27	ให้	_	VERB	VACT	_	26	xcomp	_	SpaceAfter=No
@@ -18187,7 +18187,7 @@
 16	ได้	_	PART	XVAM	Aspect=Perf	17	aux	_	SpaceAfter=No
 17	กล่าว	_	VERB	VACT	_	7	acl:relcl	_	SpaceAfter=No
 18	ภาย	_	NOUN	NCMN	_	17	advmod	_	SpaceAfter=No
-19	หลัง	_	ADJ	RPRE	_	18	fixed	_	SpaceAfter=No
+19	หลัง	_	VERB	RPRE	_	18	fixed	_	SpaceAfter=No
 20	ว่า	_	ADP	JSBR	_	21	mark	_	SpaceAfter=No
 21	เป็น	_	VERB	VSTA	_	17	ccomp	_	_
 22	“	_	PUNCT	PUNC	_	23	punct	_	SpaceAfter=No
@@ -18386,7 +18386,7 @@
 22	ของ	_	ADP	RPRE	_	23	case	_	SpaceAfter=No
 23	ที่	_	PRON	PREL	_	19	obl:poss	_	SpaceAfter=No
 24	ราบ	_	VERB	VACT	_	23	amod	_	SpaceAfter=No
-25	ลุ่ม	_	ADJ	NCMN	_	24	conj	_	SpaceAfter=No
+25	ลุ่ม	_	VERB	NCMN	_	24	conj	_	SpaceAfter=No
 26	ต่ำ	_	VERB	VATT	_	23	amod	_	SpaceAfter=No
 27	มายา	_	PROPN	NPRP	_	23	compound	_	_
 
@@ -20372,9 +20372,9 @@
 7	ค่าย	_	NOUN	NCMN	_	6	obj	_	SpaceAfter=No
 8	ทหาร	_	NOUN	NCMN	_	7	compound	_	SpaceAfter=No
 9	เก่า	_	VERB	VATT	_	7	amod	_	SpaceAfter=No
-10	โทรม	_	ADJ	NCMN	_	9	conj	_	SpaceAfter=No
+10	โทรม	_	VERB	NCMN	_	9	conj	_	SpaceAfter=No
 11	ชวน	_	AUX	NCMN	_	12	cop	_	SpaceAfter=No
-12	สยอง	_	ADJ	NCMN	_	9	conj	_	SpaceAfter=No
+12	สยอง	_	VERB	NCMN	_	9	conj	_	SpaceAfter=No
 13	คน	_	NOUN	CNIT	_	3	advmod	_	SpaceAfter=No
 14	เดียว	_	VERB	DIAC	_	13	amod	_	_
 
@@ -22617,7 +22617,7 @@
 13	กับ	_	ADP	RPRE	_	14	case	_	SpaceAfter=No
 14	มนุษยชาติ	_	NOUN	NCMN	_	12	obl	_	SpaceAfter=No
 15	เฉกเช่น	_	NOUN	RPRE	_	19	mark	_	SpaceAfter=No
-16	เดียว	_	ADJ	DIAC	_	15	fixed	_	SpaceAfter=No
+16	เดียว	_	VERB	DIAC	_	15	fixed	_	SpaceAfter=No
 17	กับ	_	ADP	RPRE	_	15	fixed	_	SpaceAfter=No
 18	เงา	_	NOUN	NCMN	_	19	nsubj	_	SpaceAfter=No
 19	อยู่	_	VERB	VSTA	_	11	advcl	_	SpaceAfter=No
@@ -23763,7 +23763,7 @@
 20	ทั่วไป	_	VERB	VATT	_	19	amod	_	SpaceAfter=No
 21	และ	_	CCONJ	JCRG	_	23	cc	_	SpaceAfter=No
 22	เป็น	_	AUX	VSTA	_	23	cop	_	SpaceAfter=No
-23	อิสระ	_	ADJ	NCMN	_	20	conj	_	_
+23	อิสระ	_	VERB	NCMN	_	20	conj	_	_
 
 # sent_id = w02014030
 # text = หลังจากการเจรจาประนีประนอม จักรพรรดิและกษัตริย์ฟรานซ์ โยเซฟที่ 1 ทรงดูแลเป็นอย่างดีเพื่อปฏิบัติต่อราชวงศ์ทั้งสองของพระองค์อย่างเท่าเทียมกัน
@@ -24073,7 +24073,7 @@
 14	เฟรนด์ชิพ	_	NOUN	NCMN	_	13	flat:name	_	Proper=True
 15	สำหรับ	_	ADP	RPRE	_	17	case	_	SpaceAfter=No
 16	ความเป็น	_	AUX	VSTA	_	17	cop	_	SpaceAfter=No
-17	กันเอง	_	ADJ	NCMN	_	9	obl	_	SpaceAfter=No
+17	กันเอง	_	NOUN	NCMN	_	9	obl	_	SpaceAfter=No
 18	ใน	_	ADP	RPRE	_	19	case	_	SpaceAfter=No
 19	การทำ	_	VERB	NCMN	_	17	xcomp	_	SpaceAfter=No
 20	ข่าว	_	NOUN	NCMN	_	19	obj	_	SpaceAfter=No
@@ -24567,7 +24567,7 @@
 21	มาตรการ	_	NOUN	NCMN	_	20	obj	_	SpaceAfter=No
 22	ต่าง	_	VERB	VSTA	_	21	amod	_	SpaceAfter=No
 23	ๆ	_	PUNCT	PUNC	_	22	punct	_	_
-24	นานา	_	ADJ	NCMN	_	22	conj	_	SpaceAfter=No
+24	นานา	_	VERB	NCMN	_	22	conj	_	SpaceAfter=No
 25	ปล่อย	_	VERB	VACT	_	20	xcomp	_	SpaceAfter=No
 26	ตัว	_	NOUN	CNIT	_	25	obj	_	SpaceAfter=No
 27	ผู้	_	NOUN	PPRS	_	26	compound	_	SpaceAfter=No
@@ -24686,7 +24686,7 @@
 16	ชีวิต	_	NOUN	NCMN	_	15	obj	_	SpaceAfter=No
 17	ใน	_	ADP	RPRE	_	18	case	_	SpaceAfter=No
 18	อเมริกาใต้	_	PROPN	NPRP	_	15	obl	_	_
-19	ห่างไกล	_	ADJ	NCMN	_	15	xcomp	_	SpaceAfter=No
+19	ห่างไกล	_	VERB	NCMN	_	15	xcomp	_	SpaceAfter=No
 20	จาก	_	ADP	RPRE	_	21	case	_	SpaceAfter=No
 21	ปัญหา	_	NOUN	NCMN	_	19	nmod	_	SpaceAfter=No|ToDo=nmod
 22	ของ	_	ADP	RPRE	_	23	case	_	SpaceAfter=No
@@ -25993,7 +25993,7 @@
 # text_en = On the other hand, external history contains references to the history of Spanish speakers, their historical vicissitudes and the social use of the language.
 1	ใน	_	ADP	RPRE	_	7	cc	_	SpaceAfter=No
 2	ทาง	_	NOUN	NCMN	_	1	fixed	_	SpaceAfter=No
-3	ตรงกันข้าม	_	ADJ	NCMN	_	1	fixed	_	_
+3	ตรงกันข้าม	_	VERB	NCMN	_	1	fixed	_	_
 4	ประวัติศาสตร์	_	NOUN	NCMN	_	7	nsubj	_	SpaceAfter=No
 5	ภาย	_	NOUN	NCMN	_	4	compound	_	SpaceAfter=No
 6	นอก	_	VERB	VATT	_	5	amod	_	SpaceAfter=No
@@ -26062,7 +26062,7 @@
 # text = ในที่สุดความพยายามที่จะสร้างสันติภาพต้องสิ้นสุดในฤดูใบไม้ผลิปี 1415 และเอนริเกตัดสินใจดำเนินการตามแผนของเขา: การรุกรานราชอาณาจักรฝรั่งเศส
 # text_en = The attempts at making peace finally ended in spring of 1415 and Enrique decided to execute his plan: an invasion of the entire Kingdom of France.
 1	ใน	_	ADP	RPRE	_	2	case	_	SpaceAfter=No
-2	ที่สุด	_	ADJ	ADVN	_	9	xcomp	_	SpaceAfter=No
+2	ที่สุด	_	VERB	ADVN	_	9	xcomp	_	SpaceAfter=No
 3	ความพยายาม	_	VERB	NCMN	_	9	nsubj	_	SpaceAfter=No
 4	ที่	_	DET	PREL	_	6	advmod	_	SpaceAfter=No
 5	จะ	_	VERB	XVBM	_	6	aux	_	SpaceAfter=No
