@@ -2143,7 +2143,7 @@
 19	การออก	_	VERB	VACT	_	18	obj	_	SpaceAfter=No
 20	กฎหมาย	_	NOUN	NCMN	_	19	obj	_	SpaceAfter=No
 21	ใหม่	_	VERB	VATT	_	20	amod	_	SpaceAfter=No
-22	ๆ	_	SYM	NCMN	_	21	dep	_	_
+22	ๆ	_	PUNCT	NCMN	_	21	punct	_	_
 
 # sent_id = n01033005
 # text = นักวิจัยกล่าวว่าการวิเคราะห์ดีเอ็นเอของเนื้องอกอาจช่วยอธิบายถึงสาเหตุที่แท้จริงของมะเร็งชนิดอื่นๆ ได้
@@ -2411,7 +2411,7 @@
 17	เผยแพร่	_	VERB	VACT	_	4	conj	_	SpaceAfter=No
 18	ข้อมูล	_	NOUN	NCMN	_	17	obj	_	SpaceAfter=No
 19	คร่าว	_	VERB	DDAC	_	18	amod	_	SpaceAfter=No
-20	ๆ	_	SYM	VACT	_	19	dep	_	_
+20	ๆ	_	PUNCT	VACT	_	19	punct	_	_
 21	เกี่ยว	_	VERB	VACT	_	23	case	_	SpaceAfter=No
 22	กับ	_	ADP	RPRE	_	21	fixed	_	SpaceAfter=No
 23	สถานที่	_	NOUN	NCMN	_	18	nmod	_	SpaceAfter=No
@@ -2420,7 +2420,7 @@
 26	เขา	_	PRON	PPRS	Person=3	25	obj	_	SpaceAfter=No
 27	เมื่อ	_	ADP	JSBR	_	28	mark	_	SpaceAfter=No
 28	เร็ว	_	ADV	VATT	_	25	advcl	_	SpaceAfter=No
-29	ๆ	_	SYM	NCMN	_	28	dep	_	_
+29	ๆ	_	PUNCT	NCMN	_	28	punct	_	_
 30	นี้	_	PRON	DDAC	_	28	advmod	_	_
 
 # sent_id = n01035025
@@ -2623,7 +2623,7 @@
 1	เรา	_	PRON	PPRS	Person=1	2	nsubj	_	SpaceAfter=No
 2	เห็น	_	VERB	VSTA	_	33	ccomp	_	SpaceAfter=No
 3	หลาย	_	DET	DIBQ	_	5	det	_	SpaceAfter=No
-4	ๆ	_	SYM	CNIT	_	3	dep	_	_
+4	ๆ	_	PUNCT	CNIT	_	3	punct	_	_
 5	ประเทศ	_	NOUN	NCMN	_	2	obj	_	_
 6	โดย	_	ADP	FIXV	_	8	case	_	SpaceAfter=No
 7	เฉพาะ	_	VERB	VATT	_	6	fixed	_	SpaceAfter=No
@@ -3436,7 +3436,7 @@
 28	สู่	_	ADP	RPRE	_	29	case	_	SpaceAfter=No
 29	เนื้อเยื่อ	_	NOUN	NCMN	_	25	obl	_	SpaceAfter=No
 30	ต่าง	_	VERB	VSTA	_	29	amod	_	_
-31	ๆ	_	SYM	NCMN	_	30	dep	_	_
+31	ๆ	_	PUNCT	NCMN	_	30	punct	_	_
 32	ใน	_	ADP	RPRE	_	33	case	_	SpaceAfter=No
 33	ร่างกาย	_	NOUN	NCMN	_	29	nmod	_	_
 
@@ -3961,7 +3961,7 @@
 6	จาก	_	ADP	RPRE	_	7	case	_	SpaceAfter=No
 7	การเลือกตั้ง	_	VERB	VACT	_	5	nmod	_	SpaceAfter=No
 8	รอบ	_	ADP	RPRE	_	10	case	_	SpaceAfter=No
-9	ๆ	_	SYM	NCMN	_	10	dep	_	ToDo=ex-adp-child
+9	ๆ	_	PUNCT	NCMN	_	10	punct	_	ToDo=ex-adp-child
 10	ตัว	_	NOUN	CNIT	_	7	obl	_	SpaceAfter=No
 11	เขา	_	PRON	PPRS	Person=3	10	compound	_	_
 12	จาก	_	ADP	RPRE	_	13	case	_	SpaceAfter=No
@@ -3975,11 +3975,11 @@
 20	ที่	_	DET	PREL	_	28	obj	_	SpaceAfter=No
 21	ความคิด	_	VERB	NCMN	_	28	acl:relcl	_	SpaceAfter=No
 22	เก่า	_	VERB	VATT	_	21	amod	_	SpaceAfter=No
-23	ๆ	_	SYM	NCMN	_	22	dep	_	_
+23	ๆ	_	PUNCT	NCMN	_	22	punct	_	_
 24	และ	_	CCONJ	JCRG	_	25	cc	_	SpaceAfter=No
 25	ความคิด	_	VERB	NCMN	_	21	conj	_	SpaceAfter=No
 26	ใหม่	_	VERB	VATT	_	25	amod	_	SpaceAfter=No
-27	ๆ	_	SYM	NCMN	_	26	dep	_	_
+27	ๆ	_	PUNCT	NCMN	_	26	punct	_	_
 28	มา	_	VERB	XVAE	_	15	acl:relcl	_	SpaceAfter=No
 29	บรรจบ	_	VERB	VACT	_	28	acl	_	SpaceAfter=No
 30	กัน	_	PRON	ADVN	_	29	obj	_	_
@@ -4329,7 +4329,7 @@
 1	แต่	_	CCONJ	JCRG	_	11	cc	_	SpaceAfter=No
 2	ความท้าทาย	_	VERB	NCMN	_	11	nsubj	_	SpaceAfter=No
 3	ต่าง	_	VERB	VSTA	_	2	amod	_	SpaceAfter=No
-4	ๆ	_	SYM	NCMN	_	3	dep	_	_
+4	ๆ	_	PUNCT	NCMN	_	3	punct	_	_
 5	และ	_	CCONJ	JCRG	_	6	cc	_	SpaceAfter=No
 6	บท	_	NOUN	NCMN	_	2	conj	_	SpaceAfter=No
 7	เพลง	_	NOUN	NCMN	_	6	compound	_	SpaceAfter=No
@@ -4352,7 +4352,7 @@
 24	กระแด่ว	_	ADV	NCMN	_	23	advmod	_	SpaceAfter=No
 25	ๆ	_	PUNCT	PUNC	_	24	punct	_	_
 26	แตก	_	VERB	NCMN	_	21	acl	_	SpaceAfter=No
-27	ๆ	_	SYM	NCMN	_	26	dep	_	_
+27	ๆ	_	PUNCT	NCMN	_	26	punct	_	_
 28	ที่	_	DET	PREL	_	29	nsubj	_	SpaceAfter=No
 29	เล่น	_	VERB	VACT	_	21	acl:relcl	_	SpaceAfter=No
 30	ซ้ำ	_	ADV	ADVN	_	29	advmod	_	SpaceAfter=No
@@ -4554,7 +4554,7 @@
 11	ราก	_	NOUN	NCMN	_	10	obj	_	SpaceAfter=No
 12	ศัพท์	_	NOUN	NCMN	_	11	compound	_	SpaceAfter=No
 13	ต่าง	_	VERB	VSTA	_	11	amod	_	SpaceAfter=No
-14	ๆ	_	SYM	NCMN	_	13	dep	_	_
+14	ๆ	_	PUNCT	NCMN	_	13	punct	_	_
 
 # sent_id = n01066093
 # text = อลิซ ภรรยาของเขารายงานว่า “ละเลยสุขภาพของเขาเองโดยสิ้นเชิง”
@@ -4609,7 +4609,7 @@
 11	คือ	_	AUX	VSTA	_	12	cop	_	_
 12	แผนที่	_	NOUN	NCMN	_	2	acl	_	SpaceAfter=No
 13	ต่าง	_	VERB	VSTA	_	12	amod	_	SpaceAfter=No
-14	ๆ	_	SYM	NCMN	_	13	dep	_	_
+14	ๆ	_	PUNCT	NCMN	_	13	punct	_	_
 15	ของ	_	ADP	RPRE	_	16	case	_	SpaceAfter=No
 16	กระทรวง	_	NOUN	NCMN	_	12	nmod:poss	_	Proper=True|SpaceAfter=No
 17	กลาโหม	_	NOUN	NCMN	_	16	flat:name	_	Proper=True|SpaceAfter=No
@@ -5088,7 +5088,7 @@
 6	การแข่ง	_	VERB	NCMN	_	3	obl	_	SpaceAfter=No
 7	เมื่อ	_	ADP	JSBR	_	8	case	_	SpaceAfter=No
 8	เร็ว	_	ADV	VATT	_	6	xcomp	_	SpaceAfter=No
-9	ๆ	_	SYM	NCMN	_	8	dep	_	_
+9	ๆ	_	PUNCT	NCMN	_	8	punct	_	_
 10	นี้	_	PRON	DDAC	_	8	advmod	_	SpaceAfter=No
 11	ใน	_	ADP	RPRE	_	12	case	_	SpaceAfter=No
 12	รักบี้	_	NOUN	NCMN	_	6	obl	_	Proper=True|SpaceAfter=No
@@ -5234,7 +5234,7 @@
 11	ที่	_	DET	PREL	_	12	nsubj	_	SpaceAfter=No
 12	ดู	_	VERB	VACT	_	5	acl:relcl	_	SpaceAfter=No
 13	เงียบ	_	ADV	ADVN	_	12	advmod	_	SpaceAfter=No
-14	ๆ	_	SYM	NCMN	_	13	dep	_	_
+14	ๆ	_	PUNCT	NCMN	_	13	punct	_	_
 15	เสีย	_	ADV	VSTA	_	13	advmod	_	SpaceAfter=No
 16	จน	_	ADP	JSBR	_	18	mark	_	SpaceAfter=No
 17	ฉัน	_	PRON	PPRS	Person=1	18	nsubj	_	SpaceAfter=No
@@ -5883,7 +5883,7 @@
 4	มา	_	PART	XVAE	_	3	aux	_	SpaceAfter=No
 5	ช่วง	_	NOUN	NCMN	_	3	obl:tmod	_	SpaceAfter=No
 6	สั้น	_	VERB	VATT	_	5	amod	_	SpaceAfter=No
-7	ๆ	_	SYM	NCMN	_	6	dep	_	_
+7	ๆ	_	PUNCT	NCMN	_	6	punct	_	_
 8	และ	_	CCONJ	JCRG	_	10	cc	_	SpaceAfter=No
 9	ถูก	_	VERB	XVAM	Voice=Pass	10	aux:pass	_	SpaceAfter=No
 10	ถ่าย	_	VERB	VACT	_	3	conj	_	SpaceAfter=No
@@ -6176,7 +6176,7 @@
 15	หมด	_	VERB	VSTA	_	7	ccomp	_	SpaceAfter=No
 16	ไป	_	PART	XVAE	_	15	aux	_	SpaceAfter=No
 17	แน่	_	ADV	RPRE	_	15	advmod	_	SpaceAfter=No
-18	ๆ	_	SYM	NCMN	_	17	dep	_	SpaceAfter=No
+18	ๆ	_	PUNCT	NCMN	_	17	punct	_	SpaceAfter=No
 19	"	_	PUNCT	PUNC	_	15	punct	_	_
 20	หาก	_	ADP	JSBR	_	22	mark	_	SpaceAfter=No
 21	ไม่	_	PART	NEG	Polarity=Neg	22	advmod	_	SpaceAfter=No
@@ -6356,7 +6356,7 @@
 # text_en = Companies may try to set up a firewall between sensitive systems and foreign powers, but it does not always work.
 1	บริษัท	_	NOUN	NCMN	_	5	nsubj	_	SpaceAfter=No
 2	ต่าง	_	VERB	VSTA	_	1	amod	_	SpaceAfter=No
-3	ๆ	_	SYM	NPRP	_	2	dep	_	_
+3	ๆ	_	PUNCT	NPRP	_	2	punct	_	_
 4	อาจ	_	VERB	XVMM	_	5	aux	_	SpaceAfter=No
 5	พยายาม	_	VERB	VACT	_	0	root	_	SpaceAfter=No
 6	ตั้ง	_	VERB	VACT	_	5	xcomp	_	SpaceAfter=No
@@ -6518,7 +6518,7 @@
 14	และ	_	CCONJ	JCRG	_	21	cc	_	SpaceAfter=No
 15	พนักงาน	_	NOUN	NCMN	_	21	nsubj	_	SpaceAfter=No
 16	ตรวจ	_	VERB	VACT	_	15	acl	_	SpaceAfter=No
-17	ความร้อน	_	ADJ	NCMN	_	16	obj	_	SpaceAfter=No
+17	ความร้อน	_	NOUN	NCMN	_	16	obj	_	SpaceAfter=No
 18	ล้อ	_	NOUN	NCMN	_	17	compound	_	SpaceAfter=No
 19	ก็	_	ADV	JSBR	_	21	advmod	_	SpaceAfter=No
 20	จะ	_	VERB	XVBM	_	21	aux	_	SpaceAfter=No
@@ -6571,7 +6571,7 @@
 36	,	_	PUNCT	PUNC	_	37	punct	_	_
 37	คางคก	_	NOUN	NCMN	_	15	conj	_	SpaceAfter=No
 38	เป็น	_	VERB	VSTA	_	37	amod	_	SpaceAfter=No
-39	ๆ	_	SYM	NCMN	_	38	dep	_	_
+39	ๆ	_	PUNCT	NCMN	_	38	punct	_	_
 40	และ	_	CCONJ	JCRG	_	41	cc	_	SpaceAfter=No
 41	ปลา	_	NOUN	NCMN	_	15	conj	_	SpaceAfter=No
 42	ดุก	_	NOUN	NCMN	_	41	compound	_	_
@@ -6746,35 +6746,37 @@
 # sent_id = n01104011
 # text = การเสมอในเกมที่คุณเหนือกว่าเป็นเรื่องง่ายที่จะไม่สนใจ แต่หากเป็นเช่นนั้นติดต่อกันสามครั้งก็แสดงให้เห็นถึงความอ่อนแอ
 # text_en = To draw a game you have dominated is easy to brush off, but to do so three times is a row suggests a weakness.
-1	การเสมอ	_	ADJ	NCMN	_	9	nsubj	_	SpaceAfter=No
-2	ใน	_	ADP	RPRE	_	3	case	_	SpaceAfter=No
-3	เกม	_	NOUN	NCMN	_	1	nmod	_	SpaceAfter=No|ToDo=nmod
-4	ที่	_	DET	PREL	_	6	advmod	_	SpaceAfter=No
-5	คุณ	_	PRON	PPRS	Person=2	6	nsubj	_	SpaceAfter=No
-6	เหนือ	_	VERB	VSTA	_	3	acl:relcl	_	SpaceAfter=No
-7	กว่า	_	ADV	JCMP	_	6	advmod	_	SpaceAfter=No
-8	เป็น	_	AUX	VSTA	_	9	cop	_	SpaceAfter=No
-9	เรื่อง	_	NOUN	NCMN	_	0	root	_	SpaceAfter=No
-10	ง่าย	_	VERB	VATT	_	9	amod	_	SpaceAfter=No
-11	ที่	_	ADP	PREL	_	14	mark	_	SpaceAfter=No
-12	จะ	_	VERB	XVBM	_	14	aux	_	SpaceAfter=No
-13	ไม่	_	PART	NEG	Polarity=Neg	14	advmod	_	SpaceAfter=No
-14	สนใจ	_	VERB	VSTA	_	9	advcl	_	_
-15	แต่	_	CCONJ	JCRG	_	25	cc	_	SpaceAfter=No
-16	หาก	_	ADP	JSBR	_	18	mark	_	SpaceAfter=No
-17	เป็น	_	AUX	VSTA	_	18	cop	_	SpaceAfter=No
-18	เช่น	_	NOUN	RPRE	_	25	advcl	_	SpaceAfter=No
-19	นั้น	_	DET	DDAC	_	18	det	_	SpaceAfter=No
-20	ติดต่อ	_	VERB	VACT	_	18	xcomp	_	SpaceAfter=No
-21	กัน	_	PRON	ADVN	_	20	advmod	_	SpaceAfter=No
-22	สาม	_	NUM	DCNM	_	23	nummod	_	SpaceAfter=No
-23	ครั้ง	_	NOUN	CFQC	_	20	advmod	_	SpaceAfter=No
-24	ก็	_	ADV	JSBR	_	25	advmod	_	SpaceAfter=No
-25	แสดง	_	VERB	VACT	_	9	conj	_	SpaceAfter=No
-26	ให้	_	VERB	JSBR	_	25	mark	_	SpaceAfter=No
-27	เห็น	_	VERB	VSTA	_	26	xcomp	_	SpaceAfter=No
-28	ถึง	_	ADP	RPRE	_	29	case	_	SpaceAfter=No
-29	ความอ่อนแอ	_	ADJ	NCMN	_	27	obl	_	_
+1	การ	_	PART	FIXN	_	10	nsubj	_	SpaceAfter=No
+2	เสมอ	_	VERB	VATT	_	1	acl	_	SpaceAfter=No
+3	ใน	_	ADP	RPRE	_	4	case	_	SpaceAfter=No
+4	เกม	_	NOUN	NCMN	_	2	obl	_	SpaceAfter=No|ToDo=nmod
+5	ที่	_	DET	PREL	_	7	advmod	_	SpaceAfter=No
+6	คุณ	_	PRON	PPRS	Person=2	7	nsubj	_	SpaceAfter=No
+7	เหนือ	_	VERB	VSTA	_	4	acl:relcl	_	SpaceAfter=No
+8	กว่า	_	ADV	JCMP	_	7	advmod	_	SpaceAfter=No
+9	เป็น	_	AUX	VSTA	_	10	cop	_	SpaceAfter=No
+10	เรื่อง	_	NOUN	NCMN	_	0	root	_	SpaceAfter=No
+11	ง่าย	_	VERB	VATT	_	10	amod	_	SpaceAfter=No
+12	ที่	_	ADP	PREL	_	15	mark	_	SpaceAfter=No
+13	จะ	_	VERB	XVBM	_	15	aux	_	SpaceAfter=No
+14	ไม่	_	PART	NEG	Polarity=Neg	15	advmod	_	SpaceAfter=No
+15	สนใจ	_	VERB	VSTA	_	10	advcl	_	_
+16	แต่	_	CCONJ	JCRG	_	26	cc	_	SpaceAfter=No
+17	หาก	_	ADP	JSBR	_	19	mark	_	SpaceAfter=No
+18	เป็น	_	AUX	VSTA	_	19	cop	_	SpaceAfter=No
+19	เช่น	_	NOUN	RPRE	_	26	advcl	_	SpaceAfter=No
+20	นั้น	_	DET	DDAC	_	19	det	_	SpaceAfter=No
+21	ติดต่อ	_	VERB	VACT	_	19	xcomp	_	SpaceAfter=No
+22	กัน	_	PRON	ADVN	_	21	advmod	_	SpaceAfter=No
+23	สาม	_	NUM	DCNM	_	24	nummod	_	SpaceAfter=No
+24	ครั้ง	_	NOUN	CFQC	_	21	advmod	_	SpaceAfter=No
+25	ก็	_	ADV	JSBR	_	26	advmod	_	SpaceAfter=No
+26	แสดง	_	VERB	VACT	_	10	conj	_	SpaceAfter=No
+27	ให้	_	VERB	JSBR	_	26	mark	_	SpaceAfter=No
+28	เห็น	_	VERB	VSTA	_	27	xcomp	_	SpaceAfter=No
+29	ถึง	_	ADP	RPRE	_	30	case	_	SpaceAfter=No
+30	ควา	_	PART	FIXN	_	28	obl	_	_
+31	มอ่อนแอ	_	VERB	VATT	_	30	acl	_	_
 
 # sent_id = n01104019
 # text = เราผิดหวังมากเพราะเราเสียไป 6 คะแนนในการเล่นที่บ้าน
@@ -6876,7 +6878,7 @@
 15	การ	_	NOUN	FIXN	_	13	nmod	_	SpaceAfter=No
 16	เงิน	_	NOUN	NCMN	_	15	compound	_	SpaceAfter=No
 17	ใหม่	_	VERB	VATT	_	13	amod	_	SpaceAfter=No
-18	ๆ	_	SYM	NCMN	_	17	dep	_	_
+18	ๆ	_	PUNCT	NCMN	_	17	punct	_	_
 19	พุ่ง	_	VERB	NCMN	_	7	ccomp	_	SpaceAfter=No
 20	สูง	_	ADV	VATT	_	19	advmod	_	SpaceAfter=No
 21	ขึ้น	_	ADV	XVAE	_	20	advmod	_	_
@@ -7031,7 +7033,7 @@
 # text_en = Businesses had expected to start contracting in July, immediately after the Brexit vote, but instead have managed to keep growing steadily.
 1	ธุรกิจ	_	NOUN	NCMN	_	4	nsubj	_	SpaceAfter=No
 2	ต่าง	_	VERB	VSTA	_	1	amod	_	SpaceAfter=No
-3	ๆ	_	SYM	NCMN	_	2	dep	_	_
+3	ๆ	_	PUNCT	NCMN	_	2	punct	_	_
 4	คาดหวัง	_	VERB	VACT	_	0	root	_	SpaceAfter=No
 5	ว่า	_	ADP	JSBR	_	7	mark	_	SpaceAfter=No
 6	จะ	_	VERB	XVBM	_	7	aux	_	SpaceAfter=No
@@ -7105,9 +7107,9 @@
 4	ข้อ	_	NOUN	NCMN	_	3	obj	_	SpaceAfter=No
 5	จำกัด	_	VERB	VACT	_	4	acl	_	SpaceAfter=No
 6	ด้าน	_	NOUN	NCMN	_	4	compound	_	SpaceAfter=No
-7	ความสามารถ	_	ADJ	NCMN	_	6	compound	_	SpaceAfter=No
-8	ใน	_	ADP	RPRE	_	9	case	_	SpaceAfter=No
-9	การใช้จ่าย	_	VERB	NCMN	_	7	nmod	_	ToDo=nmod
+7	ความสามารถ	_	NOUN	NCMN	_	6	compound	_	SpaceAfter=No
+8	ใน	_	ADP	RPRE	_	9	mark	_	SpaceAfter=No
+9	การใช้จ่าย	_	VERB	NCMN	_	7	acl	_	ToDo=nmod
 10	เพราะ	_	ADP	JSBR	_	14	mark	_	SpaceAfter=No
 11	รัฐบาล	_	NOUN	NCMN	_	14	nsubj	_	SpaceAfter=No
 12	ก็	_	ADV	JSBR	_	14	advmod	_	SpaceAfter=No
@@ -7168,7 +7170,7 @@
 18	ต้อง	_	VERB	XVMM	_	19	aux	_	SpaceAfter=No
 19	จ่าย	_	VERB	VACT	_	7	conj	_	SpaceAfter=No
 20	ราว	_	ADV	DIBQ	_	22	advmod	_	SpaceAfter=No
-21	ๆ	_	SYM	NCMN	_	20	dep	_	_
+21	ๆ	_	PUNCT	NCMN	_	20	punct	_	_
 22	760	_	NUM	NCNM	_	23	nummod	_	_
 23	ปอนด์	_	NOUN	VSTA	_	19	obj	_	SpaceAfter=No
 24	สำหรับ	_	ADP	RPRE	_	25	case	_	SpaceAfter=No
@@ -7234,7 +7236,7 @@
 2	เขา	_	PRON	PPRS	Person=3	3	nsubj	_	SpaceAfter=No
 3	ทำ	_	VERB	VACT	_	22	advcl	_	SpaceAfter=No
 4	จริง	_	ADV	ADVN	_	3	advmod	_	SpaceAfter=No
-5	ๆ	_	SYM	NCMN	_	4	dep	_	_
+5	ๆ	_	PUNCT	NCMN	_	4	punct	_	_
 6	หุ้น	_	NOUN	NCMN	_	22	nsubj	_	SpaceAfter=No
 7	กู้	_	VERB	NCMN	_	6	acl	_	SpaceAfter=No
 8	ที่	_	DET	PREL	_	9	obj	_	SpaceAfter=No
@@ -7544,7 +7546,7 @@
 19	คน	_	NOUN	CNIT	_	16	nmod	_	SpaceAfter=No
 20	ก็	_	ADV	JSBR	_	21	advmod	_	SpaceAfter=No
 21	ประเมิน	_	VERB	VSTA	_	14	acl:relcl	_	SpaceAfter=No
-22	ความหนาวยะเยือก	_	ADJ	NCMN	_	21	obj	_	SpaceAfter=No
+22	ความหนาวยะเยือก	_	NOUN	NCMN	_	21	obj	_	SpaceAfter=No
 23	ของ	_	ADP	RPRE	_	24	case	_	SpaceAfter=No
 24	บริเตน	_	PROPN	NPRP	_	22	nmod:poss	_	SpaceAfter=No
 25	ใน	_	ADP	RPRE	_	26	case	_	SpaceAfter=No
@@ -7805,7 +7807,7 @@
 24	สังคม	_	NOUN	NCMN	_	22	compound	_	SpaceAfter=No
 25	แบบ	_	NOUN	NCMN	_	22	compound	_	SpaceAfter=No
 26	หนัก	_	VERB	VATT	_	25	amod	_	SpaceAfter=No
-27	ๆ	_	SYM	NCMN	_	26	dep	_	_
+27	ๆ	_	PUNCT	NCMN	_	26	punct	_	_
 
 # sent_id = n01119012
 # text = ในระดับหนึ่งแล้ว มันก็ดูอบอุ่นหัวใจไม่เสแสร้งแถมน่ารักกุ๊กกิ๊กที่ดูเหมือนสร้างมาเฉพาะเพื่อให้ดูยามบ่ายวันอาทิตย์
@@ -7848,8 +7850,8 @@
 5	ซึ่ง	_	DET	PREL	_	7	nsubj	_	SpaceAfter=No
 6	เป็น	_	AUX	VSTA	_	7	cop	_	SpaceAfter=No
 7	แหล่ง	_	NOUN	NCMN	_	4	acl:relcl	_	SpaceAfter=No
-8	ความฮา	_	ADJ	NCMN	_	7	compound	_	SpaceAfter=No
-9	อย่างต่อเนื่อง	_	VERB	ADVP	_	8	advmod	_	_
+8	ความฮา	_	NOUN	NCMN	_	7	compound	_	SpaceAfter=No
+9	อย่างต่อเนื่อง	_	VERB	ADVP	_	8	acl	_	_
 
 # sent_id = n01119019
 # text = แล้วผลก็ออกมาแทบจะไม่ยอดเยี่ยมเลย
@@ -7957,9 +7959,9 @@
 16	ผู้	_	DET	PPRS	_	17	nsubj	_	SpaceAfter=No
 17	มี	_	VERB	VSTA	_	15	acl:relcl	_	SpaceAfter=No
 18	ทั้ง	_	DET	DDBQ	_	19	cc:preconj	_	SpaceAfter=No
-19	ความผิดพลาด	_	ADJ	NCMN	_	17	obj	_	SpaceAfter=No
+19	ความผิดพลาด	_	NOUN	NCMN	_	17	obj	_	SpaceAfter=No
 20	และ	_	CCONJ	JCRG	_	21	cc	_	SpaceAfter=No
-21	ความบิดเบี้ยว	_	ADJ	NCMN	_	19	conj	_	SpaceAfter=No
+21	ความบิดเบี้ยว	_	NOUN	NCMN	_	19	conj	_	SpaceAfter=No
 22	เช่น	_	AUX	RPRE	_	23	cop	_	SpaceAfter=No
 23	กัน	_	PRON	ADVN	_	6	acl	_	_
 
@@ -8135,7 +8137,7 @@
 11	การสร้าง	_	VERB	NCMN	_	9	xcomp	_	SpaceAfter=No
 12	สิ่งของ	_	NOUN	NCMN	_	11	obj	_	SpaceAfter=No
 13	ต่าง	_	VERB	PDMN	_	12	amod	_	SpaceAfter=No
-14	ๆ	_	SYM	NCMN	_	13	dep	_	_
+14	ๆ	_	PUNCT	NCMN	_	13	punct	_	_
 15	ที่	_	DET	PREL	_	16	nsubj	_	SpaceAfter=No
 16	เพิ่ม	_	VERB	VSTA	_	9	acl:relcl	_	SpaceAfter=No
 17	ขึ้น	_	PART	XVAE	_	16	compound:prt	_	_
@@ -8343,7 +8345,7 @@
 1	นี่	_	PRON	PDMN	_	3	nsubj	_	SpaceAfter=No
 2	เป็น	_	AUX	VSTA	_	3	cop	_	SpaceAfter=No
 3	ประเด็น	_	NOUN	NCMN	_	0	root	_	SpaceAfter=No
-4	ความมั่นคง	_	ADJ	NCMN	_	3	compound	_	SpaceAfter=No
+4	ความมั่นคง	_	NOUN	NCMN	_	3	compound	_	SpaceAfter=No
 5	แห่ง	_	ADP	RPRE	_	6	case	_	SpaceAfter=No
 6	มาตุภูมิ	_	NOUN	NCMN	_	3	nmod:poss	_	SpaceAfter=No
 7	ของ	_	ADP	RPRE	_	8	case	_	SpaceAfter=No
@@ -8636,7 +8638,7 @@
 18	กับ	_	ADP	RPRE	_	19	case	_	SpaceAfter=No
 19	ตลาด	_	NOUN	NCMN	_	16	obl	_	SpaceAfter=No
 20	ต่าง	_	VERB	VSTA	_	19	amod	_	SpaceAfter=No
-21	ๆ	_	SYM	NCMN	_	20	dep	_	_
+21	ๆ	_	PUNCT	NCMN	_	20	punct	_	_
 22	ใน	_	ADP	RPRE	_	23	case	_	SpaceAfter=No
 23	ยุโรป	_	PROPN	NPRP	_	19	nmod	_	_
 
@@ -8671,8 +8673,8 @@
 1	เขา	_	PRON	PPRS	Person=3	3	nsubj	_	SpaceAfter=No
 2	ได้	_	PART	XVAM	Aspect=Perf	3	aux	_	SpaceAfter=No
 3	รับ	_	VERB	VACT	_	0	root	_	SpaceAfter=No
-4	ความดี	_	ADJ	NCMN	_	3	obj	_	SpaceAfter=No
-5	ความชอบ	_	VERB	VSTA	_	4	compound	_	SpaceAfter=No
+4	ความดี	_	NOUN	NCMN	_	3	obj	_	SpaceAfter=No
+5	ความชอบ	_	NOUN	VSTA	_	4	compound	_	SpaceAfter=No
 6	ใน	_	ADP	RPRE	_	7	case	_	SpaceAfter=No
 7	การให้	_	VERB	NCMN	_	3	xcomp	_	SpaceAfter=No
 8	ความพยายาม	_	VERB	NCMN	_	7	obj	_	SpaceAfter=No
@@ -8936,7 +8938,7 @@
 # text_en = New episodes are followed by after show, "The Talking Dead."
 1	ตอน	_	NOUN	NCMN	_	5	nsubj	_	SpaceAfter=No
 2	ใหม่	_	VERB	VATT	_	1	amod	_	SpaceAfter=No
-3	ๆ	_	SYM	NCMN	_	2	dep	_	_
+3	ๆ	_	PUNCT	NCMN	_	2	punct	_	_
 4	จะ	_	VERB	XVBM	_	5	aux	_	SpaceAfter=No
 5	มี	_	VERB	VSTA	_	0	root	_	SpaceAfter=No
 6	รายการ	_	NOUN	NCMN	_	5	obj	_	SpaceAfter=No
@@ -9158,7 +9160,7 @@
 26	บริษัท	_	NOUN	NCMN	_	20	nmod:poss	_	SpaceAfter=No
 27	เทคโนโลยี	_	NOUN	NCMN	_	26	compound	_	SpaceAfter=No
 28	ต่าง	_	VERB	VSTA	_	26	amod	_	SpaceAfter=No
-29	ๆ	_	SYM	NCMN	_	28	dep	_	_
+29	ๆ	_	PUNCT	NCMN	_	28	punct	_	_
 
 # sent_id = n01142007
 # text = อิสเนอร์ซึ่งตีเทนนิสได้สุดยอดจากการเสมอและต้องมีเซ็ตตัดสินก็ได้แสดงความชื่นชม
@@ -9306,7 +9308,7 @@
 8	ผม	_	PRON	PPRS	Person=1	5	nmod:poss	_	SpaceAfter=No
 9	อยู่	_	PART	VSTA	Aspect=Prog	2	aux	_	SpaceAfter=No
 10	เรื่อย	_	ADV	ADVN	_	2	advmod	_	SpaceAfter=No
-11	ๆ	_	SYM	NCMN	_	10	dep	_	_
+11	ๆ	_	PUNCT	NCMN	_	10	punct	_	_
 12	และ	_	CCONJ	JCRG	_	16	cc	_	SpaceAfter=No
 13	ผม	_	PRON	PPRS	Person=1	16	nsubj	_	SpaceAfter=No
 14	ก็	_	ADV	JSBR	_	16	advmod	_	SpaceAfter=No
@@ -9791,7 +9793,7 @@
 # sent_id = w01002008
 # text = อุดมด้วยแร่ธาตุ โดยเป็นแหล่งของทองคำ เพชร และสินแร่แมงกานีส ตะกั่ว สังกะสี นิกเกิล โคบอลต์ และโมลิบดีนัมขนาดใหญ่
 # text_en = It is exceptionally rich in minerals, containing large deposits of gold, diamonds, and ores of manganese, lead, zinc, nickel, cobalt and molybdenum.
-1	อุดม	_	ADJ	NPRP	_	0	root	_	SpaceAfter=No
+1	อุดม	_	NOUN	NPRP	_	0	root	_	SpaceAfter=No
 2	ด้วย	_	ADP	RPRE	_	3	case	_	SpaceAfter=No
 3	แร่ธาตุ	_	NOUN	NCMN	_	1	nmod	_	ToDo=nmod
 4	โดย	_	ADP	JSBR	_	6	mark	_	SpaceAfter=No
@@ -10248,7 +10250,7 @@
 22	ที่	_	DET	PREL	_	23	nsubj	_	SpaceAfter=No
 23	สำคัญ	_	VERB	VATT	_	20	acl:relcl	_	SpaceAfter=No
 24	ต่าง	_	VERB	VSTA	_	23	amod	_	SpaceAfter=No
-25	ๆ	_	SYM	NCMN	_	24	dep	_	_
+25	ๆ	_	PUNCT	NCMN	_	24	punct	_	_
 26	จาก	_	ADP	RPRE	_	27	case	_	SpaceAfter=No
 27	แนว	_	NOUN	NCMN	_	18	obl	_	SpaceAfter=No
 28	คิด	_	VERB	VACT	_	27	acl	_	SpaceAfter=No
@@ -10629,7 +10631,7 @@
 5	อากาศ	_	NOUN	NCMN	_	4	compound	_	SpaceAfter=No
 6	เมื่อ	_	ADP	JSBR	_	7	case	_	SpaceAfter=No
 7	เร็ว	_	ADV	VATT	_	1	xcomp	_	SpaceAfter=No
-8	ๆ	_	SYM	NCMN	_	7	dep	_	_
+8	ๆ	_	PUNCT	NCMN	_	7	punct	_	_
 9	นี้	_	PRON	DDAC	_	7	advmod	_	_
 10	คือ	_	AUX	VSTA	_	11	cop	_	_
 11	การเตรียม	_	VERB	NCMN	_	0	root	_	SpaceAfter=No
@@ -10937,11 +10939,11 @@
 9	ทะเล	_	NOUN	NCMN	_	7	obl	_	SpaceAfter=No
 10	ที่	_	DET	PREL	_	11	nsubj	_	SpaceAfter=No
 11	คล้าย	_	VERB	VSTA	_	3	acl:relcl	_	SpaceAfter=No
-12	ๆ	_	SYM	VACT	_	11	dep	_	_
+12	ๆ	_	PUNCT	VACT	_	11	punct	_	_
 13	กัน	_	PRON	ADVN	_	11	obj	_	_
 14	วัฒนธรรม	_	NOUN	NCMN	_	25	nsubj	_	SpaceAfter=No
 15	ต่าง	_	VERB	VSTA	_	14	amod	_	SpaceAfter=No
-16	ๆ	_	SYM	NCMN	_	15	dep	_	_
+16	ๆ	_	PUNCT	NCMN	_	15	punct	_	_
 17	ที่	_	DET	PREL	_	18	nsubj	_	SpaceAfter=No
 18	มี	_	VERB	VSTA	_	14	acl:relcl	_	SpaceAfter=No
 19	ศูนย์กลาง	_	NOUN	NCMN	_	18	obj	_	SpaceAfter=No
@@ -11477,7 +11479,7 @@
 5	ให้	_	VERB	JSBR	_	4	mark	_	SpaceAfter=No
 6	เห็น	_	VERB	VSTA	_	5	xcomp	_	SpaceAfter=No
 7	ถึง	_	ADP	RPRE	_	8	case	_	SpaceAfter=No
-8	ความหลากหลาย	_	ADJ	NCMN	_	6	obl	_	SpaceAfter=No
+8	ความหลากหลาย	_	NOUN	NCMN	_	6	obl	_	SpaceAfter=No
 9	ของ	_	ADP	RPRE	_	10	case	_	SpaceAfter=No
 10	สี	_	NOUN	NCMN	_	8	nmod:poss	_	SpaceAfter=No
 11	เขียว	_	VERB	VATT	_	10	amod	_	SpaceAfter=No
@@ -11726,7 +11728,7 @@
 2	มัก	_	ADV	XVBM	_	4	advmod	_	SpaceAfter=No
 3	จะ	_	VERB	XVBM	_	4	aux	_	SpaceAfter=No
 4	มี	_	VERB	VSTA	_	0	root	_	SpaceAfter=No
-5	ความหนืด	_	ADJ	NCMN	_	4	obj	_	SpaceAfter=No
+5	ความหนืด	_	NOUN	NCMN	_	4	obj	_	SpaceAfter=No
 6	สูง	_	ADV	VATT	_	4	advmod	_	SpaceAfter=No
 7	เนื่อง	_	ADP	ADVN	_	9	case	_	SpaceAfter=No
 8	จาก	_	ADP	RPRE	_	7	fixed	_	SpaceAfter=No
@@ -12052,7 +12054,7 @@
 13	ใน	_	ADP	RPRE	_	14	case	_	SpaceAfter=No
 14	โลก	_	NOUN	NCMN	_	11	obl	_	SpaceAfter=No
 15	ด้าน	_	NOUN	NCMN	_	11	advmod	_	SpaceAfter=No
-16	ความรุนแรง	_	ADJ	NCMN	_	15	compound	_	SpaceAfter=No
+16	ความรุนแรง	_	NOUN	NCMN	_	15	compound	_	SpaceAfter=No
 17	ทาง	_	ADP	NCMN	_	18	case	_	SpaceAfter=No
 18	เพศ	_	NOUN	NCMN	_	16	nmod	_	ToDo=nmod
 
@@ -13122,7 +13124,7 @@
 5	ควบคุม	_	VERB	VACT	_	1	acl:relcl	_	SpaceAfter=No
 6	คือ	_	AUX	VSTA	_	9	cop	_	SpaceAfter=No
 7	ราว	_	ADV	DIBQ	_	9	advmod	_	SpaceAfter=No
-8	ๆ	_	SYM	NCMN	_	7	dep	_	_
+8	ๆ	_	PUNCT	NCMN	_	7	punct	_	_
 9	บริเวณ	_	NOUN	NCMN	_	0	root	_	SpaceAfter=No
 10	มองโกเลียนอก	_	PROPN	NPRP	_	9	compound	_	SpaceAfter=No
 11	เดิม	_	VERB	VATT	_	10	amod	_	SpaceAfter=No
@@ -13147,7 +13149,7 @@
 11	ได้	_	PART	XVAE	Aspect=Perf	13	aux	_	SpaceAfter=No
 12	ทรง	_	VERB	CMTR	_	13	aux	_	SpaceAfter=No
 13	ก่อ	_	VERB	NCMN	_	0	root	_	SpaceAfter=No
-14	ความผิดพลาด	_	ADJ	NCMN	_	13	obj	_	SpaceAfter=No
+14	ความผิดพลาด	_	NOUN	NCMN	_	13	obj	_	SpaceAfter=No
 15	ที่	_	DET	PREL	_	16	nsubj	_	SpaceAfter=No
 16	ร้ายแรง	_	VERB	NCMN	_	14	acl:relcl	_	SpaceAfter=No
 17	ทาง	_	ADP	NCMN	_	18	case	_	SpaceAfter=No
@@ -13583,7 +13585,7 @@
 9	ด้วย	_	ADP	RPRE	_	10	case	_	SpaceAfter=No
 10	ทักษะ	_	NOUN	NCMN	_	4	obl	_	SpaceAfter=No
 11	และ	_	CCONJ	JCRG	_	12	cc	_	SpaceAfter=No
-12	ความสามารถ	_	ADJ	NCMN	_	10	conj	_	SpaceAfter=No
+12	ความสามารถ	_	NOUN	NCMN	_	10	conj	_	SpaceAfter=No
 13	ใน	_	ADP	RPRE	_	14	case	_	SpaceAfter=No
 14	ฐานะ	_	NOUN	NCMN	_	10	nmod	_	SpaceAfter=No
 15	นัก	_	NOUN	ADVN	_	14	compound	_	SpaceAfter=No
@@ -13696,7 +13698,7 @@
 16	จีน	_	PROPN	NPRP	_	15	compound	_	SpaceAfter=No
 17	ที่	_	DET	PREL	_	18	nsubj	_	SpaceAfter=No
 18	ไร้	_	VERB	VSTA	_	15	acl:relcl	_	SpaceAfter=No
-19	ความสามารถ	_	ADJ	NCMN	_	18	obj	_	SpaceAfter=No
+19	ความสามารถ	_	NOUN	NCMN	_	18	obj	_	SpaceAfter=No
 20	หลาย	_	DET	DIBQ	_	21	det	_	SpaceAfter=No
 21	ราย	_	NOUN	CNIT	_	15	clf	_	SpaceAfter=No
 22	จน	_	ADP	JSBR	_	24	mark	_	SpaceAfter=No
@@ -14473,7 +14475,7 @@
 # sent_id = w01071036
 # text = ความสำคัญอยู่ในข้อเท็จจริงสองประการ
 # text_en = Its importance resides in two facts.
-1	ความสำคัญ	_	ADJ	NCMN	_	2	nsubj	_	SpaceAfter=No
+1	ความสำคัญ	_	NOUN	NCMN	_	2	nsubj	_	SpaceAfter=No
 2	อยู่	_	VERB	VSTA	_	0	root	_	SpaceAfter=No
 3	ใน	_	ADP	RPRE	_	4	case	_	SpaceAfter=No
 4	ข้อ	_	NOUN	NCMN	_	2	obl	_	SpaceAfter=No
@@ -14530,7 +14532,7 @@
 25	อาจ	_	VERB	XVMM	_	26	aux	_	SpaceAfter=No
 26	เกิด	_	VERB	VSTA	_	16	acl	_	SpaceAfter=No
 27	จาก	_	ADP	RPRE	_	28	case	_	SpaceAfter=No
-28	ความบังเอิญ	_	ADJ	NCMN	_	26	obl	_	SpaceAfter=No
+28	ความบังเอิญ	_	NOUN	NCMN	_	26	obl	_	SpaceAfter=No
 29	และ	_	CCONJ	JCRG	_	30	cc	_	SpaceAfter=No
 30	ข้อ	_	NOUN	NCMN	_	28	conj	_	SpaceAfter=No
 31	สงสัย	_	VERB	NCMN	_	30	acl	_	SpaceAfter=No
@@ -14612,7 +14614,7 @@
 4	รับ	_	VERB	VACT	_	0	root	_	SpaceAfter=No
 5	อิทธิพล	_	NOUN	NCMN	_	4	obj	_	SpaceAfter=No
 6	จาก	_	ADP	RPRE	_	7	case	_	SpaceAfter=No
-7	ความงาม	_	ADJ	NCMN	_	4	obl	_	SpaceAfter=No
+7	ความงาม	_	NOUN	NCMN	_	4	obl	_	SpaceAfter=No
 8	ของ	_	ADP	RPRE	_	9	case	_	SpaceAfter=No
 9	บริเวณ	_	NOUN	NCMN	_	7	nmod:poss	_	SpaceAfter=No
 10	ทะเลสาบ	_	NOUN	NCMN	_	9	compound	_	SpaceAfter=No
@@ -16511,7 +16513,7 @@
 3	ใน	_	ADP	RPRE	_	4	case	_	SpaceAfter=No
 4	ช่วง	_	NOUN	NCMN	_	1	nmod	_	SpaceAfter=No
 5	แรก	_	VERB	DONM	_	4	amod	_	SpaceAfter=No
-6	ๆ	_	SYM	NCMN	_	5	dep	_	_
+6	ๆ	_	PUNCT	NCMN	_	5	punct	_	_
 7	ของ	_	ADP	RPRE	_	8	case	_	SpaceAfter=No
 8	ลามาร์	_	PROPN	NPRP	_	1	nmod:poss	_	SpaceAfter=No
 9	รวม	_	VERB	VACT	_	0	root	_	SpaceAfter=No
@@ -16896,7 +16898,7 @@
 # text = ระดับความสูงที่สูงมีเพื่อทำให้สภาพอากาศเย็นลง ไม่เช่นนั้นจะร้อนมาก
 # text_en = The high altitude serves to cool the climate, which would otherwise be very hot.
 1	ระดับ	_	NOUN	NCMN	_	5	nsubj	_	SpaceAfter=No
-2	ความสูง	_	ADJ	NCMN	_	1	compound	_	SpaceAfter=No
+2	ความสูง	_	NOUN	NCMN	_	1	compound	_	SpaceAfter=No
 3	ที่	_	DET	PREL	_	4	nsubj	_	SpaceAfter=No
 4	สูง	_	VERB	VATT	_	1	acl:relcl	_	SpaceAfter=No
 5	มี	_	VERB	VSTA	_	0	root	_	SpaceAfter=No
@@ -16964,7 +16966,7 @@
 5	กับ	_	ADP	RPRE	_	6	case	_	SpaceAfter=No
 6	ผู้	_	NOUN	PPRS	_	3	obl	_	SpaceAfter=No
 7	มี	_	VERB	VSTA	_	6	acl	_	SpaceAfter=No
-8	ความสามารถ	_	ADJ	NCMN	_	7	obj	_	SpaceAfter=No
+8	ความสามารถ	_	NOUN	NCMN	_	7	obj	_	SpaceAfter=No
 9	ที่	_	DET	PREL	_	10	nsubj	_	SpaceAfter=No
 10	เก่ง	_	VERB	VATT	_	6	acl:relcl	_	SpaceAfter=No
 11	ที่สุด	_	ADV	ADVN	_	10	advmod	_	SpaceAfter=No
@@ -17088,7 +17090,7 @@
 3	บอก	_	VERB	VACT	_	0	root	_	SpaceAfter=No
 4	เป็น	_	AUX	VSTA	_	5	cop	_	SpaceAfter=No
 5	นัย	_	NOUN	NCMN	_	3	xcomp	_	SpaceAfter=No
-6	ๆ	_	SYM	NCMN	_	5	dep	_	_
+6	ๆ	_	PUNCT	NCMN	_	5	punct	_	_
 7	ได้	_	VERB	XVAE	_	3	aux	_	SpaceAfter=No
 8	ว่า	_	ADP	JSBR	_	11	mark	_	SpaceAfter=No
 9	เขา	_	PRON	PPRS	Person=3	11	nsubj	_	SpaceAfter=No
@@ -17671,7 +17673,7 @@
 20	เสรีภาพ	_	NOUN	NCMN	_	19	conj	_	_
 21	และ	_	CCONJ	JCRG	_	22	cc	_	SpaceAfter=No
 22	การแสวงหา	_	VERB	NCMN	_	19	conj	_	SpaceAfter=No
-23	ความสุข	_	ADJ	NCMN	_	22	obj	_	SpaceAfter=No
+23	ความสุข	_	NOUN	NCMN	_	22	obj	_	SpaceAfter=No
 24	อีก	_	ADV	DDBQ	_	6	advmod	_	SpaceAfter=No
 25	ด้วย	_	ADV	ADVN	_	24	advmod	_	_
 
@@ -18357,7 +18359,7 @@
 22	เหนือ	_	ADP	RPRE	_	23	case	_	SpaceAfter=No
 23	กระทรวง	_	NOUN	NCMN	_	18	obl	_	Proper=True|SpaceAfter=No
 24	ต่าง	_	VERB	VSTA	_	23	amod	_	SpaceAfter=No
-25	ๆ	_	SYM	NCMN	_	24	dep	_	_
+25	ๆ	_	PUNCT	NCMN	_	24	punct	_	_
 
 # sent_id = w01132042
 # text = รูปแบบต่างๆ ที่เสนอโดยข้อมูลจากเขตเปเต็นและวาชักตุนทำให้พื้นที่เหล่านี้เหมาะสมต่อการพัฒนาทางวัฒนธรรมของที่ราบลุ่มต่ำมายา
@@ -18470,7 +18472,7 @@
 10	ใน	_	ADP	RPRE	_	11	case	_	SpaceAfter=No
 11	ฉบับ	_	NOUN	NCMN	_	8	nmod	_	SpaceAfter=No
 12	ถัด	_	VERB	ADVN	_	11	acl	_	SpaceAfter=No
-13	ๆ	_	SYM	VATT	_	12	dep	_	_
+13	ๆ	_	PUNCT	VATT	_	12	punct	_	_
 14	มา	_	PART	XVAE	_	12	compound:prt	_	_
 15	และ	_	CCONJ	JCRG	_	16	cc	_	SpaceAfter=No
 16	เริ่ม	_	VERB	VSTA	_	2	conj	_	SpaceAfter=No
@@ -18997,7 +18999,7 @@
 8	ค่า	_	NOUN	NCMN	_	7	obj	_	SpaceAfter=No
 9	ใช้จ่าย	_	VERB	NCMN	_	8	acl	_	SpaceAfter=No
 10	ต่าง	_	VERB	VSTA	_	8	amod	_	SpaceAfter=No
-11	ๆ	_	SYM	NCMN	_	10	dep	_	_
+11	ๆ	_	PUNCT	NCMN	_	10	punct	_	_
 12	ของ	_	ADP	RPRE	_	13	case	_	SpaceAfter=No
 13	โรนา	_	PROPN	NPRP	_	8	nmod:poss	_	SpaceAfter=No
 14	ได้	_	VERB	XVAE	_	5	aux	_	SpaceAfter=No
@@ -19090,7 +19092,7 @@
 17	งาน	_	NOUN	NCMN	_	15	obl	_	SpaceAfter=No
 18	วิจัย	_	VERB	VACT	_	17	acl	_	SpaceAfter=No
 19	ต่อ	_	VERB	RPRE	_	17	acl	_	SpaceAfter=No
-20	ๆ	_	SYM	NCMN	_	19	dep	_	_
+20	ๆ	_	PUNCT	NCMN	_	19	punct	_	_
 21	มา	_	PART	XVAE	_	19	compound:prt	_	SpaceAfter=No
 22	ของ	_	ADP	RPRE	_	23	case	_	SpaceAfter=No
 23	สถาบัน	_	NOUN	NCMN	_	17	nmod:poss	_	SpaceAfter=No
@@ -19261,7 +19263,7 @@
 18	เยื่อใย	_	NOUN	NCMN	_	17	obj	_	SpaceAfter=No
 19	หลัง	_	ADP	VATT	_	21	case	_	SpaceAfter=No
 20	จาก	_	ADP	RPRE	_	19	fixed	_	SpaceAfter=No
-21	ความร้าวฉาน	_	ADJ	NCMN	_	17	obl	_	SpaceAfter=No
+21	ความร้าวฉาน	_	NOUN	NCMN	_	17	obl	_	SpaceAfter=No
 22	ใน	_	ADP	RPRE	_	23	case	_	SpaceAfter=No
 23	ชีวิต	_	NOUN	NCMN	_	21	nmod	_	SpaceAfter=No|ToDo=nmod
 24	สมรส	_	VERB	NCMN	_	23	acl	_	_
@@ -20701,7 +20703,7 @@
 6	ข้อ	_	NOUN	NCMN	_	5	obj	_	SpaceAfter=No
 7	สรุป	_	VERB	VACT	_	6	acl	_	SpaceAfter=No
 8	ใหม่	_	VERB	ADVN	_	6	amod	_	SpaceAfter=No
-9	ๆ	_	SYM	NCMN	_	8	dep	_	_
+9	ๆ	_	PUNCT	NCMN	_	8	punct	_	_
 10	จาก	_	ADP	RPRE	_	11	case	_	SpaceAfter=No
 11	การตรวจสอบ	_	VERB	NCMN	_	5	xcomp	_	SpaceAfter=No
 12	ปีก	_	NOUN	NCMN	_	11	obj	_	SpaceAfter=No
@@ -21060,7 +21062,7 @@
 21	ชาติ	_	NOUN	NCMN	_	19	compound	_	SpaceAfter=No
 22	ที่	_	DET	PREL	_	23	nsubj	_	SpaceAfter=No
 23	มี	_	VERB	VSTA	_	19	acl:relcl	_	SpaceAfter=No
-24	ความสำคัญ	_	ADJ	NCMN	_	23	obj	_	SpaceAfter=No
+24	ความสำคัญ	_	NOUN	NCMN	_	23	obj	_	SpaceAfter=No
 25	สูง	_	VERB	VATT	_	24	amod	_	SpaceAfter=No
 26	สุด	_	ADV	ADVN	_	25	advmod	_	_
 27	และ	_	CCONJ	JCRG	_	29	cc	_	SpaceAfter=No
@@ -21123,7 +21125,7 @@
 19	สืบสวน	_	VERB	VACT	_	12	ccomp	_	SpaceAfter=No
 20	เป็น	_	AUX	VSTA	_	21	cop	_	SpaceAfter=No
 21	ปี	_	NOUN	NCMN	_	19	xcomp	_	SpaceAfter=No
-22	ๆ	_	SYM	NCMN	_	21	dep	_	SpaceAfter=No
+22	ๆ	_	PUNCT	NCMN	_	21	punct	_	SpaceAfter=No
 23	’	_	PUNCT	PUNC	_	19	punct	_	_
 
 # sent_id = n03001023
@@ -21678,7 +21680,7 @@
 23	15.5	_	NUM	DCNM	_	24	nummod	_	_
 24	ล้าน	_	NUM	NCMN	_	22	obj	_	_
 25	เพื่อ	_	ADP	RPRE	_	26	case	_	SpaceAfter=No
-26	ความมั่นคง	_	ADJ	NCMN	_	22	obl	_	_
+26	ความมั่นคง	_	NOUN	NCMN	_	22	obl	_	_
 
 # sent_id = n03010019
 # text = ฝรั่งเศสมีชื่อเสียงไม่สู้ดีนัก
@@ -22296,7 +22298,7 @@
 4	ของ	_	ADP	RPRE	_	5	case	_	SpaceAfter=No
 5	บริษัท	_	NOUN	NCMN	_	2	nmod:poss	_	SpaceAfter=No
 6	ต่าง	_	VERB	VSTA	_	5	amod	_	SpaceAfter=No
-7	ๆ	_	SYM	NPRP	_	6	dep	_	_
+7	ๆ	_	PUNCT	NPRP	_	6	punct	_	_
 8	อาทิ	_	ADP	NCMN	_	9	case	_	_
 9	สปอติฟาย	_	PROPN	NPRP	_	5	nmod	_	_
 10	เทสลา	_	PROPN	NPRP	_	9	conj	_	_
@@ -22325,7 +22327,7 @@
 7	เป็น	_	AUX	VSTA	_	8	cop	_	SpaceAfter=No
 8	ตัว	_	NOUN	NCMN	_	0	root	_	SpaceAfter=No
 9	แทน	_	VERB	VSTA	_	8	acl	_	SpaceAfter=No
-10	ความอนุรักษ์นิยม	_	ADJ	NCMN	_	8	compound	_	SpaceAfter=No
+10	ความอนุรักษ์นิยม	_	NOUN	NCMN	_	8	compound	_	SpaceAfter=No
 11	อย่างที่สุด	_	VERB	ADVP	_	10	advmod	_	_
 12	ใน	_	ADP	RPRE	_	13	case	_	SpaceAfter=No
 13	ขณะ	_	NOUN	NCMN	_	8	nmod	_	SpaceAfter=No|ToDo=nmod
@@ -22422,7 +22424,7 @@
 # text_en = The unions have been very combative and on several occasions have called for the repeal of the legislation that Fátima Báñez is proudest of.
 1	สหภาพ	_	NOUN	NCMN	_	5	nsubj	_	Proper=True|SpaceAfter=No
 2	ต่าง	_	VERB	VSTA	_	1	amod	_	SpaceAfter=No
-3	ๆ	_	SYM	NCMN	_	2	dep	_	_
+3	ๆ	_	PUNCT	NCMN	_	2	punct	_	_
 4	ได้	_	PART	XVAE	Aspect=Perf	5	aux	_	SpaceAfter=No
 5	ต่อสู้	_	VERB	ADVN	_	0	root	_	SpaceAfter=No
 6	อย่างหนัก	_	VERB	ADVP	_	5	advmod	_	_
@@ -22467,7 +22469,7 @@
 9	"	_	PUNCT	PUNC	_	10	punct	_	SpaceAfter=No
 10	เรื่อง	_	NOUN	NCMN	_	7	obl	_	SpaceAfter=No
 11	ร้อน	_	VERB	VATT	_	10	amod	_	SpaceAfter=No
-12	ๆ	_	SYM	NCMN	_	11	dep	_	SpaceAfter=No
+12	ๆ	_	PUNCT	NCMN	_	11	punct	_	SpaceAfter=No
 13	"	_	PUNCT	PUNC	_	10	punct	_	_
 14	อื่น	_	VERB	DIAC	_	10	amod	_	SpaceAfter=No
 15	ๆ	_	PUNCT	PUNC	_	14	punct	_	_
@@ -22691,7 +22693,7 @@
 5	คำ	_	NOUN	NCMN	_	1	conj	_	SpaceAfter=No
 6	ประชด	_	VERB	VSTA	_	5	acl	_	SpaceAfter=No
 7	ทื่อ	_	VERB	JSBR	_	5	amod	_	SpaceAfter=No
-8	ๆ	_	SYM	NCMN	_	7	dep	_	_
+8	ๆ	_	PUNCT	NCMN	_	7	punct	_	_
 9	และ	_	CCONJ	JCRG	_	10	cc	_	SpaceAfter=No
 10	เครื่องมือ	_	NOUN	NCMN	_	1	conj	_	SpaceAfter=No
 11	ทาง	_	ADP	NCMN	_	12	case	_	SpaceAfter=No
@@ -22775,7 +22777,7 @@
 25	มา	_	PART	XVAE	_	23	compound:prt	_	SpaceAfter=No
 26	และ	_	CCONJ	JCRG	_	27	cc	_	SpaceAfter=No
 27	ทำให้	_	VERB	VACT	_	20	conj	_	SpaceAfter=No
-28	ความลับ	_	ADJ	NCMN	_	27	obj	_	SpaceAfter=No
+28	ความลับ	_	NOUN	NCMN	_	27	obj	_	SpaceAfter=No
 29	ของ	_	ADP	RPRE	_	30	case	_	SpaceAfter=No
 30	เขา	_	PRON	PPRS	Person=3	28	nmod:poss	_	SpaceAfter=No
 31	จำนน	_	VERB	VACT	_	27	xcomp	_	SpaceAfter=No
@@ -22809,7 +22811,7 @@
 19	เขา	_	PRON	PPRS	Person=3	18	compound	_	SpaceAfter=No
 20	สร้าง	_	VERB	VACT	_	6	advcl	_	SpaceAfter=No
 21	สายพันธุ์	_	NOUN	NCMN	_	20	obj	_	SpaceAfter=No
-22	ความงาม	_	ADJ	NCMN	_	21	compound	_	SpaceAfter=No
+22	ความงาม	_	NOUN	NCMN	_	21	compound	_	SpaceAfter=No
 23	และ	_	CCONJ	JCRG	_	24	cc	_	SpaceAfter=No
 24	ความหวัง	_	VERB	NCMN	_	22	conj	_	SpaceAfter=No
 25	รุ่น	_	NOUN	CLTV	_	22	clf	_	SpaceAfter=No
@@ -23199,7 +23201,7 @@
 4	เกต	_	NOUN	NCMN	_	1	compound	_	Proper=True|SpaceAfter=No
 5	ซึ่ง	_	DET	PREL	_	6	nsubj	_	SpaceAfter=No
 6	มี	_	VERB	VSTA	_	1	acl:relcl	_	SpaceAfter=No
-7	ความยาว	_	ADJ	NCMN	_	6	obj	_	SpaceAfter=No
+7	ความยาว	_	NOUN	NCMN	_	6	obj	_	SpaceAfter=No
 8	มาก	_	ADV	ADVN	_	6	advmod	_	SpaceAfter=No
 9	กว่า	_	ADP	JCMP	_	11	case	_	SpaceAfter=No
 10	สี่	_	NUM	DCNM	_	11	nummod	_	SpaceAfter=No
@@ -23509,7 +23511,7 @@
 # sent_id = w02009002
 # text = ความรุนแรงและการปรากฏของการปฏิวัติในชนบทเป็นที่ตื่นตระหนกต่อศาลและสมัชชาแห่งชาติในแวร์ซาย
 # text_en = The severity and the presence of the revolution in the countryside alarmed the Court and National Assembly in Versailles.
-1	ความรุนแรง	_	ADJ	NCMN	_	9	nsubj	_	SpaceAfter=No
+1	ความรุนแรง	_	NOUN	NCMN	_	9	nsubj	_	SpaceAfter=No
 2	และ	_	CCONJ	JCRG	_	3	cc	_	SpaceAfter=No
 3	การปรากฏ	_	VERB	NCMN	_	1	conj	_	SpaceAfter=No
 4	ของ	_	ADP	RPRE	_	5	case	_	SpaceAfter=No
@@ -23640,7 +23642,7 @@
 11	และ	_	CCONJ	JCRG	_	12	cc	_	SpaceAfter=No
 12	การพัฒนา	_	VERB	NCMN	_	10	conj	_	SpaceAfter=No
 13	ใหม่	_	VERB	VATT	_	12	amod	_	SpaceAfter=No
-14	ๆ	_	SYM	NCMN	_	13	dep	_	SpaceAfter=No
+14	ๆ	_	PUNCT	NCMN	_	13	punct	_	SpaceAfter=No
 15	ใน	_	ADP	RPRE	_	16	case	_	SpaceAfter=No
 16	การ	_	NOUN	FIXN	_	10	obl	_	SpaceAfter=No
 17	เมือง	_	NOUN	VACT	_	16	compound	_	SpaceAfter=No
@@ -24262,7 +24264,7 @@
 8	โรมัน	_	PROPN	NPRP	_	7	compound	_	_
 9	สถาบัน	_	NOUN	NCMN	_	7	conj	_	SpaceAfter=No
 10	ต่าง	_	VERB	PDMN	_	9	amod	_	SpaceAfter=No
-11	ๆ	_	SYM	NCMN	_	10	dep	_	_
+11	ๆ	_	PUNCT	NCMN	_	10	punct	_	_
 12	ของ	_	ADP	RPRE	_	13	case	_	SpaceAfter=No
 13	สาธารณรัฐ	_	NOUN	NCMN	_	9	nmod:poss	_	Proper=True|SpaceAfter=No
 14	โรมัน	_	PROPN	NPRP	_	13	flat:name	_	_
@@ -24676,7 +24678,7 @@
 6	ก็	_	ADV	JSBR	_	7	advmod	_	SpaceAfter=No
 7	รู้สึก	_	VERB	VSTA	_	0	root	_	SpaceAfter=No
 8	มี	_	VERB	VSTA	_	7	xcomp	_	SpaceAfter=No
-9	ความสุข	_	ADJ	NCMN	_	8	obj	_	SpaceAfter=No
+9	ความสุข	_	NOUN	NCMN	_	8	obj	_	SpaceAfter=No
 10	กับ	_	ADP	RPRE	_	11	case	_	SpaceAfter=No
 11	ความคิด	_	VERB	NCMN	_	9	nmod	_	SpaceAfter=No|ToDo=nmod
 12	ที่	_	DET	PREL	_	15	nsubj	_	SpaceAfter=No
@@ -24727,9 +24729,9 @@
 28	การสนับสนุน	_	VERB	NCMN	_	27	obj	_	SpaceAfter=No
 29	แบบ	_	NOUN	NCMN	_	28	compound	_	SpaceAfter=No
 30	ลม	_	NOUN	NCMN	_	28	compound	_	SpaceAfter=No
-31	ๆ	_	SYM	NCMN	_	30	dep	_	_
-32	แล้ง	_	ADJ	NCMN	_	30	conj	_	SpaceAfter=No
-33	ๆ	_	SYM	NCMN	_	32	dep	_	_
+31	ๆ	_	PUNCT	NCMN	_	30	punct	_	_
+32	แล้ง	_	NOUN	NCMN	_	30	conj	_	SpaceAfter=No
+33	ๆ	_	PUNCT	NCMN	_	32	punct	_	_
 
 # sent_id = w03010099
 # text = ในช่วงฤดูร้อน จอร์จและภรรยาได้เดินทางกลับไปยังสวิตเซอร์แลนด์พร้อมกับโรแซน เด็กหญิงอายุ 18 ปีผู้เป็นลูกสาวของเพื่อนคนหนึ่งของเจอร์แมน
@@ -25282,7 +25284,7 @@
 23	เพราะ	_	ADP	JSBR	_	21	fixed	_	SpaceAfter=No
 24	การพัฒนา	_	VERB	NCMN	_	27	nsubj	_	SpaceAfter=No
 25	ใหม่	_	VERB	VATT	_	24	amod	_	SpaceAfter=No
-26	ๆ	_	SYM	NCMN	_	25	dep	_	_
+26	ๆ	_	PUNCT	NCMN	_	25	punct	_	_
 27	เกิด	_	VERB	VSTA	_	10	advcl	_	SpaceAfter=No
 28	ขึ้น	_	PART	XVAE	_	27	compound:prt	_	SpaceAfter=No
 29	ใน	_	ADP	RPRE	_	30	case	_	SpaceAfter=No
@@ -25907,7 +25909,7 @@
 25	มาก	_	ADV	ADVN	_	21	advmod	_	SpaceAfter=No
 26	ขึ้น	_	ADV	XVAE	_	25	advmod	_	SpaceAfter=No
 27	เรื่อย	_	ADV	ADVN	_	25	advmod	_	SpaceAfter=No
-28	ๆ	_	SYM	ADVN	_	27	dep	_	_
+28	ๆ	_	PUNCT	ADVN	_	27	punct	_	_
 
 # sent_id = w05005086
 # text = การเดินทางครั้งนี้นำโดยนายพลโจเซฟ เบอร์กอยน์ผู้ตั้งใจจะไปให้ถึงอัลบานี
