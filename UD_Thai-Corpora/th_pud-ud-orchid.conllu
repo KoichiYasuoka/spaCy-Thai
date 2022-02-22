@@ -1371,7 +1371,7 @@
 15	ช้า	_	VERB	ADVN	_	11	xcomp	_	SpaceAfter=No
 16	ลง	_	ADV	XVAE	_	15	advmod	_	_
 17	เช่น	_	NOUN	JSBR	_	11	advmod	_	SpaceAfter=No
-18	เดียว	_	VERB	DIAC	_	17	acl	_	SpaceAfter=No
+18	เดียว	_	NUM	DIAC	_	17	nummod	_	SpaceAfter=No
 19	กับ	_	ADP	RPRE	_	30	case	_	SpaceAfter=No
 20	ที่	_	ADP	PREL	_	30	mark	_	SpaceAfter=No
 21	การแก้ไข	_	VERB	NCMN	_	30	nsubj	_	Proper=True|SpaceAfter=No
@@ -1893,7 +1893,7 @@
 8	คอนเสิร์ต	_	NOUN	NCMN	_	7	obj	_	SpaceAfter=No
 9	ใน	_	ADP	RPRE	_	10	case	_	SpaceAfter=No
 10	ปี	_	NOUN	NCMN	_	7	obl	_	SpaceAfter=No
-11	เดียว	_	VERB	DIAC	_	10	acl	_	SpaceAfter=No
+11	เดียว	_	NUM	DIAC	_	10	nummod	_	SpaceAfter=No
 12	กัน	_	PRON	ADVN	_	11	advmod	_	SpaceAfter=No
 13	นั้นเอง	_	DET	ADVN	_	10	det	_	_
 
@@ -4960,7 +4960,7 @@
 2	เขา	_	PRON	PPRS	Person=3	1	compound	_	SpaceAfter=No
 3	มี	_	VERB	VSTA	_	0	root	_	SpaceAfter=No
 4	โอกาส	_	NOUN	NCMN	_	3	obj	_	SpaceAfter=No
-5	เดียว	_	VERB	DIAC	_	4	acl	_	SpaceAfter=No
+5	เดียว	_	NUM	DIAC	_	4	nummod	_	SpaceAfter=No
 6	ที่	_	DET	PREL	_	8	obl:tmod	_	SpaceAfter=No
 7	จะ	_	VERB	XVBM	_	8	aux	_	SpaceAfter=No
 8	ไถ่	_	VERB	VACT	_	4	acl:relcl	_	SpaceAfter=No
@@ -5260,7 +5260,7 @@
 6	จิตใจ	_	NOUN	VACT	_	4	nmod	_	_
 7	เป็น	_	AUX	VSTA	_	8	cop	_	SpaceAfter=No
 8	เวลา	_	NOUN	NCMN	_	2	acl	_	SpaceAfter=No
-9	เดียว	_	VERB	DCNM	_	8	acl	_	SpaceAfter=No
+9	เดียว	_	NUM	DCNM	_	8	nummod	_	SpaceAfter=No
 10	ที่	_	DET	PREL	_	13	obl:tmod	_	SpaceAfter=No
 11	เรา	_	PRON	PPRS	Person=1	13	nsubj	_	SpaceAfter=No
 12	จะ	_	VERB	XVBM	_	13	aux	_	SpaceAfter=No
@@ -11077,7 +11077,7 @@
 # text = เช่นเดียวกับฟยอร์ด ทะเลสาบน้ำจืดมักจะลึก
 # text_en = Like fjords, freshwater lakes are often deep.
 1	เช่น	_	NOUN	JSBR	_	10	advmod	_	SpaceAfter=No
-2	เดียว	_	VERB	DIAC	_	1	acl	_	SpaceAfter=No
+2	เดียว	_	NUM	DIAC	_	1	nummod	_	SpaceAfter=No
 3	กับ	_	ADP	RPRE	_	4	case	_	SpaceAfter=No
 4	ฟยอร์ด	_	PROPN	NPRP	_	1	nmod	_	_
 5	ทะเลสาบ	_	NOUN	NCMN	_	10	nsubj	_	SpaceAfter=No
@@ -12166,7 +12166,7 @@
 1	นี่	_	PRON	PDMN	_	3	nsubj	_	SpaceAfter=No
 2	เป็น	_	AUX	VSTA	_	3	cop	_	SpaceAfter=No
 3	ภูมิภาค	_	NOUN	NCMN	_	0	root	_	SpaceAfter=No
-4	เดียว	_	VERB	DIAC	_	3	acl	_	SpaceAfter=No
+4	เดียว	_	NUM	DIAC	_	3	nummod	_	SpaceAfter=No
 5	ใน	_	ADP	RPRE	_	6	case	_	SpaceAfter=No
 6	อะแลสกา	_	PROPN	NPRP	_	3	nmod	_	SpaceAfter=No|ToDo=nmod
 7	ที่	_	DET	PREL	_	8	nsubj	_	SpaceAfter=No
@@ -13446,8 +13446,8 @@
 20	ทั่ว	_	VERB	RPRE	_	21	acl	_	SpaceAfter=No
 21	เมดิเตอร์เรเนียน	_	PROPN	NPRP	_	18	advmod	_	SpaceAfter=No
 22	เช่น	_	NOUN	RPRE	_	25	case	_	SpaceAfter=No
-23	เดียว	_	VERB	DIAC	_	22	fixed	_	SpaceAfter=No
-24	กับ	_	ADP	RPRE	_	22	fixed	_	SpaceAfter=No
+23	เดียว	_	VERB	DIAC	_	22	acl	_	SpaceAfter=No
+24	กับ	_	PRON	RPRE	_	23	advmod	_	SpaceAfter=No
 25	เมื่อ	_	NOUN	JSBR	_	3	obl	_	SpaceAfter=No
 26	ครั้ง	_	NOUN	CFQC	_	25	compound	_	SpaceAfter=No
 27	ที่	_	DET	PREL	_	28	obj	_	SpaceAfter=No
@@ -15408,7 +15408,7 @@
 3	ขึ้น	_	PART	XVAE	_	2	compound:prt	_	SpaceAfter=No
 4	ใน	_	ADP	RPRE	_	5	case	_	SpaceAfter=No
 5	ยุคสมัย	_	NOUN	NCMN	_	2	obl	_	SpaceAfter=No
-6	เดียว	_	VERB	DIAC	_	5	acl	_	SpaceAfter=No
+6	เดียว	_	NUM	DIAC	_	5	nummod	_	SpaceAfter=No
 7	กับ	_	ADP	RPRE	_	8	case	_	SpaceAfter=No
 8	สุโขทัย	_	PROPN	NPRP	_	5	nmod	_	_
 
@@ -17599,7 +17599,7 @@
 2	หลีกเลี่ยง	_	VERB	VACT	_	12	advcl	_	SpaceAfter=No
 3	ความขัดแย้ง	_	VERB	NCMN	_	2	obj	_	SpaceAfter=No
 4	แบบ	_	NOUN	NCMN	_	3	clf	_	SpaceAfter=No
-5	เดียว	_	VERB	DIAC	_	4	acl	_	SpaceAfter=No
+5	เดียว	_	NUM	DIAC	_	4	nummod	_	SpaceAfter=No
 6	กับ	_	ADP	RPRE	_	7	case	_	SpaceAfter=No
 7	จัสมิน	_	PROPN	NPRP	_	3	obl	_	_
 8	ผู้	_	NOUN	PREL	_	12	nsubj	_	SpaceAfter=No
@@ -17618,7 +17618,7 @@
 21	อยู่	_	VERB	VSTA	_	20	xcomp	_	SpaceAfter=No
 22	ใน	_	ADP	RPRE	_	23	case	_	SpaceAfter=No
 23	สตูดิโอ	_	NOUN	NCMN	_	21	obl	_	SpaceAfter=No
-24	เดียว	_	VERB	DIAC	_	23	acl	_	SpaceAfter=No
+24	เดียว	_	NUM	DIAC	_	23	nummod	_	SpaceAfter=No
 25	เท่านั้น	_	ADV	ADVN	_	21	advmod	_	_
 
 # sent_id = w01119076
@@ -20378,7 +20378,7 @@
 11	ชวน	_	AUX	NCMN	_	12	cop	_	SpaceAfter=No
 12	สยอง	_	VERB	NCMN	_	9	conj	_	SpaceAfter=No
 13	คน	_	NOUN	CNIT	_	3	advmod	_	SpaceAfter=No
-14	เดียว	_	VERB	DIAC	_	13	acl	_	_
+14	เดียว	_	NUM	DIAC	_	13	nummod	_	_
 
 # sent_id = n02040023
 # text = นั่นก็เพราะว่าทุกปาฏิหาริย์และแต่ละเขตพิเศษมีผลเหนือทุกอย่าง
@@ -22552,7 +22552,7 @@
 3	กลาเร็ต	_	PROPN	NPRP	_	1	flat:name	_	SpaceAfter=No
 4	เป็น	_	AUX	VSTA	_	5	cop	_	SpaceAfter=No
 5	คน	_	NOUN	NCMN	_	0	root	_	SpaceAfter=No
-6	เดียว	_	VERB	DCNM	_	5	acl	_	SpaceAfter=No
+6	เดียว	_	NUM	DCNM	_	5	nummod	_	SpaceAfter=No
 7	ใน	_	ADP	RPRE	_	8	case	_	SpaceAfter=No
 8	รัฐบาล	_	NOUN	NCMN	_	5	nmod	_	SpaceAfter=No|ToDo=nmod
 9	ที่	_	DET	PREL	_	10	nsubj	_	SpaceAfter=No
@@ -22563,7 +22563,7 @@
 # text = เช่นเดียวกับนักสังคมนิยมอีกหลายคน เปโดร ซานเชส กล่าวในรายการ Évole ว่าสเปนเป็นชาติของประชาชาติ
 # text_en = Pedro Sánchez, like many other socialists, said in the programme Évole that Spain is a nation of nations.
 1	เช่น	_	NOUN	JSBR	_	11	advmod	_	SpaceAfter=No
-2	เดียว	_	VERB	DIAC	_	1	acl	_	SpaceAfter=No
+2	เดียว	_	NUM	DIAC	_	1	nummod	_	SpaceAfter=No
 3	กับ	_	ADP	RPRE	_	4	case	_	SpaceAfter=No
 4	นัก	_	NOUN	NCMN	_	1	nmod	_	SpaceAfter=No
 5	สังคมนิยม	_	NOUN	NCMN	_	4	compound	_	SpaceAfter=No
@@ -22619,8 +22619,8 @@
 13	กับ	_	ADP	RPRE	_	14	case	_	SpaceAfter=No
 14	มนุษยชาติ	_	NOUN	NCMN	_	12	obl	_	SpaceAfter=No
 15	เฉกเช่น	_	NOUN	RPRE	_	19	mark	_	SpaceAfter=No
-16	เดียว	_	VERB	DIAC	_	15	fixed	_	SpaceAfter=No
-17	กับ	_	ADP	RPRE	_	15	fixed	_	SpaceAfter=No
+16	เดียว	_	VERB	DIAC	_	15	acl	_	SpaceAfter=No
+17	กับ	_	PRON	RPRE	_	16	advmod	_	SpaceAfter=No
 18	เงา	_	NOUN	NCMN	_	19	nsubj	_	SpaceAfter=No
 19	อยู่	_	VERB	VSTA	_	11	advcl	_	SpaceAfter=No
 20	คู่	_	VERB	CLTV	_	19	xcomp	_	SpaceAfter=No
@@ -22635,7 +22635,7 @@
 2	ยืน	_	VERB	VACT	_	0	root	_	SpaceAfter=No
 3	อยู่	_	PART	XVAE	Aspect=Prog	2	aux	_	SpaceAfter=No
 4	คน	_	NOUN	CNIT	_	2	advmod	_	SpaceAfter=No
-5	เดียว	_	VERB	DCNM	_	4	acl	_	SpaceAfter=No
+5	เดียว	_	NUM	DCNM	_	4	nummod	_	SpaceAfter=No
 6	ต่อ	_	ADP	RPRE	_	7	case	_	SpaceAfter=No
 7	หน้า	_	NOUN	NCMN	_	2	obl	_	SpaceAfter=No
 8	ผู้	_	NOUN	PREL	_	7	compound	_	SpaceAfter=No
@@ -23426,7 +23426,7 @@
 # text = เช่นเดียวกับพื้นที่ส่วนใหญ่ในยุโรปตอนใต้ การค้นหาย้อนไปในช่วงต้นศตวรรษที่ 5 ก่อนคริสตกาล
 # text_en = Like the majority of sites in southern Europe, the finding dates back to the early 5th century BC.
 1	เช่น	_	NOUN	JSBR	_	12	advmod	_	SpaceAfter=No
-2	เดียว	_	VERB	DIAC	_	1	acl	_	SpaceAfter=No
+2	เดียว	_	NUM	DIAC	_	1	nummod	_	SpaceAfter=No
 3	กับ	_	ADP	RPRE	_	4	case	_	SpaceAfter=No
 4	พื้นที่	_	NOUN	NCMN	_	1	nmod	_	SpaceAfter=No
 5	ส่วน	_	NOUN	NCMN	_	4	compound	_	SpaceAfter=No
