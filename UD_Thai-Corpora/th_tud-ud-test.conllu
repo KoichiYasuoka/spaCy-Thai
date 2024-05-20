@@ -453,7 +453,7 @@
 17	เมื่อ	_	ADP	JSBR	_	18	case	_	SpaceAfter=No
 18	เย็น	_	NOUN	NCMN	_	7	obl	_	SpaceAfter=No
 19	วัน	_	NOUN	NCMN	_	18	nmod	_	SpaceAfter=No
-20	เดียว	_	VERB	DIAC	_	19	amod	_	SpaceAfter=No
+20	เดียว	_	NUM	DIAC	_	19	nummod	_	SpaceAfter=No
 21	กัน	_	VERB	ADVN	_	20	fixed	_	SpaceAfter=Yes
 22	เพื่อ	_	SCONJ	JSBR	_	23	mark	_	SpaceAfter=No
 23	เปิด	_	VERB	VACT	_	7	advcl	_	SpaceAfter=No
@@ -1335,7 +1335,7 @@
 2	ที่	_	SCONJ	PREL	_	1	fixed	_	SpaceAfter=No
 3	ใน	_	ADP	RPRE	_	4	case	_	SpaceAfter=No
 4	วัน	_	NOUN	NCMN	_	9	obl	_	SpaceAfter=No
-5	เดียว	_	VERB	DIAC	_	4	amod	_	SpaceAfter=No
+5	เดียว	_	NUM	DIAC	_	4	nummod	_	SpaceAfter=No
 6	กัน	_	ADV	ADVN	_	5	advmod	_	SpaceAfter=Yes
 7	อิสราเอล	_	PROPN	JSBR	Foreign=Yes	9	nsubj	_	SpaceAfter=No
 8	ได้	_	ADV	XVAM	_	9	advmod	_	SpaceAfter=No
@@ -1437,7 +1437,7 @@
 29	กับ	_	ADP	RPRE	_	30	case	_	SpaceAfter=No
 30	ก๊าซพรอม	_	PROPN	NCMN	Foreign=Yes	28	obl	_	SpaceAfter=Yes
 31	ขณะ	_	NOUN	NCMN	_	26	obl	_	SpaceAfter=No
-32	เดียว	_	VERB	DIAC	_	31	amod	_	SpaceAfter=No
+32	เดียว	_	NUM	DIAC	_	31	nummod	_	SpaceAfter=No
 33	กัน	_	PRON	ADVN	_	32	nmod	_	SpaceAfter=No
 34	ก็	_	ADV	JSBR	_	36	advmod	_	SpaceAfter=No
 35	คอย	_	ADV	VACT	_	36	advmod	_	SpaceAfter=No
@@ -2115,7 +2115,7 @@
 35	อร่อย	_	VERB	VACT	_	22	ccomp	_	SpaceAfter=No
 36	ซัก	_	ADV	NCMN	_	37	advmod	_	SpaceAfter=No
 37	จาน	_	NOUN	NCMN	NounType=Class	35	obl	_	SpaceAfter=No
-38	เดียว	_	VERB	DIAC	_	37	amod	_	SpaceAfter=No
+38	เดียว	_	NUM	DIAC	_	37	nummod	_	SpaceAfter=No
 
 # filename = wiki_W758827
 # sent_id = 2900
@@ -2581,7 +2581,7 @@
 21	จะ	_	AUX	XVBM	_	22	aux	_	SpaceAfter=No
 22	เลิก	_	VERB	VACT	_	13	conj	_	SpaceAfter=No
 23	เวลา	_	NOUN	NCMN	_	22	obj	_	SpaceAfter=No
-24	เดียว	_	VERB	VATT	_	23	amod	_	SpaceAfter=No
+24	เดียว	_	NUM	VATT	_	23	nummod	_	SpaceAfter=No
 25	กัน	_	ADV	ADVN	_	24	advmod	_	SpaceAfter=No
 26	หมด	_	ADV	ADVN	_	25	advmod	_	SpaceAfter=Yes
 27	ฉัน	_	PRON	PPRS	_	28	nsubj	_	SpaceAfter=No
@@ -6254,7 +6254,7 @@
 16	ได้	_	VERB	VSTA	_	13	nmod	_	SpaceAfter=Yes
 17	เพียง	_	DET	DDBQ	_	18	det	_	SpaceAfter=No
 18	อย่าง	_	NOUN	CNIT	NounType=Class|Prefix=Yes	16	obj	_	SpaceAfter=No
-19	เดียว	_	VERB	DCNM	_	18	amod	_	SpaceAfter=No
+19	เดียว	_	NUM	DCNM	_	18	nummod	_	SpaceAfter=No
 
 # filename = ESUN010-PART015
 # sent_id = 230
@@ -7615,7 +7615,7 @@
 11	เสีย	_	VERB	VSTA	_	10	compound	_	SpaceAfter=No
 12	พนัน	_	NOUN	NCMN	_	11	obj	_	SpaceAfter=No
 13	ครั้ง	_	NOUN	CFQC	NounType=Class	9	nmod	_	SpaceAfter=No
-14	เดียว	_	VERB	DIAC	_	13	amod	_	SpaceAfter=No
+14	เดียว	_	NUM	DIAC	_	13	nummod	_	SpaceAfter=No
 
 # filename = tnc_NWRP_SP003
 # sent_id = 2262

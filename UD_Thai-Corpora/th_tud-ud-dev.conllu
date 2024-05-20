@@ -3548,7 +3548,7 @@
 6	ทำ	_	VERB	VACT	_	2	ccomp	_	SpaceAfter=No
 7	เพียง	_	DET	DDBQ	_	8	det	_	SpaceAfter=No
 8	คน	_	NOUN	CNIT	_	6	obj	_	SpaceAfter=No
-9	เดียว	_	VERB	DCNM	_	8	amod	_	SpaceAfter=No
+9	เดียว	_	NUM	DCNM	_	8	nummod	_	SpaceAfter=No
 
 # filename = tnc_NWRP_FR013
 # sent_id = 1788
@@ -4209,7 +4209,7 @@
 5	สุข	_	VERB	VSTA	_	4	acl	_	SpaceAfter=No
 6	อยู่	_	VERB	XVAE	_	0	root	_	SpaceAfter=No
 7	คน	_	NOUN	CNIT	_	6	obj	_	SpaceAfter=No
-8	เดียว	_	VERB	DCNM	_	7	amod	_	SpaceAfter=No
+8	เดียว	_	NUM	DCNM	_	7	nummod	_	SpaceAfter=No
 9	ดี	_	ADV	ADVN	_	6	advmod	_	SpaceAfter=No
 10	กว่า	_	ADV	JCMP	_	9	advmod	_	SpaceAfter=No
 
@@ -7915,7 +7915,7 @@
 30	หยุด	_	VERB	NCMN	_	29	ccomp	_	SpaceAfter=No
 31	ยิง	_	VERB	VACT	_	30	ccomp	_	SpaceAfter=No
 32	ฝ่าย	_	NOUN	NCMN	_	29	obl	_	SpaceAfter=No
-33	เดียว	_	VERB	DIAC	_	32	amod	_	SpaceAfter=No
+33	เดียว	_	NUM	DIAC	_	32	nummod	_	SpaceAfter=No
 34	ของ	_	ADP	RPRE	_	35	case	_	SpaceAfter=No
 35	อิสราเอล	_	PROPN	NCMN	Foreign=Yes	28	nmod	_	SpaceAfter=No
 36	ได้	_	AUX	XVAE	_	38	aux	_	SpaceAfter=No
@@ -7930,7 +7930,7 @@
 45	ยิง	_	VERB	VACT	_	44	ccomp	_	SpaceAfter=No
 46	แต่	_	ADV	JCRG	_	47	advmod	_	SpaceAfter=No
 47	ฝ่าย	_	NOUN	NCMN	_	43	obl	_	SpaceAfter=No
-48	เดียว	_	VERB	DCNM	_	47	amod	_	SpaceAfter=No
+48	เดียว	_	NUM	DCNM	_	47	nummod	_	SpaceAfter=No
 49	เช่น	_	ADV	RPRE	_	42	advmod	_	SpaceAfter=No
 50	กัน	_	PRON	ADVN	_	49	compound	_	SpaceAfter=Yes
 51	ขณะ	_	SCONJ	NCMN	_	56	mark	_	SpaceAfter=No
