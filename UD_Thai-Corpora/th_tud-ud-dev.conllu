@@ -2,7 +2,7 @@
 # sent_id = 2410
 # text = ผู้ใหญ่ฝ่ายปิ๊ดก็รักเรามาก เราก็รักครอบครัวปิ๊ดมาก
 1	ผู้	_	NOUN	PPRS	_	6	nsubj	_	SpaceAfter=No
-2	ใหญ่	_	ADJ	VATT	_	1	compound	_	SpaceAfter=No
+2	ใหญ่	_	VERB	VATT	_	1	compound	_	SpaceAfter=No
 3	ฝ่าย	_	NOUN	NCMN	NounType=Class	1	nmod	_	SpaceAfter=No
 4	ปิ๊ด	_	PROPN	NCMN	NameType=Prs	3	nmod	_	SpaceAfter=No
 5	ก็	_	ADV	JSBR	_	6	advmod	_	SpaceAfter=No
@@ -38,7 +38,7 @@
 16	ไม่	_	PART	NEG	PartType=Neg	17	advmod	_	SpaceAfter=No
 17	ส่ง	_	VERB	VACT	_	14	acl	_	SpaceAfter=No
 18	ผล	_	NOUN	NCMN	_	17	obj	_	SpaceAfter=No
-19	ร้าย	_	ADJ	VATT	_	18	amod	_	SpaceAfter=No
+19	ร้าย	_	VERB	VATT	_	18	amod	_	SpaceAfter=No
 20	ต่อ	_	ADP	RPRE	_	21	case	_	SpaceAfter=No
 21	ผู้	_	NOUN	PPRS	Prefix=Yes	17	obl	_	SpaceAfter=No
 22	อื่น	_	DET	DIAC	_	21	det	_	SpaceAfter=No
@@ -111,7 +111,7 @@
 23	อื่น	_	DET	DIAC	_	22	det	_	SpaceAfter=Yes
 24	เห็น	_	VERB	VSTA	_	14	list	_	SpaceAfter=No
 25	ความ	_	NOUN	FIXN	Prefix=Yes	24	obj	_	SpaceAfter=No
-26	สำคัญ	_	ADJ	VATT	_	25	amod	_	SpaceAfter=No
+26	สำคัญ	_	VERB	VATT	_	25	amod	_	SpaceAfter=No
 27	ของ	_	ADP	RPRE	_	28	case	_	SpaceAfter=No
 28	บุคคล	_	NOUN	NCMN	_	25	nmod	_	SpaceAfter=No
 29	อื่น	_	DET	DIAC	_	28	det	_	SpaceAfter=No
@@ -136,7 +136,7 @@
 48	กลับ	_	VERB	VACT	_	39	conj	_	SpaceAfter=No
 49	ให้	_	VERB	JSBR	_	48	xcomp	_	SpaceAfter=No
 50	ความ	_	NOUN	FIXN	Prefix=Yes	49	obj	_	SpaceAfter=No
-51	สำคัญ	_	ADJ	VATT	_	50	amod	_	SpaceAfter=No
+51	สำคัญ	_	VERB	VATT	_	50	amod	_	SpaceAfter=No
 52	กับ	_	ADP	RPRE	_	53	case	_	SpaceAfter=No
 53	บุคคล	_	NOUN	NCMN	_	49	obl	_	SpaceAfter=No
 54	ที่	_	PRON	PREL	_	55	nsubj	_	SpaceAfter=No
@@ -156,7 +156,7 @@
 68	ที่	_	PRON	PREL	_	69	nsubj	_	SpaceAfter=No
 69	มี	_	VERB	VSTA	_	67	acl	_	SpaceAfter=No
 70	ปัญญา	_	NOUN	NCMN	_	69	obj	_	SpaceAfter=No
-71	สูง	_	ADJ	VATT	_	70	amod	_	SpaceAfter=No
+71	สูง	_	VERB	VATT	_	70	amod	_	SpaceAfter=No
 72	อย่าง	_	PART	FIXV	PartType=Emp	73	case	_	SpaceAfter=No
 73	ขงเบ้ง	_	PROPN	VATT	Foreign=Yes|NameType=Prs	67	nmod	_	SpaceAfter=Yes
 74	ความ	_	NOUN	FIXN	Prefix=Yes	81	nsubj	_	SpaceAfter=No
@@ -168,7 +168,7 @@
 80	ยัง	_	AUX	XVBM	_	81	aux	_	SpaceAfter=No
 81	เป็น	_	VERB	VSTA	_	62	ccomp	_	SpaceAfter=No
 82	สิ่ง	_	NOUN	NCMN	NounType=Class	81	obj	_	SpaceAfter=No
-83	จำเป็น	_	ADJ	VSTA	_	82	amod	_	SpaceAfter=No
+83	จำเป็น	_	VERB	VSTA	_	82	amod	_	SpaceAfter=No
 
 # filename = ESUN006-PART013
 # sent_id = 1376
@@ -324,7 +324,7 @@
 # sent_id = 2568
 # text = เด็กโดยมากจะเลิกมีปัญหานี้ภายในปีแรก
 1	เด็ก	_	NOUN	NCMN	_	4	nsubj	_	SpaceAfter=No
-2	โดยมาก	_	ADJ	ADVP	PartType=Adj	1	amod	_	SpaceAfter=No
+2	โดยมาก	_	VERB	ADVP	PartType=Adj	1	amod	_	SpaceAfter=No
 3	จะ	_	AUX	XVBM	_	4	aux	_	SpaceAfter=No
 4	เลิก	_	VERB	VSTA	_	0	root	_	SpaceAfter=No
 5	มี	_	VERB	VSTA	_	4	compound	_	SpaceAfter=No
@@ -332,7 +332,7 @@
 7	นี้	_	DET	DDAC	_	6	det	_	SpaceAfter=No
 8	ภายใน	_	ADP	RPRE	_	9	case	_	SpaceAfter=No
 9	ปี	_	NOUN	NCMN	_	4	obl	_	SpaceAfter=No
-10	แรก	_	ADJ	DONM	_	9	amod	_	SpaceAfter=No
+10	แรก	_	VERB	DONM	_	9	amod	_	SpaceAfter=No
 
 # filename = wiki_W890394
 # sent_id = 1985
@@ -358,7 +358,7 @@
 10	นัก	_	PART	ADVN	_	9	discourse	_	SpaceAfter=Yes
 11	ใน	_	ADP	RPRE	_	12	case	_	SpaceAfter=No
 12	เวลา	_	NOUN	NCMN	_	15	obl	_	SpaceAfter=No
-13	ว่าง	_	ADJ	VSTA	_	12	amod	_	SpaceAfter=No
+13	ว่าง	_	VERB	VSTA	_	12	amod	_	SpaceAfter=No
 14	จะ	_	ADV	XVBM	_	15	advmod	_	SpaceAfter=No
 15	ทำ	_	VERB	VACT	_	6	list	_	SpaceAfter=No
 16	งาน	_	NOUN	NCMN	_	15	obj	_	SpaceAfter=No
@@ -386,7 +386,7 @@
 15	โลก	_	NOUN	NCMN	_	14	obj	_	SpaceAfter=No
 16	ใน	_	ADP	RPRE	_	17	case	_	SpaceAfter=No
 17	แง่	_	NOUN	NCMN	NounType=Class	15	nmod	_	SpaceAfter=No
-18	ดี	_	ADJ	VATT	_	17	amod	_	SpaceAfter=No
+18	ดี	_	VERB	VATT	_	17	amod	_	SpaceAfter=No
 19	ขึ้น	_	ADV	XVAE	_	10	advmod	_	SpaceAfter=No
 20	ได้	_	ADV	XVAE	_	10	advmod	_	SpaceAfter=No
 
@@ -411,7 +411,7 @@
 16	ของ	_	ADP	RPRE	_	17	case	_	SpaceAfter=No
 17	จีน	_	PROPN	NCMN	NameType=Com	13	nmod	_	SpaceAfter=No
 18	สมัย	_	NOUN	NCMN	_	17	nmod	_	SpaceAfter=No
-19	ใหม่	_	ADJ	VATT	_	18	amod	_	SpaceAfter=No
+19	ใหม่	_	VERB	VATT	_	18	amod	_	SpaceAfter=No
 
 # filename = ESUN004-PART024
 # sent_id = 1013
@@ -464,7 +464,7 @@
 2	รับ	_	VERB	VACT	_	1	compound	_	SpaceAfter=No
 3	ว่า	_	SCONJ	JSBR	_	8	mark	_	SpaceAfter=No
 4	ช่วง	_	NOUN	NCMN	_	8	obl	_	SpaceAfter=No
-5	หลัง	_	ADJ	VATT	_	4	amod	_	SpaceAfter=No
+5	หลัง	_	VERB	VATT	_	4	amod	_	SpaceAfter=No
 6	ๆ	_	PUNCT	PUNC	_	5	punct	_	SpaceAfter=Yes
 7	แมนฯยู	_	PROPN	NCMN	Foreign=Yes	8	nsubj	_	SpaceAfter=No
 8	มี	_	VERB	VSTA	_	1	ccomp	_	SpaceAfter=No
@@ -479,7 +479,7 @@
 17	ที่	_	CCONJ	PREL	_	16	fixed	_	SpaceAfter=No
 18	มี	_	VERB	VSTA	_	8	conj	_	SpaceAfter=No
 19	โอกาส	_	NOUN	NCMN	_	18	obj	_	SpaceAfter=No
-20	ดี	_	ADJ	VATT	_	19	amod	_	SpaceAfter=No
+20	ดี	_	VERB	VATT	_	19	amod	_	SpaceAfter=No
 21	ๆ	_	PUNCT	PUNC	_	20	punct	_	SpaceAfter=Yes
 22	หลาย	_	ADV	DIBQ	_	23	advmod	_	SpaceAfter=No
 23	ครั้ง	_	NOUN	CFQC	NounType=Class	19	clf	_	SpaceAfter=Yes
@@ -573,7 +573,7 @@
 # text = ราคาน้ำมันเอเชียดิ่งหลุด 39 ดอลลาร์
 1	ราคา	_	NOUN	NCMN	_	5	nsubj	_	SpaceAfter=No
 2	น้ำ	_	NOUN	NCMN	_	1	nmod	_	SpaceAfter=No
-3	มัน	_	ADJ	PPRS	_	2	amod	_	SpaceAfter=No
+3	มัน	_	VERB	PPRS	_	2	amod	_	SpaceAfter=No
 4	เอเชีย	_	PROPN	VATT	Foreign=Yes	1	nmod	_	SpaceAfter=No
 5	ดิ่ง	_	VERB	JSBR	_	0	root	_	SpaceAfter=No
 6	หลุด	_	VERB	VATT	_	5	compound	_	SpaceAfter=Yes
@@ -688,9 +688,9 @@
 1	ตา	_	NOUN	NCMN	_	11	nsubj	_	SpaceAfter=No
 2	กล้อง	_	NOUN	NCMN	_	1	compound	_	SpaceAfter=No
 3	หนุ่ม	_	NOUN	NCMN	_	1	nmod	_	SpaceAfter=No
-4	หล่อ	_	ADJ	NCMN	_	3	amod	_	SpaceAfter=Yes
+4	หล่อ	_	VERB	NCMN	_	3	amod	_	SpaceAfter=Yes
 5	สุด	_	ADV	ADVN	_	6	advmod	_	SpaceAfter=No
-6	เพอร์เฟ็กต์	_	ADJ	NCMN	Foreign=Yes	3	nmod	_	SpaceAfter=Yes
+6	เพอร์เฟ็กต์	_	VERB	NCMN	Foreign=Yes	3	nmod	_	SpaceAfter=Yes
 7	ขวัญ	_	NOUN	NCMN	_	1	nmod	_	SpaceAfter=No
 8	ใจ	_	NOUN	NCMN	_	7	compound	_	SpaceAfter=No
 9	สาว	_	NOUN	NCMN	_	7	nmod	_	SpaceAfter=No
@@ -704,13 +704,13 @@
 17	ดารา	_	NOUN	NCMN	_	16	nmod	_	SpaceAfter=No
 18	สาว	_	NOUN	VACT	_	17	nmod	_	SpaceAfter=No
 19	ชื่อ	_	NOUN	NCMN	_	17	amod	_	SpaceAfter=No
-20	ดัง	_	ADJ	RPRE	_	19	compound	_	SpaceAfter=No
+20	ดัง	_	VERB	RPRE	_	19	compound	_	SpaceAfter=No
 
 # filename = wiki_W770758
 # sent_id = 2290
 # text = ตอนบนของท้องที่เป็นเขตเกษตรกรรม ส่วนตอนล่างเป็นเขตที่อยู่อาศัยเนื่องจากมีเส้นทางคมนาคมสายหลักตัดผ่าน
 1	ตอน	_	NOUN	NCMN	_	6	nsubj	_	SpaceAfter=No
-2	บน	_	ADJ	RPRE	_	1	amod	_	SpaceAfter=No
+2	บน	_	VERB	RPRE	_	1	amod	_	SpaceAfter=No
 3	ของ	_	ADP	RPRE	_	4	case	_	SpaceAfter=No
 4	ท้องที่	_	NOUN	NCMN	_	1	nmod	_	SpaceAfter=No
 5	เป็น	_	AUX	VSTA	_	6	cop	_	SpaceAfter=No
@@ -718,7 +718,7 @@
 7	เกษตรกรรม	_	NOUN	NCMN	_	6	nmod	_	SpaceAfter=Yes
 8	ส่วน	_	CCONJ	NCMN	_	12	cc	_	SpaceAfter=No
 9	ตอน	_	NOUN	NCMN	_	12	nsubj	_	SpaceAfter=No
-10	ล่าง	_	ADJ	VATT	_	9	amod	_	SpaceAfter=No
+10	ล่าง	_	VERB	VATT	_	9	amod	_	SpaceAfter=No
 11	เป็น	_	AUX	VSTA	_	12	cop	_	SpaceAfter=No
 12	เขต	_	NOUN	NCMN	_	6	conj	_	SpaceAfter=No
 13	ที่	_	NOUN	PREL	_	12	nmod	_	SpaceAfter=No
@@ -731,7 +731,7 @@
 20	ทาง	_	NOUN	NCMN	_	19	compound	_	SpaceAfter=No
 21	คมนาคม	_	NOUN	NCMN	_	19	compound	_	SpaceAfter=No
 22	สาย	_	NOUN	NCMN	NounType=Class	19	clf	_	SpaceAfter=No
-23	หลัก	_	ADJ	VATT	_	22	amod	_	SpaceAfter=No
+23	หลัก	_	VERB	VATT	_	22	amod	_	SpaceAfter=No
 24	ตัด	_	VERB	VACT	_	18	advcl	_	SpaceAfter=No
 25	ผ่าน	_	VERB	VSTA	_	24	compound	_	SpaceAfter=No
 
@@ -762,7 +762,7 @@
 22	นาง	_	NOUN	NTTL	_	18	advcl	_	SpaceAfter=No
 23	แบบ	_	NOUN	NCMN	_	22	compound	_	SpaceAfter=No
 24	เบอร์	_	NOUN	NCNM	Foreign=Yes	22	nmod	_	SpaceAfter=No
-25	ต้น	_	ADJ	NCMN	_	24	amod	_	SpaceAfter=No
+25	ต้น	_	VERB	NCMN	_	24	amod	_	SpaceAfter=No
 26	ๆ	_	PUNCT	NCMN	_	25	punct	_	SpaceAfter=No
 27	ใน	_	ADP	RPRE	_	28	case	_	SpaceAfter=No
 28	ช่วง	_	NOUN	NCMN	_	22	obl	_	SpaceAfter=No
@@ -798,7 +798,7 @@
 9	พบ	_	VERB	VSTA	_	0	root	_	SpaceAfter=No
 10	กับ	_	ADP	RPRE	_	11	case	_	SpaceAfter=No
 11	เหตุการณ์	_	NOUN	NCMN	_	9	obl	_	SpaceAfter=No
-12	แปลก	_	ADJ	NCMN	_	11	amod	_	SpaceAfter=No
+12	แปลก	_	VERB	NCMN	_	11	amod	_	SpaceAfter=No
 13	ๆ	_	PUNCT	PUNC	_	12	punct	_	SpaceAfter=No
 14	อยู่	_	VERB	VSTA	_	9	compound	_	SpaceAfter=No
 15	หลาย	_	ADV	DIBQ	_	16	advmod	_	SpaceAfter=No
@@ -842,7 +842,7 @@
 9	ว่า	_	SCONJ	JSBR	_	10	mark	_	SpaceAfter=No
 10	อยู่	_	VERB	VSTA	_	8	ccomp	_	SpaceAfter=No
 11	ด้าน	_	NOUN	NCMN	_	10	obj	_	SpaceAfter=No
-12	หลัง	_	ADJ	RPRE	_	11	amod	_	SpaceAfter=Yes
+12	หลัง	_	VERB	RPRE	_	11	amod	_	SpaceAfter=Yes
 13	เขา	_	PRON	PPRS	PronType=Prs	16	nsubj	_	SpaceAfter=No
 14	อาจ	_	AUX	XVMM	_	16	aux	_	SpaceAfter=No
 15	จะ	_	AUX	XVBM	_	16	aux	_	SpaceAfter=No
@@ -853,7 +853,7 @@
 20	ที่	_	PRON	PREL	_	21	nsubj	_	SpaceAfter=No
 21	อยู่	_	VERB	VSTA	_	19	acl	_	SpaceAfter=No
 22	ด้าน	_	NOUN	NCMN	_	21	obj	_	SpaceAfter=No
-23	หน้า	_	ADJ	NCMN	_	22	amod	_	SpaceAfter=No
+23	หน้า	_	VERB	NCMN	_	22	amod	_	SpaceAfter=No
 24	ก็ได้	_	PART	XVAE	_	16	advmod	_	SpaceAfter=No
 
 # filename = ESUN007-PART013
@@ -996,7 +996,7 @@
 6	แข่งขัน	_	VERB	VACT	_	5	acl	_	SpaceAfter=No
 7	โอลิมปิก	_	PROPN	NCMN	Foreign=Yes	5	nmod	_	SpaceAfter=No
 8	ฤดู	_	NOUN	NCMN	_	7	nmod	_	SpaceAfter=No
-9	ร้อน	_	ADJ	VATT	_	8	amod	_	SpaceAfter=Yes
+9	ร้อน	_	VERB	VATT	_	8	amod	_	SpaceAfter=Yes
 10	2012	_	NUM	NCNM	_	7	nummod	_	SpaceAfter=No
 
 # filename = ESUN011-PART018
@@ -1006,7 +1006,7 @@
 2	มอง	_	VERB	VACT	_	11	advcl	_	SpaceAfter=No
 3	ใน	_	ADP	RPRE	_	4	case	_	SpaceAfter=No
 4	ระยะ	_	NOUN	NCMN	NounType=Class	2	obl	_	SpaceAfter=No
-5	ยาว	_	ADJ	VATT	_	4	amod	_	SpaceAfter=No
+5	ยาว	_	VERB	VATT	_	4	amod	_	SpaceAfter=No
 6	แล้ว	_	ADV	XVAE	_	2	advmod	_	SpaceAfter=No
 7	นั้น	_	DET	DDAC	_	2	det	_	SpaceAfter=Yes
 8	ธุรกิจ	_	NOUN	NCMN	_	11	nsubj	_	SpaceAfter=No
@@ -1105,7 +1105,7 @@
 5	ไทย	_	PROPN	NPRP	_	4	nmod	_	SpaceAfter=No
 6	กับ	_	CCONJ	RPRE	_	7	cc	_	SpaceAfter=No
 7	ดนตรี	_	NOUN	NCMN	_	4	conj	_	SpaceAfter=No
-8	สากล	_	ADJ	NCMN	_	7	amod	_	SpaceAfter=No
+8	สากล	_	VERB	NCMN	_	7	amod	_	SpaceAfter=No
 
 # filename = ESUN009-PART016
 # sent_id = 23
@@ -1161,14 +1161,14 @@
 34	ของ	_	ADP	RPRE	_	35	case	_	SpaceAfter=No
 35	นาง	_	NOUN	NTTL	_	30	nmod	_	SpaceAfter=No
 36	เซีย	_	PROPN	NPRP	Foreign=Yes	35	flat	_	SpaceAfter=Yes
-37	อดีต	_	ADJ	NCMN	_	38	amod	_	SpaceAfter=No
+37	อดีต	_	VERB	NCMN	_	38	amod	_	SpaceAfter=No
 38	นายก	_	NOUN	NCMN	_	35	nmod	_	SpaceAfter=No
 39	รัฐมนตรี	_	NOUN	NCMN	_	38	compound	_	SpaceAfter=No
-40	อีก	_	ADJ	DDBQ	_	41	amod	_	SpaceAfter=No
+40	อีก	_	VERB	DDBQ	_	41	amod	_	SpaceAfter=No
 41	คน	_	NOUN	CNIT	NounType=Class	38	clf	_	SpaceAfter=No
 42	หนึ่ง	_	NUM	DCNM	_	41	nummod	_	SpaceAfter=Yes
 43	ได้	_	VERB	XVAE	_	8	conj	_	SpaceAfter=No
-44	เพียง	_	ADJ	DDBQ	_	45	amod	_	SpaceAfter=Yes
+44	เพียง	_	VERB	DDBQ	_	45	amod	_	SpaceAfter=Yes
 45	27	_	NUM	NCNM	_	46	nummod	_	SpaceAfter=Yes
 46	ที่	_	NOUN	PREL	NounType=Class	43	obj	_	SpaceAfter=No
 47	นั่ง	_	VERB	CLTV	_	46	compound	_	SpaceAfter=No
@@ -1222,8 +1222,8 @@
 43	บท	_	NOUN	NCMN	_	42	obj	_	SpaceAfter=No
 44	สวด	_	VERB	NCMN	_	43	acl	_	SpaceAfter=No
 45	ท่อน	_	NOUN	DONM	NounType=Class	43	clf	_	SpaceAfter=No
-46	ต่อ	_	ADJ	RPRE	_	45	amod	_	SpaceAfter=No
-47	ไป	_	ADJ	XVAE	_	46	fixed	_	SpaceAfter=No
+46	ต่อ	_	VERB	RPRE	_	45	amod	_	SpaceAfter=No
+47	ไป	_	VERB	XVAE	_	46	fixed	_	SpaceAfter=No
 48	ให้	_	SCONJ	VACT	_	49	mark	_	SpaceAfter=No
 49	จบ	_	VERB	VSTA	_	42	ccomp	_	SpaceAfter=No
 
@@ -1269,7 +1269,7 @@
 11	ให้	_	SCONJ	JSBR	_	12	mark	_	SpaceAfter=No
 12	เปลี่ยน	_	VERB	VACT	_	8	ccomp	_	SpaceAfter=No
 13	คัน	_	NOUN	NCMN	NounType=Class	12	obj	_	SpaceAfter=No
-14	ใหม่	_	ADJ	VATT	_	13	amod	_	SpaceAfter=Yes
+14	ใหม่	_	VERB	VATT	_	13	amod	_	SpaceAfter=Yes
 15	หรือ	_	CCONJ	JCRG	_	16	cc	_	SpaceAfter=No
 16	เปลี่ยน	_	VERB	VACT	_	8	conj	_	SpaceAfter=No
 17	สถานที่	_	NOUN	NCMN	_	16	obj	_	SpaceAfter=No
@@ -1308,8 +1308,8 @@
 28	กับ	_	ADP	RPRE	_	27	fixed	_	SpaceAfter=No
 29	นัก	_	NOUN	NCMN	Prefix=Yes	26	nmod	_	SpaceAfter=No
 30	ร้อง	_	VERB	NCMN	_	29	compound	_	SpaceAfter=No
-31	สาว	_	ADJ	NCMN	_	29	amod	_	SpaceAfter=No
-32	สวย	_	ADJ	VATT	_	29	amod	_	SpaceAfter=No
+31	สาว	_	VERB	NCMN	_	29	amod	_	SpaceAfter=No
+32	สวย	_	VERB	VATT	_	29	amod	_	SpaceAfter=No
 
 # filename = wiki_W1163535
 # sent_id = 1573
@@ -1393,7 +1393,7 @@
 # sent_id = 797
 # text = ประเภทสุดท้ายคือ ความเชื่อเรื่องปรากฏการณ์ทางธรรมชาติ ซึ่งเป็นสิ่งที่มนุษย์ยังไม่รู้ จึงใช้ความรู้สึกนึกคิดของตนเอง
 1	ประเภท	_	NOUN	NCMN	NounType=Class	4	nsubj	_	SpaceAfter=No
-2	สุดท้าย	_	ADJ	DONM	_	1	amod	_	SpaceAfter=No
+2	สุดท้าย	_	VERB	DONM	_	1	amod	_	SpaceAfter=No
 3	คือ	_	AUX	VSTA	VerbType=Cop	4	cop	_	SpaceAfter=Yes
 4	ความเชื่อ	_	NOUN	NCMN	_	0	root	_	SpaceAfter=No
 5	เรื่อง	_	NOUN	NCMN	NounType=Class	4	nmod	_	SpaceAfter=No
@@ -1529,7 +1529,7 @@
 3	มา	_	VERB	VACT	_	1	acl	_	SpaceAfter=No
 4	จาก	_	ADP	RPRE	_	5	case	_	SpaceAfter=No
 5	สิ่ง	_	NOUN	NCMN	NounType=Class	3	obl	_	SpaceAfter=No
-6	เร้นลับ	_	ADJ	VACT	_	5	amod	_	SpaceAfter=Yes
+6	เร้นลับ	_	VERB	VACT	_	5	amod	_	SpaceAfter=Yes
 7	พลัง	_	NOUN	NCMN	_	5	list	_	SpaceAfter=No
 8	เหนือ	_	ADP	RPRE	_	9	case	_	SpaceAfter=No
 9	ธรรมชาติ	_	NOUN	NCMN	_	7	nmod	_	SpaceAfter=Yes
@@ -1624,8 +1624,8 @@
 8	อยากเห็นหน้าคุณ	_	PROPN	NCMN	NameType=Oth	6	nmod	_	SpaceAfter=No
 9	"	_	PUNCT	PUNC	_	8	punct	_	SpaceAfter=Yes
 10	เพลง	_	NOUN	NCMN	_	6	nmod	_	SpaceAfter=No
-11	มันส์	_	ADJ	VACT	_	10	amod	_	SpaceAfter=No
-12	สนุก	_	ADJ	NCMN	_	10	amod	_	SpaceAfter=No
+11	มันส์	_	VERB	VACT	_	10	amod	_	SpaceAfter=No
+12	สนุก	_	VERB	NCMN	_	10	amod	_	SpaceAfter=No
 13	พูด	_	VERB	VACT	_	6	acl	_	SpaceAfter=No
 14	ถึง	_	ADP	RPRE	_	15	case	_	SpaceAfter=No
 15	คน	_	NOUN	NCMN	_	13	obl	_	SpaceAfter=No
@@ -1636,7 +1636,7 @@
 20	หลุม	_	NOUN	NCMN	_	19	compound	_	SpaceAfter=No
 21	รัก	_	VERB	NCMN	_	20	compound	_	SpaceAfter=No
 22	อย่าง	_	PART	FIXV	PartType=Adv	23	mark	_	SpaceAfter=No
-23	สุด	_	ADJ	VATT	_	17	advmod	_	SpaceAfter=Yes
+23	สุด	_	VERB	VATT	_	17	advmod	_	SpaceAfter=Yes
 24	ๆ	_	PUNCT	PUNC	_	23	punct	_	SpaceAfter=Yes
 25	แล้ว	_	SCONJ	JSBR	_	26	mark	_	SpaceAfter=No
 26	อยาก	_	VERB	XVMM	_	17	advcl	_	SpaceAfter=No
@@ -1714,7 +1714,7 @@
 3	มัก	_	AUX	XVBM	_	5	aux	_	SpaceAfter=No
 4	เป็น	_	AUX	VSTA	VerbType=Cop	5	cop	_	SpaceAfter=No
 5	อาหาร	_	NOUN	NCMN	_	0	root	_	SpaceAfter=No
-6	เรียบง่าย	_	ADJ	NCMN	_	5	amod	_	SpaceAfter=Yes
+6	เรียบง่าย	_	VERB	NCMN	_	5	amod	_	SpaceAfter=Yes
 7	อาจ	_	AUX	XVMM	_	9	aux	_	SpaceAfter=No
 8	เป็น	_	AUX	VSTA	VerbType=Cop	9	cop	_	SpaceAfter=No
 9	ข้าว	_	NOUN	NCMN	_	5	conj	_	SpaceAfter=No
@@ -1789,7 +1789,7 @@
 4	ใช้	_	VERB	VACT	_	3	compound	_	SpaceAfter=No
 5	ตั้งแต่	_	ADP	RPRE	_	6	case	_	SpaceAfter=No
 6	นัด	_	NOUN	NCMN	_	4	obl	_	SpaceAfter=No
-7	หน้า	_	ADJ	NCMN	_	6	amod	_	SpaceAfter=No
+7	หน้า	_	VERB	NCMN	_	6	amod	_	SpaceAfter=No
 8	เป็น	_	ADV	VSTA	_	4	advmod	_	SpaceAfter=No
 9	ต้น	_	ADV	NCMN	_	8	fixed	_	SpaceAfter=No
 10	ไป	_	ADV	XVAE	_	8	fixed	_	SpaceAfter=No
@@ -1857,7 +1857,7 @@
 # sent_id = 2720
 # text = ข้อดีของการอนุญาตให้มีบ่อนการพนันถูกกฎหมาย น่าจะมี
 1	ข้อ	_	NOUN	NCMN	_	16	nsubj	_	SpaceAfter=No
-2	ดี	_	ADJ	VATT	_	1	amod	_	SpaceAfter=No
+2	ดี	_	VERB	VATT	_	1	amod	_	SpaceAfter=No
 3	ของ	_	ADP	RPRE	_	4	case	_	SpaceAfter=No
 4	การ	_	NOUN	FIXN	Prefix=Yes	1	nmod	_	SpaceAfter=No
 5	อนุญาต	_	VERB	VACT	_	4	acl	_	SpaceAfter=No
@@ -1977,7 +1977,7 @@
 # text = นอกเหนือจากตำนานน่ากลัวของนกแสกแล้ว ยังมีเกษตรกรผู้ปลูกปาล์มน้ำมันในจังหวัดชุมพร ได้ใช้ประโยชน์จากนกแสกในการกำจัดหนูท้องขาว ศัตรูพืชในสวนปาล์ม โดยการทำรังและเลี้ยงนกแสกไว้ในสวน
 1	นอกเหนือจาก	_	ADP	JSBR	_	2	case	_	SpaceAfter=No
 2	ตำนาน	_	NOUN	NCMN	NounType=Class	9	obl	_	SpaceAfter=No
-3	น่ากลัว	_	ADJ	NCMN	_	2	amod	_	SpaceAfter=No
+3	น่ากลัว	_	VERB	NCMN	_	2	amod	_	SpaceAfter=No
 4	ของ	_	ADP	RPRE	_	5	case	_	SpaceAfter=No
 5	นก	_	NOUN	NCMN	_	2	nmod	_	SpaceAfter=No
 6	แสก	_	NOUN	NCMN	_	5	nmod	_	SpaceAfter=No
@@ -2027,7 +2027,7 @@
 2	จาก	_	SCONJ	RPRE	_	1	fixed	_	SpaceAfter=No
 3	โรง	_	NOUN	NCMN	Prefix=Yes	10	nsubj	_	SpaceAfter=No
 4	งาน	_	NOUN	NCMN	_	3	compound	_	SpaceAfter=No
-5	หลาย	_	ADJ	DIBQ	_	6	amod	_	SpaceAfter=No
+5	หลาย	_	VERB	DIBQ	_	6	amod	_	SpaceAfter=No
 6	แห่ง	_	NOUN	CNIT	NounType=Class	3	clf	_	SpaceAfter=No
 7	ใน	_	ADP	RPRE	_	8	case	_	SpaceAfter=No
 8	จีน	_	PROPN	NPRP	NameType=Nat	3	nmod	_	SpaceAfter=No
@@ -2036,10 +2036,10 @@
 11	พนักงาน	_	NOUN	NCMN	_	10	obj	_	SpaceAfter=No
 12	เป็น	_	VERB	VSTA	_	10	advcl	_	SpaceAfter=No
 13	จำนวน	_	NOUN	NCMN	_	12	obj	_	SpaceAfter=No
-14	มาก	_	ADJ	VATT	_	13	amod	_	SpaceAfter=No
+14	มาก	_	VERB	VATT	_	13	amod	_	SpaceAfter=No
 15	เมื่อ	_	ADP	JSBR	_	16	case	_	SpaceAfter=No
 16	เดือน	_	NOUN	NCMN	_	10	obl	_	SpaceAfter=No
-17	ที่	_	ADJ	PREL	_	16	amod	_	SpaceAfter=No
+17	ที่	_	VERB	PREL	_	16	amod	_	SpaceAfter=No
 18	แล้ว	_	ADV	XVBM	_	17	advmod	_	SpaceAfter=Yes
 19	ราคา	_	NOUN	NCMN	_	23	nsubj	_	SpaceAfter=No
 20	อสังหาริมทรัพย์	_	NOUN	VATT	_	19	compound	_	SpaceAfter=No
@@ -2048,7 +2048,7 @@
 23	ลด	_	VERB	VACT	_	0	root	_	SpaceAfter=No
 24	ฮวบ	_	ADV	NCMN	_	23	advmod	_	SpaceAfter=No
 25	ครั้ง	_	NOUN	CFQC	NounType=Class	23	obl	_	SpaceAfter=No
-26	ใหญ่	_	ADJ	VATT	_	25	amod	_	SpaceAfter=No
+26	ใหญ่	_	VERB	VATT	_	25	amod	_	SpaceAfter=No
 27	ใน	_	ADP	RPRE	_	28	case	_	SpaceAfter=No
 28	รอบ	_	NOUN	CFQC	_	25	nmod	_	SpaceAfter=Yes
 29	5	_	NUM	DCNM	_	30	nummod	_	SpaceAfter=Yes
@@ -2138,7 +2138,7 @@
 1	เกิด	_	VERB	VSTA	_	0	root	_	SpaceAfter=No
 2	สึนามิ	_	NOUN	NCMN	Foreign=Yes	1	obj	_	SpaceAfter=No
 3	ขนาด	_	NOUN	NCMN	_	2	nmod	_	SpaceAfter=No
-4	เล็ก	_	ADJ	VATT	_	3	amod	_	SpaceAfter=No
+4	เล็ก	_	VERB	VATT	_	3	amod	_	SpaceAfter=No
 5	ซัด	_	VERB	PREL	_	1	compound	_	SpaceAfter=No
 6	ชาย	_	ADP	NCMN	_	7	case	_	SpaceAfter=No
 7	ฝั่ง	_	NOUN	NCMN	_	5	obl	_	SpaceAfter=No
@@ -2159,10 +2159,10 @@
 1	เป็น	_	VERB	VSTA	_	0	root	_	SpaceAfter=No
 2	บรรยากาศ	_	NOUN	NCMN	NounType=Class	1	obj	_	SpaceAfter=No
 3	ที่	_	PRON	PREL	_	4	nsubj	_	SpaceAfter=No
-4	หม่นหมอง	_	ADJ	NCMN	_	2	amod	_	SpaceAfter=Yes
-5	เศร้าโศก	_	ADJ	NCMN	_	4	conj	_	SpaceAfter=Yes
+4	หม่นหมอง	_	VERB	NCMN	_	2	amod	_	SpaceAfter=Yes
+5	เศร้าโศก	_	VERB	NCMN	_	4	conj	_	SpaceAfter=Yes
 6	และ	_	CCONJ	JCRG	_	7	cc	_	SpaceAfter=No
-7	หว่าเว้	_	ADJ	NCMN	_	4	conj	_	SpaceAfter=No
+7	หว่าเว้	_	VERB	NCMN	_	4	conj	_	SpaceAfter=No
 
 # filename = wiki_W326336
 # sent_id = 2682
@@ -2252,7 +2252,7 @@
 13	ช่วง	_	NOUN	NCMN	_	20	obl	_	SpaceAfter=Yes
 14	3	_	NUM	DCNM	_	15	nummod	_	SpaceAfter=Yes
 15	เดือน	_	NOUN	NCMN	NounType=Class	13	clf	_	SpaceAfter=No
-16	สุดท้าย	_	ADJ	DONM	_	15	amod	_	SpaceAfter=No
+16	สุดท้าย	_	VERB	DONM	_	15	amod	_	SpaceAfter=No
 17	ของ	_	ADP	RPRE	_	18	case	_	SpaceAfter=No
 18	ปี	_	NOUN	NCMN	_	13	nmod	_	SpaceAfter=Yes
 19	2551	_	NUM	DCNM	_	18	nummod	_	SpaceAfter=Yes
@@ -2372,8 +2372,8 @@
 25	สิ่ง	_	NOUN	NCMN	NounType=Class	21	conj	_	SpaceAfter=No
 26	ที่	_	PRON	PREL	_	33	obj	_	SpaceAfter=No
 27	คน	_	NOUN	NCMN	NounType=Class	33	nsubj	_	SpaceAfter=No
-28	ธรรมดา	_	ADJ	VATT	_	27	amod	_	SpaceAfter=No
-29	ปกติ	_	ADJ	ADVS	_	28	compound	_	SpaceAfter=No
+28	ธรรมดา	_	VERB	VATT	_	27	amod	_	SpaceAfter=No
+29	ปกติ	_	VERB	ADVS	_	28	compound	_	SpaceAfter=No
 30	นั้น	_	DET	DDAC	_	27	det	_	SpaceAfter=No
 31	ไม่	_	PART	NEG	PartType=Neg	33	advmod	_	SpaceAfter=No
 32	สามารถ	_	AUX	XVAM	_	33	aux	_	SpaceAfter=No
@@ -2420,7 +2420,7 @@
 1	อิหร่าน	_	PROPN	NCMN	Foreign=Yes	2	nsubj	_	SpaceAfter=No
 2	อยู่	_	VERB	VSTA	_	0	root	_	SpaceAfter=No
 3	เบื้อง	_	NOUN	NCMN	_	2	obj	_	SpaceAfter=No
-4	หลัง	_	ADJ	DONM	_	3	amod	_	SpaceAfter=No
+4	หลัง	_	VERB	DONM	_	3	amod	_	SpaceAfter=No
 
 # filename = ESUN002-PART017
 # sent_id = 1233
@@ -2495,7 +2495,7 @@
 5	ศึกษา	_	VERB	VACT	_	4	acl	_	SpaceAfter=No
 6	จบ	_	VERB	VSTA	_	4	acl	_	SpaceAfter=No
 7	ใหม่	_	ADV	ADVN	_	6	advmod	_	SpaceAfter=No
-8	ว่าง	_	ADJ	VSTA	_	4	acl	_	SpaceAfter=No
+8	ว่าง	_	VERB	VSTA	_	4	acl	_	SpaceAfter=No
 9	งาน	_	NOUN	NCMN	_	8	compound	_	SpaceAfter=No
 10	นับ	_	VERB	VACT	_	4	acl	_	SpaceAfter=No
 11	ล้าน	_	NUM	NCMN	_	10	nummod	_	SpaceAfter=No
@@ -2567,7 +2567,7 @@
 # text = ซูบารุ ฟอร์เรสเตอร์ใหม่ ได้รับการออกแบบใหม่ทั้งหมด รวมไปถึงฐานล้อ
 1	ซูบารุ	_	PROPN	NCMN	NameType=Pro	4	nsubj	_	SpaceAfter=Yes
 2	ฟอร์เรสเตอร์	_	PROPN	NCMN	NameType=Pro	1	flat	_	SpaceAfter=No
-3	ใหม่	_	ADJ	VATT	_	1	amod	_	SpaceAfter=Yes
+3	ใหม่	_	VERB	VATT	_	1	amod	_	SpaceAfter=Yes
 4	ได้	_	VERB	XVAM	_	0	root	_	SpaceAfter=No
 5	รับ	_	VERB	VACT	_	4	compound	_	SpaceAfter=No
 6	การ	_	NOUN	FIXN	Prefix=Yes	4	obj	_	SpaceAfter=No
@@ -2591,7 +2591,7 @@
 5	พัก	_	VERB	NCMN	_	4	compound	_	SpaceAfter=Yes
 6	ยึด	_	VERB	VACT	_	2	compound	_	SpaceAfter=No
 7	บัตร	_	NOUN	NCMN	_	6	obj	_	SpaceAfter=No
-8	ปลอม	_	ADJ	VACT	_	7	amod	_	SpaceAfter=No
+8	ปลอม	_	VERB	VACT	_	7	amod	_	SpaceAfter=No
 9	ได้	_	ADV	XVAE	_	6	advmod	_	SpaceAfter=No
 10	อีก	_	ADV	DDBQ	_	11	advmod	_	SpaceAfter=Yes
 11	140	_	NUM	DCNM	_	12	nummod	_	SpaceAfter=Yes
@@ -2660,7 +2660,7 @@
 18	เกี่ยวกับ	_	ADP	RPRE	_	19	case	_	SpaceAfter=No
 19	เรื่อง	_	NOUN	NCMN	NounType=Class	17	obl	_	SpaceAfter=No
 20	ภาพยนตร์	_	NOUN	NCMN	_	19	nmod	_	SpaceAfter=No
-21	ฮิต	_	ADJ	NCMN	_	20	amod	_	SpaceAfter=No
+21	ฮิต	_	VERB	NCMN	_	20	amod	_	SpaceAfter=No
 22	ติด	_	VERB	VSTA	_	20	acl	_	SpaceAfter=No
 23	ชาร์ต	_	NOUN	NCMN	Foreign=Yes	22	obj	_	SpaceAfter=No
 24	ประจำ	_	VERB	VSTA	_	23	acl	_	SpaceAfter=No
@@ -2754,7 +2754,7 @@
 13	การเมือง	_	NOUN	NCMN	_	9	nmod	_	SpaceAfter=Yes
 14	เป็น	_	AUX	VSTA	VerbType=Cop	15	cop	_	SpaceAfter=No
 15	แกน	_	NOUN	NCMN	_	3	ccomp	_	SpaceAfter=No
-16	หลัก	_	ADJ	VATT	_	15	amod	_	SpaceAfter=No
+16	หลัก	_	VERB	VATT	_	15	amod	_	SpaceAfter=No
 17	ของ	_	ADP	RPRE	_	18	case	_	SpaceAfter=No
 18	แนว	_	NOUN	NCMN	_	15	nmod	_	SpaceAfter=No
 19	คิด	_	VERB	VACT	_	18	compound	_	SpaceAfter=No
@@ -2847,7 +2847,7 @@
 31	ขัง	_	VERB	NCMN	_	30	compound	_	SpaceAfter=No
 32	เป็น	_	AUX	VSTA	_	33	cop	_	SpaceAfter=No
 33	เวลา	_	NOUN	NCMN	_	28	advcl	_	SpaceAfter=No
-34	นาน	_	ADJ	VATT	_	33	amod	_	SpaceAfter=No
+34	นาน	_	VERB	VATT	_	33	amod	_	SpaceAfter=No
 35	อาจ	_	AUX	XVMM	_	36	aux	_	SpaceAfter=No
 36	ทำให้	_	VERB	VACT	_	23	advcl	_	SpaceAfter=No
 37	ระบบ	_	NOUN	NCMN	_	39	nsubj	_	SpaceAfter=No
@@ -2879,7 +2879,7 @@
 14	ก็	_	ADV	JSBR	_	16	advmod	_	SpaceAfter=No
 15	เป็น	_	AUX	VSTA	VerbType=Cop	16	cop	_	SpaceAfter=No
 16	สิ่ง	_	NOUN	NCMN	NounType=Class	5	conj	_	SpaceAfter=No
-17	สำคัญ	_	ADJ	VATT	_	16	amod	_	SpaceAfter=No
+17	สำคัญ	_	VERB	VATT	_	16	amod	_	SpaceAfter=No
 18	เสมอ	_	ADV	ADVN	_	17	advmod	_	SpaceAfter=No
 
 # filename = wiki_W671257
@@ -2896,7 +2896,7 @@
 9	การ	_	NOUN	FIXN	_	8	obj	_	SpaceAfter=No
 10	ใน	_	ADP	RPRE	_	11	case	_	SpaceAfter=No
 11	รัฐบาล	_	NOUN	NCMN	_	5	nmod	_	SpaceAfter=No
-12	กลาง	_	ADJ	VATT	_	11	amod	_	SpaceAfter=No
+12	กลาง	_	VERB	VATT	_	11	amod	_	SpaceAfter=No
 13	เปลี่ยน	_	VERB	VACT	_	11	acl	_	SpaceAfter=No
 14	ผ่าน	_	VERB	VSTA	_	13	compound	_	SpaceAfter=No
 15	เมื่อ	_	ADP	JSBR	_	16	case	_	SpaceAfter=No
@@ -2934,9 +2934,9 @@
 8	และ	_	CCONJ	JCRG	_	9	cc	_	SpaceAfter=No
 9	มี	_	VERB	VSTA	_	2	conj	_	SpaceAfter=No
 10	มูลค่า	_	NOUN	NCMN	_	9	obj	_	SpaceAfter=No
-11	มาก	_	ADJ	ADVN	_	10	amod	_	SpaceAfter=Yes
+11	มาก	_	VERB	ADVN	_	10	amod	_	SpaceAfter=Yes
 12	คน	_	NOUN	CNIT	_	14	nsubj	_	SpaceAfter=No
-13	ร้าย	_	ADJ	DCNM	_	12	compound	_	SpaceAfter=No
+13	ร้าย	_	VERB	DCNM	_	12	compound	_	SpaceAfter=No
 14	ปลอม	_	VERB	VACT	_	20	advcl	_	SpaceAfter=No
 15	เพียง	_	ADV	DDBQ	_	16	advmod	_	SpaceAfter=No
 16	ใบ	_	NOUN	CNIT	NounType=Class	14	obj	_	SpaceAfter=No
@@ -3319,7 +3319,7 @@
 8	ระบบ	_	NOUN	NCMN	_	7	conj	_	SpaceAfter=No
 9	ประสาท	_	NOUN	NCMN	_	8	nmod	_	SpaceAfter=No
 10	ส่วน	_	NOUN	NCMN	_	8	nmod	_	SpaceAfter=No
-11	กลาง	_	ADJ	VATT	_	10	amod	_	SpaceAfter=Yes
+11	กลาง	_	VERB	VATT	_	10	amod	_	SpaceAfter=Yes
 12	และ	_	CCONJ	JCRG	_	13	cc	_	SpaceAfter=No
 13	ไต	_	NOUN	NCMN	_	7	conj	_	SpaceAfter=No
 
@@ -3369,7 +3369,7 @@
 14	ภาพ	_	NOUN	NCMN	NounType=Class	0	root	_	SpaceAfter=No
 15	ของ	_	ADP	RPRE	_	16	case	_	SpaceAfter=No
 16	หญิง	_	NOUN	NCMN	_	14	nmod	_	SpaceAfter=No
-17	สาว	_	ADJ	NCMN	_	16	amod	_	SpaceAfter=No
+17	สาว	_	VERB	NCMN	_	16	amod	_	SpaceAfter=No
 18	ผู้	_	NOUN	PREL	Prefix=Yes	16	nmod	_	SpaceAfter=No
 19	สิ้น	_	VERB	VSTA	_	18	acl	_	SpaceAfter=No
 20	หวัง	_	NOUN	NCMN	_	19	obj	_	SpaceAfter=Yes
@@ -3423,7 +3423,7 @@
 3	ยัง	_	AUX	XVBM	_	4	aux	_	SpaceAfter=No
 4	มี	_	VERB	VSTA	_	0	root	_	SpaceAfter=No
 5	ความสามารถ	_	NOUN	NCMN	_	4	obl	_	SpaceAfter=No
-6	พิเศษ	_	ADJ	VATT	_	5	amod	_	SpaceAfter=No
+6	พิเศษ	_	VERB	VATT	_	5	amod	_	SpaceAfter=No
 7	ที่	_	PRON	PREL	_	8	nsubj	_	SpaceAfter=No
 8	หลากหลาย	_	VERB	VATT	_	5	acl	_	SpaceAfter=No
 9	มาก	_	ADV	ADVN	_	8	advmod	_	SpaceAfter=No
@@ -3480,7 +3480,7 @@
 46	เพราะ	_	SCONJ	JSBR	_	51	mark	_	SpaceAfter=No
 47	นัก	_	NOUN	FIXN	Prefix=Yes	51	nsubj	_	SpaceAfter=No
 48	ข่าว	_	NOUN	NCMN	_	47	compound	_	SpaceAfter=No
-49	อิสระ	_	ADJ	VSTA	_	47	amod	_	SpaceAfter=No
+49	อิสระ	_	VERB	VSTA	_	47	amod	_	SpaceAfter=No
 50	ถูก	_	AUX	XVAM	_	51	aux	_	SpaceAfter=No
 51	ห้าม	_	VERB	VACT	_	40	advcl	_	SpaceAfter=No
 52	ไม่	_	PART	NEG	PartType=Neg	53	advmod	_	SpaceAfter=No
@@ -3548,13 +3548,13 @@
 6	ทำ	_	VERB	VACT	_	2	ccomp	_	SpaceAfter=No
 7	เพียง	_	ADV	DDBQ	_	8	advmod	_	SpaceAfter=No
 8	คน	_	NOUN	CNIT	_	6	obj	_	SpaceAfter=No
-9	เดียว	_	ADJ	DCNM	_	8	amod	_	SpaceAfter=No
+9	เดียว	_	VERB	DCNM	_	8	amod	_	SpaceAfter=No
 
 # filename = tnc_NWRP_FR013
 # sent_id = 1788
 # text = ว่าที่อดีตผู้นำสหรัฐ ออกปากป้อนคำหวาน โอบามา ขณะที่รัฐบาลทั้งเก่าและใหม่ผนึกกำลังดันแผนกู้วิกฤต
 1	ว่าที่	_	ADV	JSBR	_	2	advmod	_	SpaceAfter=No
-2	อดีต	_	ADJ	NCMN	_	3	amod	_	SpaceAfter=No
+2	อดีต	_	VERB	NCMN	_	3	amod	_	SpaceAfter=No
 3	ผู้	_	NOUN	PREL	Prefix=Yes	6	nsubj	_	SpaceAfter=No
 4	นำ	_	VERB	VACT	_	3	acl	_	SpaceAfter=No
 5	สหรัฐ	_	NOUN	NCMN	NameType=Geo	4	obj	_	SpaceAfter=Yes
@@ -3562,14 +3562,14 @@
 7	ปาก	_	NOUN	NCMN	_	6	obj	_	SpaceAfter=No
 8	ป้อน	_	VERB	VACT	_	6	compound	_	SpaceAfter=No
 9	คำ	_	NOUN	NCMN	_	8	obj	_	SpaceAfter=No
-10	หวาน	_	ADJ	NCMN	_	9	amod	_	SpaceAfter=Yes
+10	หวาน	_	VERB	NCMN	_	9	amod	_	SpaceAfter=Yes
 11	โอบามา	_	PROPN	NCMN	Foreign=Yes	8	obj	_	SpaceAfter=Yes
 12	ขณะที่	_	CCONJ	JSBR	_	18	cc	_	SpaceAfter=No
 13	รัฐบาล	_	NOUN	NCMN	_	18	nsubj	_	SpaceAfter=No
 14	ทั้ง	_	ADV	DDBQ	_	15	advmod	_	SpaceAfter=No
-15	เก่า	_	ADJ	VATT	_	13	amod	_	SpaceAfter=No
+15	เก่า	_	VERB	VATT	_	13	amod	_	SpaceAfter=No
 16	และ	_	CCONJ	JCRG	_	17	cc	_	SpaceAfter=No
-17	ใหม่	_	ADJ	VATT	_	15	conj	_	SpaceAfter=No
+17	ใหม่	_	VERB	VATT	_	15	conj	_	SpaceAfter=No
 18	ผนึก	_	VERB	NCMN	_	6	conj	_	SpaceAfter=No
 19	กำลัง	_	NOUN	XVBM	_	18	obj	_	SpaceAfter=No
 20	ดัน	_	VERB	VACT	_	18	compound	_	SpaceAfter=No
@@ -3606,7 +3606,7 @@
 24	ทน	_	VERB	VSTA	_	23	compound	_	SpaceAfter=No
 25	กับ	_	ADP	RPRE	_	26	case	_	SpaceAfter=No
 26	งาน	_	NOUN	NCMN	_	23	obl	_	SpaceAfter=No
-27	หนัก	_	ADJ	VATT	_	26	amod	_	SpaceAfter=No
+27	หนัก	_	VERB	VATT	_	26	amod	_	SpaceAfter=No
 
 # filename = tnc_NWRP_FR013
 # sent_id = 2985
@@ -3691,7 +3691,7 @@
 4	เกิด	_	VERB	VSTA	_	3	acl	_	SpaceAfter=No
 5	ของ	_	ADP	RPRE	_	6	case	_	SpaceAfter=No
 6	เพื่อน	_	NOUN	NCMN	_	3	nmod	_	SpaceAfter=No
-7	สนิท	_	ADJ	NCMN	_	6	amod	_	SpaceAfter=Yes
+7	สนิท	_	VERB	NCMN	_	6	amod	_	SpaceAfter=Yes
 8	ข้าพเจ้า	_	PRON	NCMN	PronType=Prs	9	nsubj	_	SpaceAfter=No
 9	ตั้งใจ	_	VERB	VACT	_	0	root	_	SpaceAfter=No
 10	จะ	_	AUX	XVBM	_	11	aux	_	SpaceAfter=No
@@ -3755,7 +3755,7 @@
 7	ข้า	_	NOUN	NCMN	_	4	acl	_	SpaceAfter=No
 8	ราชการ	_	NOUN	NCMN	_	7	compound	_	SpaceAfter=No
 9	ระดับ	_	NOUN	NCMN	_	7	nmod	_	SpaceAfter=No
-10	สูง	_	ADJ	VATT	_	9	amod	_	SpaceAfter=No
+10	สูง	_	VERB	VATT	_	9	amod	_	SpaceAfter=No
 11	ใน	_	ADP	RPRE	_	12	case	_	SpaceAfter=No
 12	กระทรวง	_	NOUN	NCMN	_	7	nmod	_	SpaceAfter=No
 13	สิ่ง	_	NOUN	NCMN	_	12	nmod	_	SpaceAfter=No
@@ -3873,7 +3873,7 @@
 19	หัวหอม	_	NOUN	NCMN	_	16	list	_	SpaceAfter=Yes
 20	พริก	_	NOUN	NCMN	_	16	list	_	SpaceAfter=Yes
 21	ปลา	_	NOUN	NCMN	_	16	list	_	SpaceAfter=No
-22	ดิบ	_	ADJ	NCMN	_	21	amod	_	SpaceAfter=Yes
+22	ดิบ	_	VERB	NCMN	_	21	amod	_	SpaceAfter=Yes
 23	เป็นต้น	_	PART	PDMN	PartType=Emp	16	mark	_	SpaceAfter=No
 
 # filename = ESUN006-PART026
@@ -3929,7 +3929,7 @@
 11	ชาติ	_	NOUN	NCMN	_	10	nmod	_	SpaceAfter=No
 12	อังกฤษ	_	PROPN	NPRP	NameType=Nat	10	nmod	_	SpaceAfter=No
 13	ชุด	_	NOUN	NCMN	NounType=Class	10	clf	_	SpaceAfter=No
-14	ใหญ่	_	ADJ	VATT	_	13	amod	_	SpaceAfter=No
+14	ใหญ่	_	VERB	VATT	_	13	amod	_	SpaceAfter=No
 15	เพื่อ	_	SCONJ	JSBR	_	16	mark	_	SpaceAfter=No
 16	ลง	_	VERB	VACT	_	7	advcl	_	SpaceAfter=No
 17	เตะ	_	VERB	NCMN	_	16	xcomp	_	SpaceAfter=No
@@ -3980,7 +3980,7 @@
 15	ใน	_	ADP	RPRE	_	16	case	_	SpaceAfter=No
 16	สาขา	_	NOUN	NCMN	_	13	nmod	_	SpaceAfter=No
 17	ภาพยนตร์	_	NOUN	NCMN	_	16	nmod	_	SpaceAfter=No
-18	ยอดเยี่ยม	_	ADJ	VATT	_	17	amod	_	SpaceAfter=No
+18	ยอดเยี่ยม	_	VERB	VATT	_	17	amod	_	SpaceAfter=No
 19	และ	_	CCONJ	JCRG	_	20	cc	_	SpaceAfter=No
 20	รางวัล	_	NOUN	NCMN	_	13	conj	_	SpaceAfter=No
 21	สุพรรณหงส์	_	PROPN	NCMN	NameType=Oth	20	nmod	_	SpaceAfter=No
@@ -4008,7 +4008,7 @@
 11	ผลิต	_	VERB	VACT	_	10	acl	_	SpaceAfter=No
 12	รถ	_	NOUN	NCMN	_	11	obj	_	SpaceAfter=No
 13	ยนต์	_	NOUN	NCMN	_	12	compound	_	SpaceAfter=No
-14	หรู	_	ADJ	NCMN	_	12	amod	_	SpaceAfter=No
+14	หรู	_	VERB	NCMN	_	12	amod	_	SpaceAfter=No
 15	ของ	_	ADP	RPRE	_	16	case	_	SpaceAfter=No
 16	เยอรมนี	_	PROPN	NCMN	NameType=Geo	10	nmod	_	SpaceAfter=Yes
 17	แถลง	_	VERB	VACT	_	0	root	_	SpaceAfter=No
@@ -4023,7 +4023,7 @@
 26	รถ	_	NOUN	NCMN	_	25	obj	_	SpaceAfter=No
 27	ยนต์	_	NOUN	NCMN	_	26	compound	_	SpaceAfter=No
 28	ยักษ์	_	NOUN	NCMN	_	24	nmod	_	SpaceAfter=No
-29	ใหญ่	_	ADJ	VATT	_	28	amod	_	SpaceAfter=No
+29	ใหญ่	_	VERB	VATT	_	28	amod	_	SpaceAfter=No
 30	ของ	_	ADP	RPRE	_	31	case	_	SpaceAfter=No
 31	ยุโรป	_	PROPN	NPRP	Foreign=Yes	28	nmod	_	SpaceAfter=No
 32	ได้	_	ADV	XVAE	_	22	advmod	_	SpaceAfter=No
@@ -4108,7 +4108,7 @@
 8	ก็	_	ADV	JSBR	_	9	advmod	_	SpaceAfter=No
 9	มี	_	VERB	VSTA	_	0	root	_	SpaceAfter=No
 10	อะไร	_	NOUN	PNTR	_	9	obj	_	SpaceAfter=No
-11	ดี	_	ADJ	VATT	_	10	amod	_	SpaceAfter=No
+11	ดี	_	VERB	VATT	_	10	amod	_	SpaceAfter=No
 12	ๆ	_	PUNCT	PUNC	_	11	punct	_	SpaceAfter=No
 13	เยอะ	_	ADV	NCMN	_	9	advmod	_	SpaceAfter=No
 
@@ -4173,7 +4173,7 @@
 4	จะ	_	AUX	XVBM	_	5	aux	_	SpaceAfter=No
 5	ปรุง	_	VERB	VACT	_	0	root	_	SpaceAfter=No
 6	ด้วย	_	ADP	RPRE	_	8	case	_	SpaceAfter=No
-7	หลากหลาย	_	ADJ	NCMN	_	8	advmod	_	SpaceAfter=No
+7	หลากหลาย	_	VERB	NCMN	_	8	advmod	_	SpaceAfter=No
 8	วิธี	_	NOUN	NCMN	NounType=Class	5	obl	_	SpaceAfter=No
 9	กว่า	_	ADV	JCMP	_	7	advmod	_	SpaceAfter=No
 10	ของ	_	ADP	RPRE	_	11	case	_	SpaceAfter=No
@@ -4182,7 +4182,7 @@
 13	ส่วนมาก	_	NOUN	VATT	_	11	nmod	_	SpaceAfter=No
 14	แบบ	_	NOUN	NCMN	NounType=Class	13	nmod	_	SpaceAfter=No
 15	อาหาร	_	NOUN	NCMN	_	14	nmod	_	SpaceAfter=No
-16	ดอง	_	ADJ	NCMN	_	15	amod	_	SpaceAfter=Yes
+16	ดอง	_	VERB	NCMN	_	15	amod	_	SpaceAfter=Yes
 17	โดย	_	SCONJ	JSBR	Prefix=Yes	21	mark	_	SpaceAfter=No
 18	กับข้าว	_	NOUN	VACT	_	21	advmod	_	SpaceAfter=No
 19	ญี่ปุ่น	_	PROPN	NPRP	_	18	nmod	_	SpaceAfter=No
@@ -4190,14 +4190,14 @@
 21	มี	_	VERB	VSTA	_	5	conj	_	SpaceAfter=No
 22	ทั้ง	_	ADV	JCRG	_	23	advmod	_	SpaceAfter=No
 23	แบบ	_	NOUN	NCMN	NounType=Class	21	obj	_	SpaceAfter=No
-24	ดิบ	_	ADJ	NCMN	_	23	amod	_	SpaceAfter=Yes
-25	ย่าง	_	ADJ	VATT	_	24	list	_	SpaceAfter=Yes
-26	ตุ๋น	_	ADJ	NCMN	_	24	list	_	SpaceAfter=Yes
-27	นึ่ง	_	ADJ	DCNM	_	24	list	_	SpaceAfter=Yes
-28	ทอด	_	ADJ	NCMN	_	24	list	_	SpaceAfter=Yes
-29	ดอง	_	ADJ	NCMN	_	24	list	_	SpaceAfter=Yes
+24	ดิบ	_	VERB	NCMN	_	23	amod	_	SpaceAfter=Yes
+25	ย่าง	_	VERB	VATT	_	24	list	_	SpaceAfter=Yes
+26	ตุ๋น	_	VERB	NCMN	_	24	list	_	SpaceAfter=Yes
+27	นึ่ง	_	VERB	DCNM	_	24	list	_	SpaceAfter=Yes
+28	ทอด	_	VERB	NCMN	_	24	list	_	SpaceAfter=Yes
+29	ดอง	_	VERB	NCMN	_	24	list	_	SpaceAfter=Yes
 30	หรือ	_	CCONJ	JCRG	_	31	cc	_	SpaceAfter=No
-31	ยำ	_	ADJ	NCMN	_	24	list	_	SpaceAfter=No
+31	ยำ	_	VERB	NCMN	_	24	list	_	SpaceAfter=No
 
 # filename = tnc_NWRP_EN016
 # sent_id = 2704
@@ -4209,7 +4209,7 @@
 5	สุข	_	VERB	VSTA	_	4	acl	_	SpaceAfter=No
 6	อยู่	_	VERB	XVAE	_	0	root	_	SpaceAfter=No
 7	คน	_	NOUN	CNIT	_	6	obj	_	SpaceAfter=No
-8	เดียว	_	ADJ	DCNM	_	7	amod	_	SpaceAfter=No
+8	เดียว	_	VERB	DCNM	_	7	amod	_	SpaceAfter=No
 9	ดี	_	ADV	ADVN	_	6	advmod	_	SpaceAfter=No
 10	กว่า	_	ADV	JCMP	_	9	advmod	_	SpaceAfter=No
 
@@ -4303,7 +4303,7 @@
 12	วิธีการ	_	NOUN	NCMN	_	10	nmod	_	SpaceAfter=No
 13	ต่าง	_	DET	VSTA	_	12	det	_	SpaceAfter=No
 14	ๆ	_	PUNCT	VACT	_	13	punct	_	SpaceAfter=Yes
-15	มากมาย	_	ADJ	ADVN	_	12	amod	_	SpaceAfter=No
+15	มากมาย	_	VERB	ADVN	_	12	amod	_	SpaceAfter=No
 
 # filename = ESUN003-PART022
 # sent_id = 1433
@@ -4327,7 +4327,7 @@
 2	แพร่	_	VERB	VACT	_	0	root	_	SpaceAfter=No
 3	ภาพ	_	NOUN	NCMN	_	2	obj	_	SpaceAfter=No
 4	ชุด	_	NOUN	CLTV	NounType=Class	3	clf	_	SpaceAfter=No
-5	ใหม่	_	ADJ	VATT	_	4	amod	_	SpaceAfter=No
+5	ใหม่	_	VERB	VATT	_	4	amod	_	SpaceAfter=No
 
 # filename = ESUN011-PART005
 # sent_id = 818
@@ -4389,7 +4389,7 @@
 15	จาก	_	ADP	RPRE	_	17	case	_	SpaceAfter=No
 16	ใน	_	ADP	RPRE	_	17	case	_	SpaceAfter=No
 17	สมัย	_	NOUN	NCMN	_	13	obl	_	SpaceAfter=No
-18	ก่อน	_	ADJ	RPRE	_	17	amod	_	SpaceAfter=Yes
+18	ก่อน	_	VERB	RPRE	_	17	amod	_	SpaceAfter=Yes
 19	ทั้ง	_	ADV	JCRG	_	20	advmod	_	SpaceAfter=No
 20	การ	_	NOUN	FIXN	Prefix=Yes	10	nmod	_	SpaceAfter=No
 21	ก่อ	_	VERB	VACT	_	20	acl	_	SpaceAfter=No
@@ -4398,7 +4398,7 @@
 24	ที่	_	PRON	PREL	_	25	nsubj	_	SpaceAfter=No
 25	มี	_	VERB	VSTA	_	20	acl	_	SpaceAfter=No
 26	แนวโน้ม	_	NOUN	NCMN	_	25	obj	_	SpaceAfter=No
-27	สูง	_	ADJ	VATT	_	26	amod	_	SpaceAfter=No
+27	สูง	_	VERB	VATT	_	26	amod	_	SpaceAfter=No
 28	ขึ้น	_	ADV	XVAE	_	27	advmod	_	SpaceAfter=No
 29	เรื่อย	_	ADV	ADVN	_	28	advmod	_	SpaceAfter=No
 30	ๆ	_	PUNCT	PUNC	_	29	punct	_	SpaceAfter=Yes
@@ -4429,13 +4429,13 @@
 55	ไมตรี	_	NOUN	NCMN	_	54	compound	_	SpaceAfter=No
 56	จิต	_	NOUN	NCMN	_	55	compound	_	SpaceAfter=Yes
 57	ความ	_	NOUN	FIXN	Prefix=Yes	54	nmod	_	SpaceAfter=No
-58	จริง	_	ADJ	VATT	_	57	acl	_	SpaceAfter=No
+58	จริง	_	VERB	VATT	_	57	acl	_	SpaceAfter=No
 59	ใจ	_	NOUN	RPRE	_	58	compound	_	SpaceAfter=No
 60	เหมือน	_	ADP	JCMP	_	61	case	_	SpaceAfter=No
 61	ผู้	_	NOUN	PPRS	_	53	obl	_	SpaceAfter=No
 62	คน	_	NOUN	CNIT	_	61	compound	_	SpaceAfter=No
 63	สมัย	_	NOUN	VATT	_	61	nmod	_	SpaceAfter=No
-64	ก่อน	_	ADJ	ADVN	_	63	amod	_	SpaceAfter=Yes
+64	ก่อน	_	VERB	ADVN	_	63	amod	_	SpaceAfter=Yes
 65	ตาม	_	SCONJ	RPRE	_	68	mark	_	SpaceAfter=No
 66	ที่	_	SCONJ	PREL	_	68	mark	_	SpaceAfter=No
 67	จะ	_	AUX	XVBM	_	68	aux	_	SpaceAfter=No
@@ -4511,9 +4511,9 @@
 # filename = tnc_NWRP_FR011
 # sent_id = 1567
 # text = ทั้งทหารราบและรถถังกำลังปฏิบัติภารกิจอยู่ในเมืองเนตซาริม อาณานิคมของชาวยิว ห่างจากตอนใต้ของฉนวนกาซาเพียง 3 กิโลเมตรเท่านั้น ซึ่งเป็นพื้นที่ที่มีประชากรอาศัยอยู่อย่างหนาแน่นด้วย
-1	ทั้ง	_	ADJ	JCRG	_	2	amod	_	SpaceAfter=No
+1	ทั้ง	_	VERB	JCRG	_	2	amod	_	SpaceAfter=No
 2	ทหาร	_	NOUN	NCMN	_	8	nsubj	_	SpaceAfter=No
-3	ราบ	_	ADJ	NCMN	_	2	amod	_	SpaceAfter=No
+3	ราบ	_	VERB	NCMN	_	2	amod	_	SpaceAfter=No
 4	และ	_	CCONJ	JCRG	_	5	cc	_	SpaceAfter=No
 5	รถ	_	NOUN	NCMN	_	2	conj	_	SpaceAfter=No
 6	ถัง	_	NOUN	NCMN	_	5	compound	_	SpaceAfter=No
@@ -4531,11 +4531,11 @@
 18	ห่าง	_	VERB	VSTA	_	12	acl	_	SpaceAfter=No
 19	จาก	_	ADP	RPRE	_	20	case	_	SpaceAfter=No
 20	ตอน	_	NOUN	NCMN	_	18	obl	_	SpaceAfter=No
-21	ใต้	_	ADJ	NCMN	_	20	amod	_	SpaceAfter=No
+21	ใต้	_	VERB	NCMN	_	20	amod	_	SpaceAfter=No
 22	ของ	_	ADP	RPRE	_	23	case	_	SpaceAfter=No
 23	ฉนวน	_	NOUN	NCMN	_	20	nmod	_	SpaceAfter=No
 24	กาซา	_	PROPN	NCMN	Foreign=Yes	23	compound	_	SpaceAfter=No
-25	เพียง	_	ADJ	DDBQ	_	26	amod	_	SpaceAfter=Yes
+25	เพียง	_	VERB	DDBQ	_	26	amod	_	SpaceAfter=Yes
 26	3	_	NUM	DCNM	_	27	nummod	_	SpaceAfter=Yes
 27	กิโลเมตร	_	NOUN	CMTR	NounType=Class	18	obj	_	SpaceAfter=No
 28	เท่านั้น	_	ADV	DDAQ	_	27	advmod	_	SpaceAfter=Yes
@@ -4548,8 +4548,8 @@
 35	อาศัย	_	VERB	VSTA	_	33	ccomp	_	SpaceAfter=No
 36	อยู่	_	VERB	XVAE	_	35	compound	_	SpaceAfter=No
 37	อย่าง	_	PART	FIXV	PartType=Adv	38	mark	_	SpaceAfter=No
-38	หนา	_	ADJ	VATT	_	36	advmod	_	SpaceAfter=No
-39	แน่น	_	ADJ	ADVN	_	38	compound	_	SpaceAfter=No
+38	หนา	_	VERB	VATT	_	36	advmod	_	SpaceAfter=No
+39	แน่น	_	VERB	ADVN	_	38	compound	_	SpaceAfter=No
 40	ด้วย	_	ADV	ADVN	_	33	advmod	_	SpaceAfter=No
 
 # filename = ESUN007-PART003
@@ -4567,7 +4567,7 @@
 10	ไป	_	VERB	XVAE	_	3	compound	_	SpaceAfter=No
 11	ไว้	_	VERB	XVAE	_	10	compound	_	SpaceAfter=No
 12	ที่	_	NOUN	RPRE	_	11	obj	_	SpaceAfter=No
-13	สูง	_	ADJ	VATT	_	12	amod	_	SpaceAfter=No
+13	สูง	_	VERB	VATT	_	12	amod	_	SpaceAfter=No
 14	รวมทั้ง	_	CCONJ	JCRG	_	15	cc	_	SpaceAfter=No
 15	ก่อ	_	VERB	NCMN	_	3	conj	_	SpaceAfter=No
 16	อิฐ	_	NOUN	NCMN	_	15	obj	_	SpaceAfter=No
@@ -4601,7 +4601,7 @@
 7	เหตุการณ์	_	NOUN	NCMN	_	2	acl	_	SpaceAfter=No
 8	แผ่นดินไหว	_	VERB	NCMN	_	7	acl	_	SpaceAfter=No
 9	ครั้ง	_	NOUN	CFQC	NounType=Class	8	clf	_	SpaceAfter=No
-10	สำคัญ	_	ADJ	VATT	_	9	amod	_	SpaceAfter=No
+10	สำคัญ	_	VERB	VATT	_	9	amod	_	SpaceAfter=No
 11	ใน	_	ADP	RPRE	_	12	case	_	SpaceAfter=No
 12	แดน	_	NOUN	NCMN	NounType=Class	7	nmod	_	SpaceAfter=No
 13	อาทิตย์อุทัย	_	PROPN	NCMN	NameType=Geo	12	nmod	_	SpaceAfter=No
@@ -4615,7 +4615,7 @@
 4	มี	_	VERB	VSTA	_	0	root	_	SpaceAfter=No
 5	ผู้	_	NOUN	PPRS	_	8	nsubj	_	SpaceAfter=No
 6	หญิง	_	NOUN	VACT	_	5	nmod	_	SpaceAfter=No
-7	ท้อง	_	ADJ	XVMM	_	5	amod	_	SpaceAfter=No
+7	ท้อง	_	VERB	XVMM	_	5	amod	_	SpaceAfter=No
 8	รวม	_	VERB	VACT	_	4	ccomp	_	SpaceAfter=No
 9	อยู่	_	AUX	XVAE	_	8	aux	_	SpaceAfter=No
 10	ด้วย	_	ADV	RPRE	_	8	advmod	_	SpaceAfter=Yes
@@ -4690,7 +4690,7 @@
 1	โชค	_	NOUN	NCMN	_	2	nsubj	_	SpaceAfter=No
 2	ดี	_	VERB	VATT	_	0	root	_	SpaceAfter=No
 3	อย่าง	_	PART	FIXV	PartType=Adv	4	mark	_	SpaceAfter=No
-4	มาก	_	ADJ	VATT	_	2	advmod	_	SpaceAfter=No
+4	มาก	_	VERB	VATT	_	2	advmod	_	SpaceAfter=No
 5	แล้ว	_	ADV	ADVN	_	4	advmod	_	SpaceAfter=Yes
 6	ที่	_	SCONJ	PREL	_	11	mark	_	SpaceAfter=No
 7	เด็ก	_	NOUN	VSTA	_	11	nsubj	_	SpaceAfter=No
@@ -4721,16 +4721,16 @@
 # text = มีอุบัติเหตุเล็กๆ น้อยๆ ซึ่งยุ้ยว่าเป็นเรื่องปกติของการถ่ายทำละคร แต่เจ็บป่วยทั่วหน้าน่าจะเป็นเหตุสุดวิสัยมากกว่า
 1	มี	_	VERB	VSTA	_	0	root	_	SpaceAfter=No
 2	อุบัติเหตุ	_	NOUN	NCMN	_	1	obj	_	SpaceAfter=No
-3	เล็ก	_	ADJ	VATT	_	2	amod	_	SpaceAfter=No
+3	เล็ก	_	VERB	VATT	_	2	amod	_	SpaceAfter=No
 4	ๆ	_	PUNCT	PUNC	_	3	punct	_	SpaceAfter=Yes
-5	น้อย	_	ADJ	VATT	_	3	compound	_	SpaceAfter=No
+5	น้อย	_	VERB	VATT	_	3	compound	_	SpaceAfter=No
 6	ๆ	_	PUNCT	PUNC	_	5	punct	_	SpaceAfter=Yes
 7	ซึ่ง	_	PRON	JSBR	_	9	obj	_	SpaceAfter=No
 8	ยุ้ย	_	PROPN	VACT	NameType=Prs	9	nsubj	_	SpaceAfter=No
 9	ว่า	_	VERB	JSBR	_	1	advcl	_	SpaceAfter=No
 10	เป็น	_	VERB	VSTA	_	9	compound	_	SpaceAfter=No
 11	เรื่อง	_	NOUN	NCMN	_	10	obj	_	SpaceAfter=No
-12	ปกติ	_	ADJ	VATT	_	11	amod	_	SpaceAfter=No
+12	ปกติ	_	VERB	VATT	_	11	amod	_	SpaceAfter=No
 13	ของ	_	ADP	RPRE	_	14	case	_	SpaceAfter=No
 14	การ	_	NOUN	FIXN	Prefix=Yes	11	nmod	_	SpaceAfter=No
 15	ถ่าย	_	VERB	VACT	_	14	acl	_	SpaceAfter=No
@@ -4744,7 +4744,7 @@
 23	น่าจะ	_	AUX	XVMM	_	24	aux	_	SpaceAfter=No
 24	เป็น	_	VERB	VSTA	_	1	conj	_	SpaceAfter=No
 25	เหตุ	_	NOUN	NCMN	_	24	obj	_	SpaceAfter=No
-26	สุดวิสัย	_	ADJ	NCMN	_	25	amod	_	SpaceAfter=No
+26	สุดวิสัย	_	VERB	NCMN	_	25	amod	_	SpaceAfter=No
 27	มาก	_	ADV	ADVN	_	24	advmod	_	SpaceAfter=No
 28	กว่า	_	ADV	JCMP	_	27	advmod	_	SpaceAfter=No
 
@@ -4757,7 +4757,7 @@
 4	หมัก	_	VERB	VACT	_	3	acl	_	SpaceAfter=No
 5	พริก	_	NOUN	NCMN	_	4	obj	_	SpaceAfter=No
 6	สี	_	NOUN	NCMN	_	5	nmod	_	SpaceAfter=No
-7	แดง	_	ADJ	NCMN	_	6	amod	_	SpaceAfter=No
+7	แดง	_	VERB	NCMN	_	6	amod	_	SpaceAfter=No
 8	และ	_	CCONJ	JCRG	_	9	cc	_	SpaceAfter=No
 9	ผัก	_	NOUN	NCMN	_	5	conj	_	SpaceAfter=No
 10	ต่าง	_	DET	PDMN	_	9	det	_	SpaceAfter=No
@@ -4768,14 +4768,14 @@
 15	ใช้	_	VERB	VACT	_	9	acl	_	SpaceAfter=No
 16	ผัก	_	NOUN	NCMN	_	15	obj	_	SpaceAfter=No
 17	กาด	_	NOUN	NCMN	_	16	nmod	_	SpaceAfter=No
-18	ขาว	_	ADJ	VATT	_	17	amod	_	SpaceAfter=No
+18	ขาว	_	VERB	VATT	_	17	amod	_	SpaceAfter=No
 
 # filename = wiki_W426794
 # sent_id = 3619
 # text = มีชื่อจริง
 1	มี	_	VERB	VSTA	_	0	root	_	SpaceAfter=No
 2	ชื่อ	_	NOUN	NCMN	_	1	obj	_	SpaceAfter=No
-3	จริง	_	ADJ	VATT	_	2	compound	_	SpaceAfter=No
+3	จริง	_	VERB	VATT	_	2	compound	_	SpaceAfter=No
 
 # filename = ESUN005-PART013
 # sent_id = 735
@@ -4816,7 +4816,7 @@
 3	คน	_	NOUN	NCMN	NounType=Class	7	nsubj	_	SpaceAfter=No
 4	ไทย	_	PROPN	NPRP	_	3	nmod	_	SpaceAfter=No
 5	จำนวน	_	NOUN	NCMN	NumType=Mult	3	nmod	_	SpaceAfter=No
-6	มาก	_	ADJ	VATT	_	5	amod	_	SpaceAfter=No
+6	มาก	_	VERB	VATT	_	5	amod	_	SpaceAfter=No
 7	เชื่อ	_	VERB	RPRE	_	1	acl	_	SpaceAfter=No
 8	เรื่อง	_	NOUN	NCMN	NounType=Class	7	obj	_	SpaceAfter=No
 9	สิ่ง	_	NOUN	NCMN	NounType=Class	8	nmod	_	SpaceAfter=No
@@ -4852,7 +4852,7 @@
 19	ล้ำ	_	VERB	NCMN	_	18	compound	_	SpaceAfter=No
 20	ความ	_	NOUN	FIXN	Prefix=Yes	18	obl	_	SpaceAfter=No
 21	เป็น	_	VERB	VSTA	_	20	acl	_	SpaceAfter=No
-22	ยอด	_	ADJ	NCMN	_	23	amod	_	SpaceAfter=No
+22	ยอด	_	VERB	NCMN	_	23	amod	_	SpaceAfter=No
 23	คน	_	NOUN	CNIT	_	21	obj	_	SpaceAfter=Yes
 24	ชื่นชอบ	_	VERB	VACT	_	18	discourse	_	SpaceAfter=No
 25	ตอบ	_	VERB	VACT	_	24	compound	_	SpaceAfter=No
@@ -5031,8 +5031,8 @@
 3	มูลค่า	_	NOUN	NCMN	_	2	nmod	_	SpaceAfter=No
 4	เสีย	_	VERB	VSTA	_	3	acl	_	SpaceAfter=No
 5	หาย	_	VERB	NCMN	_	4	compound	_	SpaceAfter=No
-6	แท้	_	ADJ	NCMN	_	2	amod	_	SpaceAfter=No
-7	จริง	_	ADJ	VATT	_	6	compound	_	SpaceAfter=Yes
+6	แท้	_	VERB	NCMN	_	2	amod	_	SpaceAfter=No
+7	จริง	_	VERB	VATT	_	6	compound	_	SpaceAfter=Yes
 8	สูง	_	VERB	VATT	_	1	ccomp	_	SpaceAfter=No
 9	ถึง	_	ADP	RPRE	_	10	case	_	SpaceAfter=Yes
 10	180	_	NUM	DCNM	_	11	nummod	_	SpaceAfter=Yes
@@ -5090,7 +5090,7 @@
 7	รักษา	_	VERB	VACT	_	3	acl	_	SpaceAfter=No
 8	สังคม	_	NOUN	NCMN	_	7	obj	_	SpaceAfter=No
 9	ที่	_	PRON	PREL	_	10	nsubj	_	SpaceAfter=No
-10	ดีงาม	_	ADJ	VATT	_	8	amod	_	SpaceAfter=No
+10	ดีงาม	_	VERB	VATT	_	8	amod	_	SpaceAfter=No
 11	ไว้	_	ADV	XVAE	_	7	advmod	_	SpaceAfter=No
 12	ให้	_	VERB	JSBR	_	7	advcl	_	SpaceAfter=No
 13	แก่	_	ADP	RPRE	_	14	case	_	SpaceAfter=No
@@ -5153,7 +5153,7 @@
 12	ข่าย	_	NOUN	NCMN	_	11	compound	_	SpaceAfter=No
 13	ไร้	_	VERB	VSTA	_	11	acl	_	SpaceAfter=No
 14	สาย	_	NOUN	NCMN	_	13	obj	_	SpaceAfter=No
-15	เฉพาะกิจ	_	ADJ	VATT	_	11	amod	_	SpaceAfter=No
+15	เฉพาะกิจ	_	VERB	VATT	_	11	amod	_	SpaceAfter=No
 
 # filename = ESUN012-PART017
 # sent_id = 861
@@ -5166,7 +5166,7 @@
 6	กอง	_	NOUN	NCMN	NounType=Class	7	nmod	_	SpaceAfter=No
 7	ขยะ	_	NOUN	NCMN	_	3	obl	_	SpaceAfter=No
 8	ขนาด	_	NOUN	NCMN	_	7	nmod	_	SpaceAfter=No
-9	ใหญ่	_	ADJ	VATT	_	8	amod	_	SpaceAfter=No
+9	ใหญ่	_	VERB	VATT	_	8	amod	_	SpaceAfter=No
 
 # filename = ESUN007-PART016
 # sent_id = 1466
@@ -5278,7 +5278,7 @@
 6	ตัว	_	NOUN	NCMN	_	5	obj	_	SpaceAfter=No
 7	ของ	_	ADP	RPRE	_	8	case	_	SpaceAfter=No
 8	ธาตุ	_	NOUN	NCMN	_	6	nmod	_	SpaceAfter=No
-9	เบา	_	ADJ	VATT	_	8	amod	_	SpaceAfter=No
+9	เบา	_	VERB	VATT	_	8	amod	_	SpaceAfter=No
 10	ไป	_	VERB	XVAE	_	5	compound	_	SpaceAfter=No
 11	เป็น	_	VERB	VSTA	_	10	compound	_	SpaceAfter=No
 12	ธาตุ	_	NOUN	NCMN	_	11	obj	_	SpaceAfter=No
@@ -5318,7 +5318,7 @@
 10	มี	_	VERB	VSTA	_	2	advcl	_	SpaceAfter=No
 11	สำนัก	_	NOUN	NCMN	_	10	obj	_	SpaceAfter=No
 12	งาน	_	NOUN	NCMN	_	11	compound	_	SpaceAfter=No
-13	ใหญ่	_	ADJ	VATT	_	11	amod	_	SpaceAfter=No
+13	ใหญ่	_	VERB	VATT	_	11	amod	_	SpaceAfter=No
 14	อยู่	_	VERB	VSTA	_	10	compound	_	SpaceAfter=No
 15	ที่	_	ADP	RPRE	_	16	case	_	SpaceAfter=Yes
 16	โตเกียว	_	PROPN	NCMN	NameType=Geo	14	obl	_	SpaceAfter=Yes
@@ -5379,7 +5379,7 @@
 10	ๆ	_	PUNCT	NCMN	_	9	punct	_	SpaceAfter=No
 11	ของ	_	ADP	RPRE	_	12	case	_	SpaceAfter=No
 12	เกจิอาจารย์	_	NOUN	NCMN	_	5	nmod	_	SpaceAfter=No
-13	ชื่อดัง	_	ADJ	RPRE	_	12	amod	_	SpaceAfter=No
+13	ชื่อดัง	_	VERB	RPRE	_	12	amod	_	SpaceAfter=No
 14	ใน	_	ADP	RPRE	_	16	case	_	SpaceAfter=No
 15	หลาย	_	NUM	DIBQ	NumType=Mult	16	nummod	_	SpaceAfter=No
 16	จังหวัด	_	NOUN	NCMN	_	12	nmod	_	SpaceAfter=No
@@ -5406,7 +5406,7 @@
 3	ปัจจุบัน	_	NOUN	NCMN	_	2	nmod	_	SpaceAfter=Yes
 4	คน	_	NOUN	NCMN	_	7	nsubj	_	SpaceAfter=No
 5	จำนวน	_	NOUN	NCMN	_	4	nmod	_	SpaceAfter=No
-6	มาก	_	ADJ	VATT	_	5	amod	_	SpaceAfter=No
+6	มาก	_	VERB	VATT	_	5	amod	_	SpaceAfter=No
 7	ดำรง	_	VERB	ADVN	_	0	root	_	SpaceAfter=No
 8	ชีวิต	_	NOUN	VSTA	_	7	obj	_	SpaceAfter=No
 9	ด้วย	_	ADP	RPRE	_	10	case	_	SpaceAfter=No
@@ -5603,7 +5603,7 @@
 1	คาด	_	VERB	VACT	_	0	root	_	SpaceAfter=No
 2	เป็น	_	AUX	VSTA	_	3	cop	_	SpaceAfter=No
 3	พระ	_	NOUN	NCMN	_	1	ccomp	_	SpaceAfter=No
-4	เอก	_	ADJ	NCMN	_	3	compound	_	SpaceAfter=No
+4	เอก	_	VERB	NCMN	_	3	compound	_	SpaceAfter=No
 5	Motor	_	PROPN	NCMN	NameType=Oth	3	nmod	_	SpaceAfter=Yes
 6	Expo	_	PROPN	NCMN	NameType=Oth	5	flat	_	SpaceAfter=No
 7	แน่	_	ADV	NCMN	_	3	advmod	_	SpaceAfter=No
@@ -5621,7 +5621,7 @@
 7	ฯ	_	PUNCT	NCMN	_	6	punct	_	SpaceAfter=No
 8	ผู้	_	NOUN	PPRS	Prefix=Yes	1	conj	_	SpaceAfter=No
 9	แทน	_	VERB	VSTA	_	8	compound	_	SpaceAfter=No
-10	นานา	_	ADJ	RPRE	_	11	amod	_	SpaceAfter=No
+10	นานา	_	VERB	RPRE	_	11	amod	_	SpaceAfter=No
 11	ชาติ	_	NOUN	NCMN	_	8	nmod	_	SpaceAfter=No
 12	ทุก	_	ADV	DIBQ	_	13	advmod	_	SpaceAfter=No
 13	ประเทศ	_	NOUN	CNIT	_	8	nmod	_	SpaceAfter=No
@@ -5682,7 +5682,7 @@
 68	ยินดี	_	VERB	VSTA	_	67	acl	_	SpaceAfter=No
 69	เป็น	_	ADV	FIXN	_	68	advcl	_	SpaceAfter=No
 70	อย่าง	_	PART	FIXV	Prefix=Yes	71	mark	_	SpaceAfter=No
-71	ยิ่ง	_	ADJ	VATT	_	69	compound	_	SpaceAfter=No
+71	ยิ่ง	_	VERB	VATT	_	69	compound	_	SpaceAfter=No
 
 # filename = tnc_NWRP_CR010
 # sent_id = 1810
@@ -5710,7 +5710,7 @@
 # sent_id = 3037
 # text = ช่องว่างทั้งหมดอัดโฟม
 1	ช่อง	_	NOUN	NCMN	_	4	nsubj	_	SpaceAfter=No
-2	ว่าง	_	ADJ	VSTA	_	1	compound	_	SpaceAfter=No
+2	ว่าง	_	VERB	VSTA	_	1	compound	_	SpaceAfter=No
 3	ทั้งหมด	_	ADV	DDAN	_	1	advmod	_	SpaceAfter=No
 4	อัด	_	VERB	VACT	_	0	root	_	SpaceAfter=No
 5	โฟม	_	NOUN	NCMN	Foreign=Yes	4	obj	_	SpaceAfter=No
@@ -5746,7 +5746,7 @@
 16	ตอบแทน	_	VERB	VACT	_	15	acl	_	SpaceAfter=No
 17	ที่	_	SCONJ	PREL	_	20	mark	_	SpaceAfter=No
 18	สิ่ง	_	NOUN	NCMN	NounType=Class	20	nsubj	_	SpaceAfter=No
-19	ศักดิ์สิทธิ์	_	ADJ	NCMN	_	18	amod	_	SpaceAfter=No
+19	ศักดิ์สิทธิ์	_	VERB	NCMN	_	18	amod	_	SpaceAfter=No
 20	คอย	_	VERB	VACT	_	16	advcl	_	SpaceAfter=No
 21	ดูแล	_	VERB	VACT	_	20	xcomp	_	SpaceAfter=No
 22	ให้	_	SCONJ	JSBR	_	26	mark	_	SpaceAfter=No
@@ -5833,7 +5833,7 @@
 12	ซุป	_	NOUN	NCMN	Foreign=Yes	10	list	_	SpaceAfter=No
 13	และ	_	CCONJ	JCRG	_	14	cc	_	SpaceAfter=No
 14	อาหาร	_	NOUN	NCMN	_	10	conj	_	SpaceAfter=No
-15	หมักดอง	_	ADJ	NCMN	_	14	amod	_	SpaceAfter=No
+15	หมักดอง	_	VERB	NCMN	_	14	amod	_	SpaceAfter=No
 
 # filename = ESUN001-PART015
 # sent_id = 15
@@ -5844,7 +5844,7 @@
 4	เครื่องหมาย	_	NOUN	NCMN	_	0	root	_	SpaceAfter=No
 5	ของ	_	ADP	RPRE	_	6	case	_	SpaceAfter=No
 6	คน	_	NOUN	NCMN	NounType=Class	4	nmod	_	SpaceAfter=No
-7	ดี	_	ADJ	VATT	_	6	amod	_	SpaceAfter=No
+7	ดี	_	VERB	VATT	_	6	amod	_	SpaceAfter=No
 
 # filename = ESUN032-PART013
 # sent_id = 181
@@ -5873,7 +5873,7 @@
 8	อดีต	_	NOUN	NCMN	_	5	nmod	_	SpaceAfter=No
 9	มี	_	VERB	VSTA	_	2	ccomp	_	SpaceAfter=No
 10	สุขภาพ	_	NOUN	NCMN	_	9	obj	_	SpaceAfter=No
-11	ดี	_	ADJ	VATT	_	10	amod	_	SpaceAfter=No
+11	ดี	_	VERB	VATT	_	10	amod	_	SpaceAfter=No
 12	มาก	_	ADV	ADVN	_	11	advmod	_	SpaceAfter=Yes
 13	จน	_	SCONJ	JSBR	_	14	mark	_	SpaceAfter=No
 14	ได้	_	VERB	VSTA	_	11	advcl	_	SpaceAfter=No
@@ -5885,8 +5885,8 @@
 20	มี	_	VERB	VSTA	_	18	acl	_	SpaceAfter=No
 21	คน	_	NOUN	NCMN	NounType=Class	20	obj	_	SpaceAfter=No
 22	อายุ	_	NOUN	NCMN	_	21	nmod	_	SpaceAfter=No
-23	ยืน	_	ADJ	VACT	_	22	amod	_	SpaceAfter=No
-24	ยาว	_	ADJ	VATT	_	23	advmod	_	SpaceAfter=No
+23	ยืน	_	VERB	VACT	_	22	amod	_	SpaceAfter=No
+24	ยาว	_	VERB	VATT	_	23	advmod	_	SpaceAfter=No
 25	ที่สุด	_	ADV	ADVN	_	24	advmod	_	SpaceAfter=No
 26	ใน	_	ADP	RPRE	_	27	case	_	SpaceAfter=No
 27	โลก	_	NOUN	NCMN	_	25	advcl	_	SpaceAfter=No
@@ -5929,9 +5929,9 @@
 # text = ดาราสาวสวยชื่อดัง เป็นน้องสาวของจิตรี
 1	ดารา	_	NOUN	JSBR	_	7	nsubj	_	SpaceAfter=No
 2	สาว	_	NOUN	NCMN	_	1	nmod	_	SpaceAfter=No
-3	สวย	_	ADJ	VATT	_	2	amod	_	SpaceAfter=No
+3	สวย	_	VERB	VATT	_	2	amod	_	SpaceAfter=No
 4	ชื่อ	_	NOUN	NCMN	_	1	amod	_	SpaceAfter=No
-5	ดัง	_	ADJ	RPRE	_	4	compound	_	SpaceAfter=Yes
+5	ดัง	_	VERB	RPRE	_	4	compound	_	SpaceAfter=Yes
 6	เป็น	_	AUX	VSTA	_	7	cop	_	SpaceAfter=No
 7	น้อง	_	NOUN	NCMN	_	0	root	_	SpaceAfter=No
 8	สาว	_	NOUN	NCMN	_	7	compound	_	SpaceAfter=No
@@ -6042,7 +6042,7 @@
 6	(	_	PUNCT	PUNC	_	7	punct	_	SpaceAfter=No
 7	ฝ่าย	_	NOUN	VACT	_	3	nmod	_	SpaceAfter=No
 8	กิจการ	_	NOUN	NCMN	_	7	nmod	_	SpaceAfter=No
-9	พิเศษ	_	ADJ	VATT	_	7	amod	_	SpaceAfter=No
+9	พิเศษ	_	VERB	VATT	_	7	amod	_	SpaceAfter=No
 10	)	_	PUNCT	PUNC	_	7	punct	_	SpaceAfter=No
 
 # filename = tnc_NWRP_FR013
@@ -6215,7 +6215,7 @@
 # text = ราคาน้ำมันโลกในตลาดสิงคโปร์ ดิ่งลงไปแตะต่ำกว่าระดับ 39 ดอลลาร์สหรัฐต่อบาร์เรลเมื่อวันพุธ เนื่องจากนักลงทุนยังผวาภาวะเศรษฐกิจโลกชะลอตัว ซึ่งฉุดให้ราคาน้ำมันดิบร่วงลงแล้วประมาณร้อยละ 60 ในปีนี้ โดยราคาน้ำมันไลท์ สวีต ในตลาดนิวยอร์ก งวดส่งมอบเดือน ก.พ. ลดลง 70 เซ็น อยู่ที่ 38.33 ดอลลาร์ต่อบาร์เรล ส่วนราคาน้ำมันดิบเบรนท์ ในตลาดลอนดอน งวดส่งมอบเดือน ก.พ.ลดลง 77 เซ็น อยู่ที่ 39.38 ดอลลาร์ต่อบาร์เรล
 1	ราคา	_	NOUN	NCMN	_	8	nsubj	_	SpaceAfter=No
 2	น้ำ	_	NOUN	NCMN	_	1	nmod	_	SpaceAfter=No
-3	มัน	_	ADJ	PPRS	_	2	amod	_	SpaceAfter=No
+3	มัน	_	VERB	PPRS	_	2	amod	_	SpaceAfter=No
 4	โลก	_	NOUN	NCMN	_	1	nmod	_	SpaceAfter=No
 5	ใน	_	ADP	RPRE	_	6	case	_	SpaceAfter=No
 6	ตลาด	_	NOUN	NCMN	_	1	nmod	_	SpaceAfter=No
@@ -6224,7 +6224,7 @@
 9	ลง	_	VERB	XVAE	_	8	compound	_	SpaceAfter=No
 10	ไป	_	VERB	XVAE	_	9	compound	_	SpaceAfter=No
 11	แตะ	_	VERB	NCMN	_	10	compound	_	SpaceAfter=No
-12	ต่ำ	_	ADJ	VATT	_	14	amod	_	SpaceAfter=No
+12	ต่ำ	_	VERB	VATT	_	14	amod	_	SpaceAfter=No
 13	กว่า	_	ADV	JCMP	_	12	advmod	_	SpaceAfter=No
 14	ระดับ	_	NOUN	NCMN	_	11	obj	_	SpaceAfter=Yes
 15	39	_	NUM	DCNM	_	16	nummod	_	SpaceAfter=Yes
@@ -6252,12 +6252,12 @@
 37	ให้	_	SCONJ	JSBR	_	42	mark	_	SpaceAfter=No
 38	ราคา	_	NOUN	NCMN	_	42	nsubj	_	SpaceAfter=No
 39	น้ำ	_	NOUN	NCMN	_	38	nmod	_	SpaceAfter=No
-40	มัน	_	ADJ	PPRS	_	39	amod	_	SpaceAfter=No
-41	ดิบ	_	ADJ	VATT	_	39	amod	_	SpaceAfter=No
+40	มัน	_	VERB	PPRS	_	39	amod	_	SpaceAfter=No
+41	ดิบ	_	VERB	VATT	_	39	amod	_	SpaceAfter=No
 42	ร่วง	_	VERB	NCMN	_	36	ccomp	_	SpaceAfter=No
 43	ลง	_	VERB	XVAE	_	42	compound	_	SpaceAfter=No
 44	แล้ว	_	ADV	XVAE	_	43	advmod	_	SpaceAfter=No
-45	ประมาณ	_	ADJ	DIBQ	_	46	amod	_	SpaceAfter=No
+45	ประมาณ	_	VERB	DIBQ	_	46	amod	_	SpaceAfter=No
 46	ร้อยละ	_	NOUN	NCMN	_	43	obl	_	SpaceAfter=Yes
 47	60	_	NUM	DCNM	_	46	nummod	_	SpaceAfter=Yes
 48	ใน	_	ADP	RPRE	_	49	case	_	SpaceAfter=No
@@ -6266,7 +6266,7 @@
 51	โดย	_	SCONJ	RPRE	_	65	mark	_	SpaceAfter=No
 52	ราคา	_	NOUN	NCMN	_	65	nsubj	_	SpaceAfter=No
 53	น้ำ	_	NOUN	NCMN	_	52	nmod	_	SpaceAfter=No
-54	มัน	_	ADJ	PPRS	_	53	amod	_	SpaceAfter=No
+54	มัน	_	VERB	PPRS	_	53	amod	_	SpaceAfter=No
 55	ไลท์	_	PROPN	NCMN	_	53	nmod	_	SpaceAfter=Yes
 56	สวีต	_	PROPN	NCMN	_	55	flat	_	SpaceAfter=Yes
 57	ใน	_	ADP	RPRE	_	58	case	_	SpaceAfter=No
@@ -6290,8 +6290,8 @@
 75	ส่วน	_	SCONJ	NCMN	_	89	mark	_	SpaceAfter=No
 76	ราคา	_	NOUN	NCMN	_	89	nsubj	_	SpaceAfter=No
 77	น้ำ	_	NOUN	NCMN	_	76	nmod	_	SpaceAfter=No
-78	มัน	_	ADJ	PPRS	_	77	amod	_	SpaceAfter=No
-79	ดิบ	_	ADJ	VATT	_	77	amod	_	SpaceAfter=No
+78	มัน	_	VERB	PPRS	_	77	amod	_	SpaceAfter=No
+79	ดิบ	_	VERB	VATT	_	77	amod	_	SpaceAfter=No
 80	เบรนท์	_	PROPN	VACT	Foreign=Yes	77	nmod	_	SpaceAfter=Yes
 81	ใน	_	ADP	RPRE	_	82	case	_	SpaceAfter=No
 82	ตลาด	_	NOUN	NCMN	_	76	nmod	_	SpaceAfter=No
@@ -6322,7 +6322,7 @@
 5	หน้า	_	NOUN	NCMN	_	3	nmod	_	SpaceAfter=No
 6	แตก	_	VERB	NCMN	_	5	compound	_	SpaceAfter=No
 7	"	_	PUNCT	PUNC	_	5	punct	_	SpaceAfter=Yes
-8	ที่สุด	_	ADJ	ADVN	_	5	amod	_	SpaceAfter=No
+8	ที่สุด	_	VERB	ADVN	_	5	amod	_	SpaceAfter=No
 9	เรื่อง	_	NOUN	CNIT	NounType=Class	3	clf	_	SpaceAfter=No
 10	หนึ่ง	_	DET	DCNM	_	9	det	_	SpaceAfter=No
 11	ใน	_	ADP	RPRE	_	12	case	_	SpaceAfter=No
@@ -6368,7 +6368,7 @@
 17	ใน	_	ADP	RPRE	_	18	case	_	SpaceAfter=No
 18	ช่วง	_	NOUN	NCMN	_	11	obl	_	SpaceAfter=No
 19	ไตรมาส	_	NOUN	NCMN	_	18	compound	_	SpaceAfter=No
-20	ที่	_	ADJ	PREL	_	19	amod	_	SpaceAfter=Yes
+20	ที่	_	VERB	PREL	_	19	amod	_	SpaceAfter=Yes
 21	2	_	NUM	DCNM	_	20	nummod	_	SpaceAfter=Yes
 22	ของ	_	ADP	RPRE	_	23	case	_	SpaceAfter=No
 23	ปี	_	NOUN	CMTR	_	19	nmod	_	SpaceAfter=Yes
@@ -6380,7 +6380,7 @@
 29	สหรัฐ	_	PROPN	NCMN	NameType=Nat	26	nmod	_	SpaceAfter=No
 30	ทวี	_	VERB	NCMN	_	11	advcl	_	SpaceAfter=No
 31	ความ	_	NOUN	FIXN	Prefix=Yes	30	obj	_	SpaceAfter=No
-32	รุนแรง	_	ADJ	VATT	_	31	compound	_	SpaceAfter=No
+32	รุนแรง	_	VERB	VATT	_	31	compound	_	SpaceAfter=No
 33	มาก	_	ADV	ADVN	_	30	advmod	_	SpaceAfter=No
 34	ขึ้น	_	ADV	XVAE	_	33	advmod	_	SpaceAfter=Yes
 35	ทำ	_	VERB	VACT	_	30	compound	_	SpaceAfter=No
@@ -6422,7 +6422,7 @@
 4	ของ	_	NOUN	RPRE	_	3	obj	_	SpaceAfter=No
 5	ขึ้น	_	VERB	XVAE	_	3	compound	_	SpaceAfter=No
 6	อะไร	_	PRON	PNTR	_	5	obj	_	SpaceAfter=No
-7	บ้าง	_	ADJ	ADVN	_	6	amod	_	SpaceAfter=No
+7	บ้าง	_	VERB	ADVN	_	6	amod	_	SpaceAfter=No
 8	ไหม	_	PART	NCMN	PartType=Int	2	advmod	_	SpaceAfter=No
 
 # filename = tnc_ESUN287
@@ -6441,14 +6441,14 @@
 11	พัน	_	NOUN	DCNM	_	12	nmod	_	SpaceAfter=No
 12	ปี	_	NOUN	CMTR	_	7	nmod	_	SpaceAfter=No
 13	ข้าง	_	NOUN	RPRE	_	12	nmod	_	SpaceAfter=No
-14	หน้า	_	ADJ	NCMN	_	13	compound	_	SpaceAfter=Yes
+14	หน้า	_	VERB	NCMN	_	13	compound	_	SpaceAfter=Yes
 15	สุภาษิต	_	NOUN	NCMN	_	20	nsubj	_	SpaceAfter=No
 16	นี้	_	DET	DDAC	_	15	det	_	SpaceAfter=No
 17	ก็	_	ADV	JSBR	_	20	advmod	_	SpaceAfter=No
 18	ยัง	_	ADV	XVBM	_	20	advmod	_	SpaceAfter=No
 19	เป็น	_	AUX	VSTA	_	20	cop	_	SpaceAfter=No
 20	ความ	_	NOUN	FIXN	_	0	root	_	SpaceAfter=No
-21	จริง	_	ADJ	VATT	_	20	amod	_	SpaceAfter=No
+21	จริง	_	VERB	VATT	_	20	amod	_	SpaceAfter=No
 22	อยู่	_	AUX	XVAE	_	20	aux	_	SpaceAfter=Yes
 23	เพราะ	_	SCONJ	JSBR	_	40	mark	_	SpaceAfter=No
 24	ถึง	_	SCONJ	RPRE	_	31	mark	_	SpaceAfter=No
@@ -6512,7 +6512,7 @@
 18	ว่า	_	SCONJ	JSBR	_	19	mark	_	SpaceAfter=Yes
 19	มี	_	VERB	VSTA	_	16	ccomp	_	SpaceAfter=No
 20	คน	_	NOUN	NCMN	_	22	nsubj	_	SpaceAfter=No
-21	ร้าย	_	ADJ	VATT	_	20	amod	_	SpaceAfter=No
+21	ร้าย	_	VERB	VATT	_	20	amod	_	SpaceAfter=No
 22	หลอก	_	VERB	NCMN	_	19	ccomp	_	SpaceAfter=Yes
 23	ลวง	_	VERB	NCMN	_	22	compound	_	SpaceAfter=No
 24	เจ้า	_	NOUN	VSTA	_	22	obj	_	SpaceAfter=No
@@ -6550,7 +6550,7 @@
 # text = ในระยะแรกนั้นดูเหมือนจะดำเนินไปด้วยดี
 1	ใน	_	ADP	RPRE	_	2	case	_	SpaceAfter=No
 2	ระยะ	_	NOUN	NCMN	NounType=Class	5	nsubj	_	SpaceAfter=No
-3	แรก	_	ADJ	DONM	_	2	amod	_	SpaceAfter=No
+3	แรก	_	VERB	DONM	_	2	amod	_	SpaceAfter=No
 4	นั้น	_	DET	DDAC	_	2	det	_	SpaceAfter=No
 5	ดูเหมือน	_	VERB	JSBR	_	0	root	_	SpaceAfter=No
 6	จะ	_	AUX	XVBM	_	5	aux	_	SpaceAfter=No
@@ -6592,7 +6592,7 @@
 28	จำเป็น	_	VERB	VSTA	_	26	acl	_	SpaceAfter=No
 29	ขึ้น	_	VERB	XVAE	_	25	compound	_	SpaceAfter=No
 30	ที่	_	NOUN	RPRE	_	29	obj	_	SpaceAfter=No
-31	สูง	_	ADJ	VATT	_	30	amod	_	SpaceAfter=No
+31	สูง	_	VERB	VATT	_	30	amod	_	SpaceAfter=No
 
 # filename = wiki_W50690
 # sent_id = 3570
@@ -6631,7 +6631,7 @@
 10	จะ	_	AUX	XVBM	_	11	aux	_	SpaceAfter=No
 11	เลือก	_	VERB	VACT	_	8	ccomp	_	SpaceAfter=No
 12	ความ	_	NOUN	FIXN	Prefix=Yes	11	obj	_	SpaceAfter=No
-13	สวยงาม	_	ADJ	VATT	_	12	amod	_	SpaceAfter=No
+13	สวยงาม	_	VERB	VATT	_	12	amod	_	SpaceAfter=No
 14	จาก	_	ADP	RPRE	_	15	case	_	SpaceAfter=No
 15	ภายนอก	_	NOUN	NCMN	_	12	nmod	_	SpaceAfter=No
 16	โดย	_	ADP	RPRE	Prefix=Yes	17	case	_	SpaceAfter=No
@@ -6642,9 +6642,9 @@
 21	หรือ	_	CCONJ	JCRG	_	22	cc	_	SpaceAfter=No
 22	เลือก	_	VERB	VACT	_	11	conj	_	SpaceAfter=No
 23	ความ	_	NOUN	FIXN	Prefix=Yes	22	obj	_	SpaceAfter=No
-24	สวยงาม	_	ADJ	VSTA	_	23	amod	_	SpaceAfter=No
+24	สวยงาม	_	VERB	VSTA	_	23	amod	_	SpaceAfter=No
 25	จาก	_	ADP	RPRE	_	26	case	_	SpaceAfter=No
-26	ภายใน	_	ADJ	NCMN	_	24	amod	_	SpaceAfter=No
+26	ภายใน	_	VERB	NCMN	_	24	amod	_	SpaceAfter=No
 27	โดย	_	ADP	RPRE	Prefix=Yes	28	case	_	SpaceAfter=No
 28	การ	_	NOUN	FIXN	Prefix=Yes	24	obl	_	SpaceAfter=No
 29	ศัลยกรรม	_	NOUN	VACT	_	28	nmod	_	SpaceAfter=No
@@ -6695,7 +6695,7 @@
 1	เงิน	_	NOUN	NCMN	_	2	nsubj	_	SpaceAfter=No
 2	มี	_	VERB	VSTA	_	0	root	_	SpaceAfter=No
 3	จำนวน	_	NOUN	NCMN	_	2	obj	_	SpaceAfter=No
-4	มาก	_	ADJ	VATT	_	3	amod	_	SpaceAfter=No
+4	มาก	_	VERB	VATT	_	3	amod	_	SpaceAfter=No
 5	ไหล	_	VERB	VACT	_	2	advcl	_	SpaceAfter=No
 6	และ	_	CCONJ	JCRG	_	7	cc	_	SpaceAfter=No
 7	หมุนเวียน	_	VERB	NCMN	_	5	conj	_	SpaceAfter=No
@@ -6705,7 +6705,7 @@
 11	พนัน	_	VERB	NCMN	_	10	acl	_	SpaceAfter=No
 12	เป็น	_	VERB	VSTA	_	5	advcl	_	SpaceAfter=No
 13	จำนวน	_	NOUN	NCMN	_	12	obj	_	SpaceAfter=No
-14	มาก	_	ADJ	VATT	_	13	amod	_	SpaceAfter=No
+14	มาก	_	VERB	VATT	_	13	amod	_	SpaceAfter=No
 
 # filename = tnc_NWRP_CR010
 # sent_id = 2272
@@ -6735,7 +6735,7 @@
 13	กว่า	_	ADP	JCMP	_	14	case	_	SpaceAfter=No
 14	คน	_	NOUN	NCMN	_	11	obl	_	SpaceAfter=No
 15	รุ่น	_	NOUN	CLTV	Prefix=Yes	14	nmod	_	SpaceAfter=No
-16	ก่อน	_	ADJ	VATT	_	15	amod	_	SpaceAfter=No
+16	ก่อน	_	VERB	VATT	_	15	amod	_	SpaceAfter=No
 17	ๆ	_	PUNCT	PUNC	_	16	punct	_	SpaceAfter=Yes
 18	เช่น	_	SCONJ	RPRE	_	19	mark	_	SpaceAfter=Yes
 19	จิตสาธารณะ	_	NOUN	NCMN	_	11	obl	_	SpaceAfter=No
@@ -6760,7 +6760,7 @@
 9	ตอบ	_	VERB	VACT	_	7	compound	_	SpaceAfter=No
 10	ด้วย	_	ADP	RPRE	_	11	case	_	SpaceAfter=No
 11	สีหน้า	_	NOUN	NCMN	_	9	obl	_	SpaceAfter=No
-12	ปกติ	_	ADJ	VATT	_	11	amod	_	SpaceAfter=No
+12	ปกติ	_	VERB	VATT	_	11	amod	_	SpaceAfter=No
 13	เช่นกัน	_	ADV	ADVN	_	7	advmod	_	SpaceAfter=No
 
 # filename = tnc_NWRP_EN016
@@ -6768,7 +6768,7 @@
 # text = ต่อให้รักแค่ไหน
 1	ต่อให้	_	ADV	VACT	_	2	advmod	_	SpaceAfter=No
 2	รัก	_	VERB	NCMN	_	0	root	_	SpaceAfter=No
-3	แค่	_	ADJ	DDBQ	_	4	amod	_	SpaceAfter=No
+3	แค่	_	VERB	DDBQ	_	4	amod	_	SpaceAfter=No
 4	ไหน	_	PRON	PNTR	_	2	obl	_	SpaceAfter=No
 
 # filename = tnc_ESUN179
@@ -6861,9 +6861,9 @@
 85	หรือ	_	CCONJ	JCRG	_	86	cc	_	SpaceAfter=No
 86	มี	_	VERB	VSTA	_	75	conj	_	SpaceAfter=No
 87	ตา	_	NOUN	NCMN	_	86	obj	_	SpaceAfter=No
-88	ทิพย์	_	ADJ	DONM	_	87	amod	_	SpaceAfter=Yes
+88	ทิพย์	_	VERB	DONM	_	87	amod	_	SpaceAfter=Yes
 89	หู	_	NOUN	NCMN	_	87	list	_	SpaceAfter=No
-90	ทิพย์	_	ADJ	DONM	_	89	amod	_	SpaceAfter=Yes
+90	ทิพย์	_	VERB	DONM	_	89	amod	_	SpaceAfter=Yes
 91	สามารถ	_	AUX	XVAM	_	92	aux	_	SpaceAfter=No
 92	ส่ง	_	VERB	VACT	_	87	acl	_	SpaceAfter=No
 93	จิต	_	NOUN	NCMN	_	92	obj	_	SpaceAfter=No
@@ -6964,7 +6964,7 @@
 # sent_id = 647
 # text = สาเหตุหลักที่ผู้ต้องหาใช้เป็นเหตุผลของการกระทำคือ ไม่มีเงิน ต้องการเงินเพื่อไปใช้จ่าย
 1	สาเหตุ	_	NOUN	NCMN	NounType=Class	11	nsubj	_	SpaceAfter=No
-2	หลัก	_	ADJ	VATT	NounType=Class	1	amod	_	SpaceAfter=No
+2	หลัก	_	VERB	VATT	NounType=Class	1	amod	_	SpaceAfter=No
 3	ที่	_	PRON	PREL	_	5	nsubj	_	SpaceAfter=No
 4	ผู้ต้องหา	_	NOUN	NCMN	_	5	nsubj	_	SpaceAfter=No
 5	ใช้	_	VERB	VACT	_	1	acl	_	SpaceAfter=No
@@ -7036,8 +7036,8 @@
 17	เห็น	_	VERB	VSTA	_	13	advcl	_	SpaceAfter=No
 18	ความเปลี่ยนแปลง	_	NOUN	VACT	Prefix=Yes	17	obj	_	SpaceAfter=No
 19	ผิด	_	ADV	ADVN	_	20	advmod	_	SpaceAfter=No
-20	ปกติ	_	ADJ	ADVS	_	18	amod	_	SpaceAfter=Yes
-21	ส่วนตีบ	_	ADJ	NCMN	_	18	amod	_	SpaceAfter=Yes
+20	ปกติ	_	VERB	ADVS	_	18	amod	_	SpaceAfter=Yes
+21	ส่วนตีบ	_	VERB	NCMN	_	18	amod	_	SpaceAfter=Yes
 22	หรือ	_	CCONJ	JCRG	_	23	cc	_	SpaceAfter=No
 23	ก้อนเนื้อ	_	NOUN	NCMN	_	18	conj	_	SpaceAfter=No
 
@@ -7109,9 +7109,9 @@
 2	อย่าง	_	NOUN	FIXV	NounType=Class|Prefix=Yes	3	mark	_	SpaceAfter=No
 3	ละคร	_	NOUN	VSTA	_	0	root	_	SpaceAfter=No
 4	เรื่อง	_	NOUN	NCMN	NounType=Class	3	nmod	_	SpaceAfter=No
-5	ดัง	_	ADJ	RPRE	_	4	amod	_	SpaceAfter=Yes
+5	ดัง	_	VERB	RPRE	_	4	amod	_	SpaceAfter=Yes
 6	เกม	_	NOUN	NCMN	NounType=Class	3	nmod	_	SpaceAfter=No
-7	ร้าย	_	ADJ	VACT	_	6	amod	_	SpaceAfter=No
+7	ร้าย	_	VERB	VACT	_	6	amod	_	SpaceAfter=No
 8	เกม	_	NOUN	NCMN	NounType=Class	6	compound	_	SpaceAfter=No
 9	รัก	_	VERB	NCMN	_	8	acl	_	SpaceAfter=Yes
 10	ที่	_	PRON	PREL	_	14	nsubj	_	SpaceAfter=No
@@ -7148,7 +7148,7 @@
 41	และ	_	CCONJ	JCRG	_	42	cc	_	SpaceAfter=No
 42	ยึด	_	VERB	VACT	_	38	conj	_	SpaceAfter=No
 43	มรดก	_	NOUN	NCMN	_	42	obj	_	SpaceAfter=No
-44	ทั้งหมด	_	ADJ	DDAN	_	43	amod	_	SpaceAfter=No
+44	ทั้งหมด	_	VERB	DDAN	_	43	amod	_	SpaceAfter=No
 45	ไว้	_	ADV	XVAE	_	42	advmod	_	SpaceAfter=Yes
 46	เป็นต้น	_	PART	PDMN	PartType=Emp	37	mark	_	SpaceAfter=No
 
@@ -7177,7 +7177,7 @@
 # filename = tnc_ESUN108
 # sent_id = 2073
 # text = ทุกอย่างที่เรากำลังทำอยู่นั้นล้วนแฝงไปด้วยอันตรายรูปแบบต่างๆ มากมาย ไม่ว่าจะมากหรือน้อยก็ล้วนทำอันตรายแก่เราทั้งสิ้น ดังนั้นไม่ว่าเราจะทำสิ่งใดก็ตาม เราต้องคำนึงถึงความปลอดภัยเป็นหลัก โดยเฉพาะความปลอดภัยใกล้ตัวที่สุด อย่างด้านชีวิตและทรัพย์สิน ซึ่งเป็นสิ่งพื้นฐานและเป็นสิ่งแรกที่เราควรคำนึงถึง
-1	ทุก	_	ADJ	DIBQ	_	2	amod	_	SpaceAfter=No
+1	ทุก	_	VERB	DIBQ	_	2	amod	_	SpaceAfter=No
 2	อย่าง	_	NOUN	CNIT	NounType=Class	10	nsubj	_	SpaceAfter=No
 3	ที่	_	PRON	PREL	_	6	obj	_	SpaceAfter=No
 4	เรา	_	PRON	PPRS	_	6	nsubj	_	SpaceAfter=No
@@ -7194,7 +7194,7 @@
 15	แบบ	_	NOUN	NCMN	_	14	compound	_	SpaceAfter=No
 16	ต่าง	_	DET	VSTA	_	14	det	_	SpaceAfter=No
 17	ๆ	_	PUNCT	PUNC	_	16	punct	_	SpaceAfter=Yes
-18	มากมาย	_	ADJ	NCMN	_	13	amod	_	SpaceAfter=Yes
+18	มากมาย	_	VERB	NCMN	_	13	amod	_	SpaceAfter=Yes
 19	ไม่	_	SCONJ	NEG	_	22	mark	_	SpaceAfter=No
 20	ว่า	_	SCONJ	JSBR	_	19	fixed	_	SpaceAfter=No
 21	จะ	_	SCONJ	XVBM	_	19	fixed	_	SpaceAfter=No
@@ -7231,7 +7231,7 @@
 52	ความ	_	NOUN	FIXN	Prefix=Yes	44	obl	_	SpaceAfter=No
 53	ปลอด	_	VERB	VSTA	_	52	acl	_	SpaceAfter=No
 54	ภัย	_	NOUN	NCMN	_	53	obj	_	SpaceAfter=No
-55	ใกล้	_	ADJ	RPRE	_	52	amod	_	SpaceAfter=No
+55	ใกล้	_	VERB	RPRE	_	52	amod	_	SpaceAfter=No
 56	ตัว	_	NOUN	CNIT	_	55	nmod	_	SpaceAfter=No
 57	ที่สุด	_	ADV	ADVN	_	55	advmod	_	SpaceAfter=Yes
 58	อย่าง	_	ADP	RPRE	_	60	case	_	SpaceAfter=No
@@ -7247,7 +7247,7 @@
 68	และ	_	CCONJ	JCRG	_	70	cc	_	SpaceAfter=No
 69	เป็น	_	AUX	VSTA	_	70	cop	_	SpaceAfter=No
 70	สิ่ง	_	NOUN	NCMN	_	65	conj	_	SpaceAfter=No
-71	แรก	_	ADJ	DONM	_	70	amod	_	SpaceAfter=No
+71	แรก	_	VERB	DONM	_	70	amod	_	SpaceAfter=No
 72	ที่	_	PRON	PREL	_	75	obj	_	SpaceAfter=No
 73	เรา	_	PRON	PPRS	_	75	nsubj	_	SpaceAfter=No
 74	ควร	_	AUX	XVMM	_	75	aux	_	SpaceAfter=No
@@ -7332,7 +7332,7 @@
 13	เรื่องราว	_	NOUN	NCMN	NounType=Class	17	nsubj	_	SpaceAfter=No
 14	ต่าง	_	DET	VSTA	_	13	det	_	SpaceAfter=No
 15	ๆ	_	PUNCT	NCMN	_	14	punct	_	SpaceAfter=No
-16	มากมาย	_	ADJ	ADVN	_	13	amod	_	SpaceAfter=No
+16	มากมาย	_	VERB	ADVN	_	13	amod	_	SpaceAfter=No
 17	ผ่าน	_	VERB	VACT	_	12	compound	_	SpaceAfter=No
 18	เข้า	_	VERB	RPRE	_	17	compound	_	SpaceAfter=No
 19	มา	_	ADV	XVAE	_	18	advmod	_	SpaceAfter=Yes
@@ -7489,8 +7489,8 @@
 10	ควบคุม	_	VERB	VACT	_	4	ccomp	_	SpaceAfter=No
 11	ถนน	_	NOUN	NCMN	_	10	obj	_	SpaceAfter=No
 12	สาย	_	NOUN	NCMN	NounType=Class	11	clf	_	SpaceAfter=No
-13	สำคัญ	_	ADJ	VATT	_	12	amod	_	SpaceAfter=No
-14	หลาย	_	ADJ	DIBQ	_	15	amod	_	SpaceAfter=No
+13	สำคัญ	_	VERB	VATT	_	12	amod	_	SpaceAfter=No
+14	หลาย	_	VERB	DIBQ	_	15	amod	_	SpaceAfter=No
 15	แห่ง	_	NOUN	CNIT	NounType=Class	11	clf	_	SpaceAfter=No
 16	ที่	_	PRON	PREL	_	17	nsubj	_	SpaceAfter=No
 17	มุ่ง	_	VERB	VACT	_	11	acl	_	SpaceAfter=No
@@ -7498,7 +7498,7 @@
 19	ไป	_	VERB	XVAE	_	17	compound	_	SpaceAfter=No
 20	สู่	_	ADP	RPRE	_	21	case	_	SpaceAfter=No
 21	ใจ	_	NOUN	NCMN	_	19	obl	_	SpaceAfter=No
-22	กลาง	_	ADJ	VATT	_	21	amod	_	SpaceAfter=No
+22	กลาง	_	VERB	VATT	_	21	amod	_	SpaceAfter=No
 23	ฉนวน	_	NOUN	NCMN	_	21	nmod	_	SpaceAfter=No
 24	กาซา	_	PROPN	NCMN	Foreign=Yes	23	compound	_	SpaceAfter=Yes
 25	ขณะ	_	NOUN	NCMN	_	10	obl	_	SpaceAfter=No
@@ -7509,7 +7509,7 @@
 30	เข้า	_	VERB	VACT	_	28	compound	_	SpaceAfter=No
 31	ประชิด	_	VERB	NCMN	_	30	compound	_	SpaceAfter=No
 32	ที่	_	NOUN	PREL	_	31	obj	_	SpaceAfter=No
-33	มั่น	_	ADJ	NCMN	_	32	amod	_	SpaceAfter=No
+33	มั่น	_	VERB	NCMN	_	32	amod	_	SpaceAfter=No
 34	ของ	_	ADP	RPRE	_	35	case	_	SpaceAfter=No
 35	กลุ่ม	_	NOUN	NCMN	_	32	nmod	_	SpaceAfter=No
 36	ติด	_	VERB	NCMN	_	35	acl	_	SpaceAfter=No
@@ -7521,7 +7521,7 @@
 42	มี	_	VERB	VSTA	_	40	ccomp	_	SpaceAfter=No
 43	นัก	_	NOUN	NCMN	Prefix=Yes	42	obj	_	SpaceAfter=No
 44	รบ	_	VERB	NCMN	_	43	compound	_	SpaceAfter=No
-45	ประมาณ	_	ADJ	DIBQ	_	46	amod	_	SpaceAfter=Yes
+45	ประมาณ	_	VERB	DIBQ	_	46	amod	_	SpaceAfter=Yes
 46	20,000	_	NUM	DCNM	_	47	nummod	_	SpaceAfter=Yes
 47	คน	_	NOUN	CNIT	NounType=Class	43	clf	_	SpaceAfter=No
 
@@ -7655,7 +7655,7 @@
 1	คน	_	NOUN	NCMN	_	8	nsubj	_	SpaceAfter=No
 2	ใกล้	_	VERB	VATT	_	1	acl	_	SpaceAfter=No
 3	ตัว	_	NOUN	NCMN	_	2	obj	_	SpaceAfter=No
-4	ว่าที่	_	ADJ	NCMN	_	5	amod	_	SpaceAfter=No
+4	ว่าที่	_	VERB	NCMN	_	5	amod	_	SpaceAfter=No
 5	ผู้	_	NOUN	NCMN	Prefix=Yes	3	nmod	_	SpaceAfter=No
 6	นำ	_	VERB	VACT	_	5	acl	_	SpaceAfter=No
 7	สหรัฐ	_	PROPN	NCMN	NameType=Geo	6	obj	_	SpaceAfter=No
@@ -7667,12 +7667,12 @@
 13	แผน	_	NOUN	NCMN	_	11	obj	_	SpaceAfter=No
 14	ปิด	_	VERB	VACT	_	13	acl	_	SpaceAfter=Yes
 15	คุก	_	NOUN	NCMN	_	14	obj	_	SpaceAfter=No
-16	ฉาว	_	ADJ	NCMN	_	15	amod	_	SpaceAfter=No
+16	ฉาว	_	VERB	NCMN	_	15	amod	_	SpaceAfter=No
 17	กวนตานาโม	_	PROPN	NCMN	Foreign=Yes	15	nmod	_	SpaceAfter=Yes
 18	ตาม	_	ADP	RPRE	_	19	case	_	SpaceAfter=No
 19	ความ	_	NOUN	FIXN	Prefix=Yes	14	obl	_	SpaceAfter=Yes
 20	ตั้งใจ	_	VERB	VSTA	_	19	acl	_	SpaceAfter=No
-21	เดิม	_	ADJ	VATT	_	19	amod	_	SpaceAfter=No
+21	เดิม	_	VERB	VATT	_	19	amod	_	SpaceAfter=No
 
 # filename = ESUN004-PART026
 # sent_id = 1088
@@ -7757,7 +7757,7 @@
 12	แกะ	_	VERB	VACT	_	10	compound	_	SpaceAfter=No
 13	รอย	_	NOUN	NCMN	_	12	compound	_	SpaceAfter=No
 14	คน	_	NOUN	CNIT	_	12	obj	_	SpaceAfter=No
-15	ร้าย	_	ADJ	VATT	_	14	amod	_	SpaceAfter=No
+15	ร้าย	_	VERB	VATT	_	14	amod	_	SpaceAfter=No
 16	กว่า	_	ADV	JCMP	_	17	advmod	_	SpaceAfter=Yes
 17	1	_	NUM	DCNM	_	18	nummod	_	SpaceAfter=Yes
 18	เดือน	_	NOUN	NCMN	NounType=Class	12	obl	_	SpaceAfter=Yes
@@ -7793,7 +7793,7 @@
 4	ราชา	_	NOUN	NCMN	_	3	nmod	_	SpaceAfter=No
 5	แวมไพร์	_	NOUN	NCMN	Foreign=Yes	4	compound	_	SpaceAfter=No
 6	กุหลาบ	_	NOUN	NCMN	_	5	compound	_	SpaceAfter=No
-7	แดง	_	ADJ	NCMN	_	6	amod	_	SpaceAfter=No
+7	แดง	_	VERB	NCMN	_	6	amod	_	SpaceAfter=No
 8	ผู้	_	PRON	PREL	_	10	nsubj	_	SpaceAfter=No
 9	น่า	_	AUX	XVAM	_	10	aux	_	SpaceAfter=No
 10	พรั่นพรึง	_	VERB	VSTA	_	4	acl	_	SpaceAfter=No
@@ -7803,7 +7803,7 @@
 14	เมื่อ	_	ADP	JSBR	_	16	case	_	SpaceAfter=No
 15	พัน	_	NUM	VACT	_	16	nummod	_	SpaceAfter=No
 16	ปี	_	NOUN	NCMN	_	13	nmod	_	SpaceAfter=No
-17	ก่อน	_	ADJ	ADVN	_	16	amod	_	SpaceAfter=No
+17	ก่อน	_	VERB	ADVN	_	16	amod	_	SpaceAfter=No
 18	ได้	_	VERB	XVAM	_	0	root	_	SpaceAfter=No
 19	ละ	_	VERB	RPRE	_	18	ccomp	_	SpaceAfter=No
 20	ทิ้ง	_	VERB	VACT	_	19	compound	_	SpaceAfter=No
@@ -7915,7 +7915,7 @@
 30	หยุด	_	VERB	NCMN	_	29	ccomp	_	SpaceAfter=No
 31	ยิง	_	VERB	VACT	_	30	ccomp	_	SpaceAfter=No
 32	ฝ่าย	_	NOUN	NCMN	_	29	obl	_	SpaceAfter=No
-33	เดียว	_	ADJ	DIAC	_	32	amod	_	SpaceAfter=No
+33	เดียว	_	VERB	DIAC	_	32	amod	_	SpaceAfter=No
 34	ของ	_	ADP	RPRE	_	35	case	_	SpaceAfter=No
 35	อิสราเอล	_	PROPN	NCMN	Foreign=Yes	28	nmod	_	SpaceAfter=No
 36	ได้	_	AUX	XVAE	_	38	aux	_	SpaceAfter=No
@@ -7930,7 +7930,7 @@
 45	ยิง	_	VERB	VACT	_	44	ccomp	_	SpaceAfter=No
 46	แต่	_	ADV	JCRG	_	47	advmod	_	SpaceAfter=No
 47	ฝ่าย	_	NOUN	NCMN	_	43	obl	_	SpaceAfter=No
-48	เดียว	_	ADJ	DCNM	_	47	amod	_	SpaceAfter=No
+48	เดียว	_	VERB	DCNM	_	47	amod	_	SpaceAfter=No
 49	เช่น	_	ADV	RPRE	_	42	advmod	_	SpaceAfter=No
 50	กัน	_	PRON	ADVN	_	49	compound	_	SpaceAfter=Yes
 51	ขณะ	_	SCONJ	NCMN	_	56	mark	_	SpaceAfter=No
@@ -8026,7 +8026,7 @@
 7	คู่	_	NOUN	DCNM	_	8	nsubj	_	SpaceAfter=No
 8	เค้น	_	VERB	VACT	_	4	ccomp	_	SpaceAfter=No
 9	อารมณ์	_	NOUN	ADVP	_	8	obj	_	SpaceAfter=No
-10	เศร้า	_	ADJ	VACT	_	9	amod	_	SpaceAfter=No
+10	เศร้า	_	VERB	VACT	_	9	amod	_	SpaceAfter=No
 11	ออก	_	VERB	XVAE	_	8	compound	_	SpaceAfter=No
 12	มา	_	VERB	XVAE	_	11	compound	_	SpaceAfter=No
 13	ให้	_	VERB	RPRE	_	12	compound	_	SpaceAfter=No
@@ -8038,7 +8038,7 @@
 19	ว่า	_	SCONJ	JSBR	_	21	mark	_	SpaceAfter=No
 20	เป็น	_	AUX	VSTA	_	21	cop	_	SpaceAfter=No
 21	เรื่อง	_	NOUN	NCMN	_	18	ccomp	_	SpaceAfter=No
-22	ยาก	_	ADJ	VATT	_	21	amod	_	SpaceAfter=Yes
+22	ยาก	_	VERB	VATT	_	21	amod	_	SpaceAfter=Yes
 23	ยิ่ง	_	ADV	ADVN	_	22	advmod	_	SpaceAfter=No
 
 # filename = tnc_ESUN133
@@ -8058,7 +8058,7 @@
 12	เป็น	_	VERB	VSTA	_	10	compound	_	SpaceAfter=Yes
 13	2	_	NUM	DCNM	_	14	nummod	_	SpaceAfter=Yes
 14	สาเหตุ	_	NOUN	NCMN	_	10	obj	_	SpaceAfter=No
-15	หลัก	_	ADJ	VATT	_	14	amod	_	SpaceAfter=Yes
+15	หลัก	_	VERB	VATT	_	14	amod	_	SpaceAfter=Yes
 16	คือ	_	SCONJ	VSTA	_	18	mark	_	SpaceAfter=Yes
 17	จาก	_	ADP	RPRE	_	18	case	_	SpaceAfter=No
 18	การ	_	NOUN	FIXN	Prefix=Yes	14	nmod	_	SpaceAfter=No
@@ -8067,14 +8067,14 @@
 21	ของ	_	ADP	RPRE	_	22	case	_	SpaceAfter=No
 22	ประชากร	_	NOUN	NCMN	_	18	nmod	_	SpaceAfter=No
 23	จำนวน	_	NOUN	NCMN	_	22	nmod	_	SpaceAfter=No
-24	มาก	_	ADJ	VATT	_	23	amod	_	SpaceAfter=Yes
+24	มาก	_	VERB	VATT	_	23	amod	_	SpaceAfter=Yes
 25	และ	_	CCONJ	JCRG	_	26	cc	_	SpaceAfter=No
 26	มี	_	VERB	VSTA	_	18	conj	_	SpaceAfter=No
 27	การ	_	NOUN	FIXN	Prefix=Yes	26	obj	_	SpaceAfter=No
 28	นำ	_	VERB	VACT	_	27	acl	_	SpaceAfter=No
 29	เทคโนโลยี	_	NOUN	NCMN	Foreign=Yes	28	obj	_	SpaceAfter=No
 30	สมัย	_	NOUN	NCMN	_	29	nmod	_	SpaceAfter=No
-31	ใหม่	_	ADJ	VATT	_	30	amod	_	SpaceAfter=No
+31	ใหม่	_	VERB	VATT	_	30	amod	_	SpaceAfter=No
 32	เข้า	_	VERB	VACT	_	28	compound	_	SpaceAfter=No
 33	มา	_	ADV	XVAE	_	32	advmod	_	SpaceAfter=No
 34	ใช้	_	VERB	VACT	_	32	compound	_	SpaceAfter=No
@@ -8093,12 +8093,12 @@
 1	ทำให้	_	VERB	VACT	_	0	root	_	SpaceAfter=No
 2	ความ	_	NOUN	FIXN	Prefix=Yes	35	nsubj	_	SpaceAfter=No
 3	เชื่อ	_	VERB	VSTA	_	2	acl	_	SpaceAfter=No
-4	โบราณ	_	ADJ	NCMN	_	2	amod	_	SpaceAfter=No
+4	โบราณ	_	VERB	NCMN	_	2	amod	_	SpaceAfter=No
 5	ของ	_	ADP	RPRE	_	6	case	_	SpaceAfter=No
 6	คน	_	NOUN	NCMN	NounType=Class	2	nmod	_	SpaceAfter=No
-7	เฒ่า	_	ADJ	NCMN	_	6	amod	_	SpaceAfter=No
+7	เฒ่า	_	VERB	NCMN	_	6	amod	_	SpaceAfter=No
 8	คน	_	NOUN	NCMN	NounType=Class	6	nmod	_	SpaceAfter=No
-9	แก่	_	ADJ	RPRE	_	8	amod	_	SpaceAfter=No
+9	แก่	_	VERB	RPRE	_	8	amod	_	SpaceAfter=No
 10	ที่	_	SCONJ	PREL	_	14	mark	_	SpaceAfter=No
 11	ว่า	_	SCONJ	JSBR	_	14	mark	_	SpaceAfter=Yes
 12	หาก	_	SCONJ	JSBR	_	14	advmod	_	SpaceAfter=No
@@ -8242,7 +8242,7 @@
 37	อาวุธ	_	NOUN	NCMN	_	35	nmod	_	SpaceAfter=No
 38	ปืน	_	NOUN	NCMN	_	37	nmod	_	SpaceAfter=No
 39	พก	_	VERB	NCMN	_	38	acl	_	SpaceAfter=No
-40	สั้น	_	ADJ	VATT	_	38	amod	_	SpaceAfter=Yes
+40	สั้น	_	VERB	VATT	_	38	amod	_	SpaceAfter=Yes
 41	ขนาด	_	NOUN	NCMN	_	38	nmod	_	SpaceAfter=Yes
 42	.	_	PUNCT	PUNC	_	43	punct	_	SpaceAfter=No
 43	357	_	NUM	DCNM	_	41	nummod	_	SpaceAfter=Yes
@@ -8290,7 +8290,7 @@
 85	อาวุธ	_	NOUN	NCMN	_	83	nmod	_	SpaceAfter=No
 86	ปืน	_	NOUN	NCMN	_	85	nmod	_	SpaceAfter=No
 87	พก	_	VERB	NCMN	_	86	acl	_	SpaceAfter=No
-88	สั้น	_	ADJ	VATT	_	86	amod	_	SpaceAfter=Yes
+88	สั้น	_	VERB	VATT	_	86	amod	_	SpaceAfter=Yes
 89	ขนาด	_	NOUN	NCMN	_	86	nmod	_	SpaceAfter=Yes
 90	.	_	PUNCT	PUNC	_	91	punct	_	SpaceAfter=No
 91	22	_	NUM	DCNM	_	89	nummod	_	SpaceAfter=Yes
@@ -8307,7 +8307,7 @@
 # sent_id = 492
 # text = ประเภทสุดท้าย ความเชื่อลักษณะบุคคล
 1	ประเภท	_	NOUN	NCMN	NounType=Class	0	root	_	SpaceAfter=No
-2	สุดท้าย	_	ADJ	DONM	_	1	amod	_	SpaceAfter=Yes
+2	สุดท้าย	_	VERB	DONM	_	1	amod	_	SpaceAfter=Yes
 3	ความเชื่อ	_	NOUN	NCMN	_	1	nmod	_	SpaceAfter=No
 4	ลักษณะ	_	NOUN	NCMN	NounType=Class	3	nmod	_	SpaceAfter=No
 5	บุคคล	_	NOUN	NCMN	_	4	nmod	_	SpaceAfter=No
@@ -8323,7 +8323,7 @@
 6	ยืน	_	VERB	VACT	_	0	root	_	SpaceAfter=No
 7	ยัน	_	VERB	ADVN	_	6	compound	_	SpaceAfter=No
 8	ว่า	_	SCONJ	JSBR	_	12	mark	_	SpaceAfter=Yes
-9	ทั้ง	_	ADJ	JCRG	_	11	amod	_	SpaceAfter=Yes
+9	ทั้ง	_	VERB	JCRG	_	11	amod	_	SpaceAfter=Yes
 10	2	_	NUM	DCNM	_	11	nummod	_	SpaceAfter=Yes
 11	คน	_	NOUN	CNIT	NounType=Class	12	nsubj	_	SpaceAfter=No
 12	ติด	_	VERB	CNIT	_	6	ccomp	_	SpaceAfter=No
@@ -8352,10 +8352,10 @@
 9	จะ	_	AUX	XVBM	_	10	aux	_	SpaceAfter=No
 10	มี	_	VERB	VSTA	_	0	root	_	SpaceAfter=No
 11	กลิ่น	_	NOUN	NCMN	_	10	obj	_	SpaceAfter=No
-12	แรง	_	ADJ	VATT	_	11	amod	_	SpaceAfter=No
+12	แรง	_	VERB	VATT	_	11	amod	_	SpaceAfter=No
 13	และ	_	CCONJ	JCRG	_	14	cc	_	SpaceAfter=No
 14	รส	_	NOUN	NCMN	_	11	conj	_	SpaceAfter=No
-15	จัด	_	ADJ	VACT	_	14	amod	_	SpaceAfter=No
+15	จัด	_	VERB	VACT	_	14	amod	_	SpaceAfter=No
 16	กว่า	_	ADP	JCMP	_	17	case	_	SpaceAfter=No
 17	ประเทศ	_	NOUN	NCMN	NounType=Class	15	obl	_	SpaceAfter=No
 18	ญี่ปุ่น	_	PROPN	NPRP	_	17	nmod	_	SpaceAfter=Yes
@@ -8368,16 +8368,16 @@
 25	ที่	_	PRON	PREL	_	26	nsubj	_	SpaceAfter=No
 26	มี	_	VERB	VSTA	_	24	advmod	_	SpaceAfter=No
 27	รส	_	NOUN	NCMN	_	26	advmod	_	SpaceAfter=No
-28	จัด	_	ADJ	VACT	_	27	advmod	_	SpaceAfter=No
+28	จัด	_	VERB	VACT	_	27	advmod	_	SpaceAfter=No
 29	และ	_	CCONJ	JCRG	_	30	advmod	_	SpaceAfter=No
 30	รส	_	NOUN	VACT	_	27	advmod	_	SpaceAfter=No
-31	เค็ม	_	ADJ	NCMN	_	30	advmod	_	SpaceAfter=No
+31	เค็ม	_	VERB	NCMN	_	30	advmod	_	SpaceAfter=No
 
 # filename = tnc_NWRP_EN016
 # sent_id = 2766
 # text = เรื่องหน้ายุ้ยก็กลับมาเล่นเป็นนางเอก
 1	เรื่อง	_	NOUN	NCMN	_	5	obl	_	SpaceAfter=No
-2	หน้า	_	ADJ	NCMN	_	1	amod	_	SpaceAfter=No
+2	หน้า	_	VERB	NCMN	_	1	amod	_	SpaceAfter=No
 3	ยุ้ย	_	PROPN	DIAC	NameType=Prs	5	nsubj	_	SpaceAfter=No
 4	ก็	_	ADV	JSBR	_	5	advmod	_	SpaceAfter=No
 5	กลับ	_	VERB	VACT	_	0	root	_	SpaceAfter=No
@@ -8550,7 +8550,7 @@
 5	มี	_	VERB	VSTA	_	0	root	_	SpaceAfter=No
 6	ความ	_	NOUN	FIXN	Prefix=Yes	5	obj	_	SpaceAfter=No
 7	คิด	_	VERB	VACT	_	6	acl	_	SpaceAfter=No
-8	สำคัญ	_	ADJ	ADVN	_	6	amod	_	SpaceAfter=No
+8	สำคัญ	_	VERB	ADVN	_	6	amod	_	SpaceAfter=No
 9	ดังนี้	_	ADV	JSBR	_	5	advmod	_	SpaceAfter=No
 
 # filename = tnc_NWRP_CR010
@@ -8621,7 +8621,7 @@
 10	น้ำดื่ม	_	NOUN	NCMN	_	8	list	_	SpaceAfter=Yes
 11	น้ำใช้	_	NOUN	VACT	_	8	list	_	SpaceAfter=Yes
 12	อาหาร	_	NOUN	NCMN	_	8	list	_	SpaceAfter=No
-13	แห้ง	_	ADJ	VATT	_	12	amod	_	SpaceAfter=Yes
+13	แห้ง	_	VERB	VATT	_	12	amod	_	SpaceAfter=Yes
 14	ไว้	_	SCONJ	XVAE	_	15	mark	_	SpaceAfter=No
 15	ใช้	_	VERB	VACT	_	2	advcl	_	SpaceAfter=No
 16	ใน	_	ADP	RPRE	_	17	case	_	SpaceAfter=No
@@ -8630,7 +8630,7 @@
 19	ดับ	_	VERB	NCMN	_	18	acl	_	SpaceAfter=No
 20	หรือ	_	CCONJ	JCRG	_	21	cc	_	SpaceAfter=No
 21	กรณี	_	NOUN	NCMN	NounType=Class	17	conj	_	SpaceAfter=No
-22	ฉุกเฉิน	_	ADJ	NCMN	_	21	amod	_	SpaceAfter=No
+22	ฉุกเฉิน	_	VERB	NCMN	_	21	amod	_	SpaceAfter=No
 23	อื่น	_	DET	DIAC	_	21	det	_	SpaceAfter=No
 
 # filename = ESUN002-PART017
@@ -8660,7 +8660,7 @@
 # sent_id = 1285
 # text = บั้งไฟลึกลับ
 1	บั้งไฟ	_	NOUN	NCMN	_	0	root	_	SpaceAfter=No
-2	ลึกลับ	_	ADJ	NCMN	_	1	advmod	_	SpaceAfter=No
+2	ลึกลับ	_	VERB	NCMN	_	1	advmod	_	SpaceAfter=No
 
 # filename = wiki_W687259
 # sent_id = 3064
@@ -8726,7 +8726,7 @@
 # text = ด้วยนิสัยแข็งๆล่ะ
 1	ด้วย	_	ADP	RPRE	_	2	case	_	SpaceAfter=No
 2	นิสัย	_	NOUN	NCMN	_	0	root	_	SpaceAfter=No
-3	แข็ง	_	ADJ	NCMN	_	2	amod	_	SpaceAfter=No
+3	แข็ง	_	VERB	NCMN	_	2	amod	_	SpaceAfter=No
 4	ๆ	_	PUNCT	PUNC	_	3	punct	_	SpaceAfter=No
 5	ล่ะ	_	PART	NCMN	PartType=Enp	2	discourse	_	SpaceAfter=No
 
@@ -8745,12 +8745,12 @@
 10	รถเก๋ง	_	NOUN	NCMN	_	19	nsubj	_	SpaceAfter=No
 11	มาสด้า	_	PROPN	NCMN	NameType=Com	10	nmod	_	SpaceAfter=No
 12	สี	_	NOUN	NCMN	_	10	nmod	_	SpaceAfter=No
-13	เขียว	_	ADJ	VATT	_	12	amod	_	SpaceAfter=No
+13	เขียว	_	VERB	VATT	_	12	amod	_	SpaceAfter=No
 14	ติด	_	VERB	VSTA	_	10	acl	_	SpaceAfter=No
 15	ฟิล์ม	_	NOUN	NCMN	Foreign=Yes	14	obj	_	SpaceAfter=No
-16	ดำ	_	ADJ	VATT	_	15	amod	_	SpaceAfter=No
-17	หนา	_	ADJ	VATT	_	16	amod	_	SpaceAfter=No
-18	ทึบ	_	ADJ	VATT	_	17	amod	_	SpaceAfter=No
+16	ดำ	_	VERB	VATT	_	15	amod	_	SpaceAfter=No
+17	หนา	_	VERB	VATT	_	16	amod	_	SpaceAfter=No
+18	ทึบ	_	VERB	VATT	_	17	amod	_	SpaceAfter=No
 19	ขับ	_	VERB	VACT	_	9	ccomp	_	SpaceAfter=No
 20	มา	_	ADV	XVAE	_	19	advmod	_	SpaceAfter=No
 21	จอด	_	VERB	VACT	_	19	compound	_	SpaceAfter=No
@@ -8855,7 +8855,7 @@
 1	แต่	_	CCONJ	JCRG	_	6	cc	_	SpaceAfter=No
 2	คน	_	NOUN	RPRE	NounType=Class	6	nsubj	_	SpaceAfter=No
 3	ด้าน	_	NOUN	NCMN	_	2	nmod	_	SpaceAfter=No
-4	หลัง	_	ADJ	NCMN	_	3	amod	_	SpaceAfter=No
+4	หลัง	_	VERB	NCMN	_	3	amod	_	SpaceAfter=No
 5	คง	_	AUX	XVBM	_	6	aux	_	SpaceAfter=No
 6	ทำ	_	VERB	VACT	_	0	root	_	SpaceAfter=No
 7	ได้	_	ADV	XVAE	_	6	advmod	_	SpaceAfter=No
@@ -8894,7 +8894,7 @@
 25	เผชิญ	_	VERB	VACT	_	16	ccomp	_	SpaceAfter=No
 26	กับ	_	ADP	RPRE	_	27	case	_	SpaceAfter=No
 27	พายุ	_	NOUN	NCMN	_	25	obl	_	SpaceAfter=No
-28	รุนแรง	_	ADJ	NCMN	_	27	amod	_	SpaceAfter=No
+28	รุนแรง	_	VERB	NCMN	_	27	amod	_	SpaceAfter=No
 29	และ	_	CCONJ	JCRG	_	30	cc	_	SpaceAfter=No
 30	คลื่น	_	NOUN	NCMN	_	27	conj	_	SpaceAfter=No
 31	สูง	_	VERB	VATT	_	30	acl	_	SpaceAfter=No
@@ -8912,7 +8912,7 @@
 6	และ	_	CCONJ	JCRG	_	7	cc	_	SpaceAfter=No
 7	หัวเราะ	_	VERB	NCMN	_	2	conj	_	SpaceAfter=No
 8	เสียง	_	NOUN	NCMN	_	7	advmod	_	SpaceAfter=No
-9	ดัง	_	ADJ	RPRE	_	8	amod	_	SpaceAfter=No
+9	ดัง	_	VERB	RPRE	_	8	amod	_	SpaceAfter=No
 10	มาก	_	ADV	ADVN	_	9	advmod	_	SpaceAfter=Yes
 11	ทำให้	_	VERB	VACT	_	0	root	_	SpaceAfter=No
 12	ฉัน	_	PRON	PPRS	_	13	nsubj	_	SpaceAfter=No
@@ -8936,8 +8936,8 @@
 30	ขี่	_	VERB	NCMN	_	29	ccomp	_	SpaceAfter=No
 31	มอเตอร์ไซด์	_	NOUN	NCMN	_	30	obj	_	SpaceAfter=No
 32	อย่าง	_	PART	FIXV	PartType=Adv	33	mark	_	SpaceAfter=No
-33	รวด	_	ADJ	VATT	_	30	advmod	_	SpaceAfter=No
-34	เร็ว	_	ADJ	ADVN	_	33	compound	_	SpaceAfter=No
+33	รวด	_	VERB	VATT	_	30	advmod	_	SpaceAfter=No
+34	เร็ว	_	VERB	ADVN	_	33	compound	_	SpaceAfter=No
 35	มุ่ง	_	VERB	VACT	_	30	compound	_	SpaceAfter=No
 36	หน้า	_	ADV	NCMN	_	35	compound	_	SpaceAfter=No
 37	กลับ	_	VERB	VACT	_	35	ccomp	_	SpaceAfter=No
