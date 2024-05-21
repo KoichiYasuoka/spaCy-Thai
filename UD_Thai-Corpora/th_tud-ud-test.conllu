@@ -2668,7 +2668,7 @@
 10	เด็ก	_	NOUN	NCMN	_	16	nsubj	_	SpaceAfter=No
 11	อายุ	_	NOUN	NCMN	_	10	nmod	_	SpaceAfter=No
 12	ต่ำ	_	VERB	VATT	_	11	acl	_	SpaceAfter=No
-13	กว่า	_	ADV	JCMP	_	12	advmod	_	SpaceAfter=Yes
+13	กว่า	_	ADP	JCMP	_	15	case	_	SpaceAfter=Yes
 14	18	_	NUM	DCNM	_	15	nummod	_	SpaceAfter=Yes
 15	ปี	_	NOUN	CMTR	NounType=Class	12	obl	_	SpaceAfter=No
 16	เข้า	_	VERB	XVAE	_	9	ccomp	_	SpaceAfter=No

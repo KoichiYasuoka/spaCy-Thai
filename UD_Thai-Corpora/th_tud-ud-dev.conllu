@@ -4041,8 +4041,8 @@
 44	ได้	_	AUX	XVAE	_	38	aux	_	SpaceAfter=No
 45	แล้ว	_	ADV	XVAE	_	44	advmod	_	SpaceAfter=No
 46	มาก	_	VERB	ADVN	_	38	compound	_	SpaceAfter=No
-47	กว่า	_	ADV	JCMP	_	48	advmod	_	SpaceAfter=Yes
-48	50	_	NUM	DCNM	_	46	obj	_	SpaceAfter=No
+47	กว่า	_	ADP	JCMP	_	48	case	_	SpaceAfter=Yes
+48	50	_	NUM	DCNM	_	46	obl	_	SpaceAfter=No
 
 # filename = tnc_NWRP_EN016
 # sent_id = 2628
