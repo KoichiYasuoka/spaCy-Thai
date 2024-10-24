@@ -3,7 +3,7 @@
 
 import os,numpy
 from spacy.lang.th import Thai
-from spacy.symbols import POS,TAG,DEP,HEAD,X
+from spacy.symbols import LEMMA,POS,TAG,DEP,HEAD,X
 from spacy.tokens import Doc
 from spacy.language import Language
 PACKAGE_DIR=os.path.abspath(os.path.dirname(__file__))
@@ -20,6 +20,7 @@ class ThaiTagger(object):
   def __call__(self,doc):
     vs=self.vocab.strings
     words=[]
+    lemmas=[]
     pos=[]
     tags=[]
     spaces=[]
@@ -29,12 +30,13 @@ class ThaiTagger(object):
           spaces[-1]=True
       else:
         words.append(form)
+        lemmas.append(vs.add(form))
         spaces.append(doc[i].whitespace_!="")
         tags.append(vs.add(xpos))
         pos.append(self.tag_map[xpos][POS] if xpos in self.tag_map else X)
     doc=Doc(self.vocab,words=words,spaces=spaces)
-    a=numpy.array(list(zip(pos,tags)),dtype="uint64")
-    doc.from_array([POS,TAG],a)
+    a=numpy.array(list(zip(lemmas,pos,tags)),dtype="uint64")
+    doc.from_array([LEMMA,POS,TAG],a)
     if not SPACY_V3:
       doc.is_tagged=True
     return doc
@@ -58,7 +60,7 @@ class ThaiParser(object):
       s=t.split("\t")
       if len(s)!=10:
         continue
-      id,form,dummy_lemma,upos,xpos,dummy_feats,head,deprel,dummy_deps,misc=s
+      id,form,_,upos,xpos,_,head,deprel,_,misc=s
       if deprel=="root":
         heads.append(0)
         deps.append(r)
