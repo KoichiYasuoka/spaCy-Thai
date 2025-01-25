@@ -5424,7 +5424,7 @@
 # sent_id = 1636
 # text = จะเกิดผลดีมากกว่าหากบ่อนการพนันถูกเปิดในประเทศที่พัฒนาแล้ว แต่จะเกิดผลเสียได้มากกว่าหากมีการเปิดบ่อนการพนันในประเทศที่ด้อยการพัฒนาหรือประเทศที่กำลังพัฒนา อาทิ ประเทศไทย
 1	จะ	_	AUX	XVBM	_	0	root	_	SpaceAfter=No
-2	เกิด	_	VERB	VSTA	_	1	aux	_	SpaceAfter=No
+2	เกิด	_	AUX	VSTA	_	1	aux	_	SpaceAfter=No
 3	ผล	_	NOUN	NCMN	_	2	obj	_	SpaceAfter=No
 4	ดี	_	VERB	VATT	_	3	acl	_	SpaceAfter=No
 5	มาก	_	VERB	ADVN	_	2	advcl	_	SpaceAfter=No
@@ -6228,7 +6228,7 @@
 65	ของ	_	ADP	RPRE	_	66	case	_	SpaceAfter=No
 66	พวก	_	NOUN	NCMN	_	63	nmod	_	SpaceAfter=No
 67	เธอ	_	PRON	PPRS	_	66	nmod	_	SpaceAfter=No
-68	ต้อง	_	VERB	XVMM	_	69	aux	_	SpaceAfter=No
+68	ต้อง	_	AUX	XVMM	_	69	aux	_	SpaceAfter=No
 69	ปิด	_	VERB	VACT	_	50	advcl	_	SpaceAfter=No
 70	ตัว	_	NOUN	CNIT	_	69	obj	_	SpaceAfter=No
 71	ลง	_	ADV	XVAE	_	69	advmod	_	SpaceAfter=No
